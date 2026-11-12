@@ -446,8 +446,16 @@ function banner(p, s) {
     FAILED: ["bad", "alert", "A step failed", "Details and a safe retry are below. No money moves until PayPal confirms."],
     CANCELLED: ["mute", "x", "Cancelled", "The buyer cancelled on PayPal. Nothing was held."],
     AWAITING_BUYER_APPROVAL: ["info", "clock", "Waiting for PayPal approval", "The order exists, but the payment isn't held until the buyer approves."],
-  }[p.state] || ["info", "spark", "AgentKee is working", "Holding the payment, collecting the delivery and checking every record…"];
-  return `<div class="banner tone-${b[0]}${b[0] === "info" && !["AWAITING_BUYER_APPROVAL"].includes(p.state) ? " live" : ""}" role="status">
+    // In-progress states: say exactly what is happening right now.
+    DRAFT: ["info", "spark", "Creating the PayPal order", "The buyer agent has drafted the agreement."],
+    AUTHORIZED: ["info", "spark", "Payment held, requesting delivery", `PayPal is holding ${usd(s.pending)}. The buyer agent is asking the seller to deliver.`],
+    DELIVERED: ["info", "spark", "Checking every record", "The delivery arrived. The verification engine is checking each record against the agreement."],
+    VERIFIED: ["info", "spark", "AI is reviewing the records", `${v ? `${v.accepted.toLocaleString()} of ${a.quantity.toLocaleString()} records passed the checks. ` : ""}The AI analyst is reviewing them.`],
+    ASSESSED: ["info", "spark", "Computing the payment", "Verification and AI review are done. The decision engine is calculating what's owed."],
+    DECIDED: ["info", "spark", "Sending settlement to PayPal", p.decision ? `${esc(p.decision.math)}.` : "The payment decision is made."],
+    SETTLING: ["info", "spark", "Settling with PayPal", p.decision ? `${p.decision.action === "VOID" ? `Voiding the ${usd(p.decision.authorized_cents)} hold` : `Capturing ${usd(p.decision.capture_cents)}`}. Waiting for PayPal to confirm before showing the result.` : "Waiting for PayPal to confirm."],
+  }[p.state] || ["info", "spark", "AgentKee is working", "Processing this purchase…"];
+  return `<div class="banner tone-${b[0]}${b[0] === "info" && p.state !== "AWAITING_BUYER_APPROVAL" ? " live" : ""}" role="status">
     <span class="banner-ico">${icon(b[1])}</span>
     <div><b>${b[2]}</b><span>${b[3]}</span></div>
     ${pp.capture_id ? `<span class="banner-ref">Capture<br><code>${esc(pp.capture_id)}</code></span>` : pp.type === "void" ? `<span class="banner-ref">Authorization<br><code>${esc(pp.authorization_id)}</code></span>` : ""}
