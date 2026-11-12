@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: agentkee
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/status
+    envVars:
+      - key: PAYPAL_CLIENT_ID
+        sync: false
+      - key: PAYPAL_CLIENT_SECRET
+        sync: false
+      - key: PAYPAL_API
+        value: https://api-m.sandbox.paypal.com
+      - key: AI_PROVIDER
+        sync: false
+      - key: AI_API_KEY
+        sync: false

@@ -1,0 +1,1001 @@
+id,company,contact_name,title,email,phone,country,website
+LDL-0001,Quanta Labs,Ethan Walker,VP Payments,ethan.walker93@quantalabs.money,+44899853403,GB,https://quantalabs.money
+LDL-0002,Vaultic Bank,Aisha Chukwu,Chief Financial Officer,aisha.chukwu79@vaulticbank.co,+12364705276,US,https://vaulticbank.co
+LDL-0003,Fundbridge Capital,Tunde Nwosu,Head of Product,tunde.nwosu88@fundbridgecapital.money,+16023323229,US,https://fundbridgecapital.money
+LDL-0004,Ember Treasury,Mia Naidoo,Head of Partnerships,mia.naidoo31@embertreasury.finance,+27940254671,ZA,https://embertreasury.finance
+LDL-0005,Basalt Ledger,Noah Owusu,Co-founder,noah.owusu88@basaltledger.finance,+254853754444,KE,https://basaltledger.finance
+LDL-0006,Quanta Markets,Noah Mbeki,Chief Operating Officer,noah.mbeki55@quantamarkets.finance,+254971147768,KE,https://quantamarkets.finance
+LDL-0007,Settlr Exchange,Olivia Kamau,Co-founder,olivia.kamau28@settlrexchange.co,+27979910149,ZA,https://settlrexchange.co
+LDL-0008,Novapay Rails,Amara Taylor,Chief Financial Officer,amara.taylor94@novapayrails.co,+233897998340,GH,https://novapayrails.co
+LDL-0009,Meridian Ledger,Chen Abubakar,Founder & CEO,chen.abubakar29@meridianledger.co,+234505064877,NG,https://meridianledger.co
+LDL-0010,Solace Ledger,Lucas Mbeki,VP Engineering,lucas.mbeki17@solaceledger.com,+27148910063,ZA,https://solaceledger.com
+LDL-0011,Lumen Wallet,Emily Sani,Head of Product,emily.sani52@lumenwallet.com,+234159383063,NG,https://lumenwallet.com
+LDL-0012,Corvid Markets,Grace Odhiambo,Co-founder,grace.odhiambo44@corvidmarkets.io,+11571433752,US,https://corvidmarkets.io
+LDL-0013,Ember Capital,Emily Mbeki,Head of Product,emily.mbeki44@embercapital.com,+16001315546,CA,https://embercapital.com
+LDL-0014,Novapay Exchange,Liam Hughes,VP Payments,liam.hughes60@novapayexchange.co,+234661757691,NG,https://novapayexchange.co
+LDL-0015,Clearmint Money,Tunde Chukwu,Head of Product,tunde.chukwu23@clearmintmoney.finance,+233479527046,GH,https://clearmintmoney.finance
+LDL-0016,Clearmint Capital,Bola Abubakar,VP Engineering,bola.abubakar63@clearmintcapital.finance,+234906578461,NG,https://clearmintcapital.finance
+LDL-0017,Ember Markets,Olivia Danjuma,Head of Product,olivia.danjuma33@embermarkets.com,+233309117977,GH,https://embermarkets.com
+LDL-0018,Riverbank Rails,Ngozi Martin,Director of Risk,ngozi.martin11@riverbankrails.finance,+233785648415,GH,https://riverbankrails.finance
+LDL-0019,Lumen Finance,Kwame Odhiambo,Chief Financial Officer,kwame.odhiambo61@lumenfinance.com,+254559703401,KE,https://lumenfinance.com
+LDL-0020,Corvid Finance,Fatima Davies,VP Payments,fatima.davies21@corvidfinance.com,+254612113954,KE,https://corvidfinance.com
+LDL-0021,Clearmint Bank,Ngozi Nwosu,Chief Operating Officer,ngozi.nwosu38@clearmintbank.io,+11819616585,CA,https://clearmintbank.io
+LDL-0022,Basalt Capital,Aisha Hughes,Head of Partnerships,aisha.hughes88@basaltcapital.com,+254287186982,KE,https://basaltcapital.com
+LDL-0023,Riverbank Treasury,Ethan Smith,Head of Partnerships,ethan.smith61@riverbanktreasury.com,+233116725262,GH,https://riverbanktreasury.com
+LDL-0024,Ozone Treasury,Amara Wang,Head of Partnerships,amara.wang19@ozonetreasury.co,+234248429141,NG,https://ozonetreasury.co
+LDL-0025,Tallyo Money,Hannah Smith,Chief Financial Officer,hannah.smith84@tallyomoney.io,+44201874238,GB,https://tallyomoney.io
+LDL-0026,Settlr Capital,Chloe Ibrahim,VP Payments,chloe.ibrahim14@settlrcapital.money,+233436534328,GH,https://settlrcapital.money
+LDL-0027,Ember Capital,James Mbeki,VP Payments,james.mbeki17@embercapital.money,+14679912591,US,https://embercapital.money
+LDL-0028,Monzu Markets,Fatima Abubakar,Chief Financial Officer,fatima.abubakar56@monzumarkets.io,+27474144613,ZA,https://monzumarkets.io
+LDL-0029,Meridian Wallet,Aisha Odhiambo,VP Payments,aisha.odhiambo92@meridianwallet.finance,+27800275287,ZA,https://meridianwallet.finance
+LDL-0030,Tallyo Treasury,Grace Smith,VP Engineering,grace.smith30@tallyotreasury.money,+44202081417,GB,https://tallyotreasury.money
+LDL-0031,Brightwire Rails,Daniel Adeyemi,VP Payments,daniel.adeyemi45@brightwirerails.io,+254638581813,KE,https://brightwirerails.io
+LDL-0032,Monzu Markets,Chen Chukwu,Chief Operating Officer,chen.chukwu22@monzumarkets.money,+27566358765,ZA,https://monzumarkets.money
+LDL-0033,Tandem Finance,Aisha Johnson,Chief Financial Officer,aisha.johnson17@tandemfinance.finance,+27166601664,ZA,https://tandemfinance.finance
+LDL-0034,Juniper Money,Grace Okafor,Chief Financial Officer,grace.okafor34@junipermoney.co,+27187353202,ZA,https://junipermoney.co
+LDL-0035,Juniper Ledger,Fatima Martin,Co-founder,fatima.martin36@juniperledger.com,+18188877245,US,https://juniperledger.com
+LDL-0036,Ledgerly Bank,Yusuf Abubakar,Director of Risk,yusuf.abubakar27@ledgerlybank.money,+27986354293,ZA,https://ledgerlybank.money
+LDL-0037,Ozone Payments,Kwame Abubakar,Founder & CEO,kwame.abubakar16@ozonepayments.com,+233237472185,GH,https://ozonepayments.com
+LDL-0038,Fundbridge Money,Kofi Adeyemi,Chief Operating Officer,kofi.adeyemi13@fundbridgemoney.com,+254467874826,KE,https://fundbridgemoney.com
+LDL-0039,Paystream Ledger,Musa Adeyemi,Co-founder,musa.adeyemi82@paystreamledger.finance,+233353433929,GH,https://paystreamledger.finance
+LDL-0040,Solace Finance,Aisha Chukwu,Chief Financial Officer,aisha.chukwu21@solacefinance.finance,+233536292637,GH,https://solacefinance.finance
+LDL-0041,Quanta Bank,Amara Adeyemi,Co-founder,amara.adeyemi68@quantabank.finance,+27385360038,ZA,https://quantabank.finance
+LDL-0042,Coinvale Finance,Thabo Martin,Chief Operating Officer,thabo.martin78@coinvalefinance.money,+12148487601,CA,https://coinvalefinance.money
+LDL-0043,Settlr Treasury,Amara Abubakar,Chief Technology Officer,amara.abubakar61@settlrtreasury.io,+18849925260,CA,https://settlrtreasury.io
+LDL-0044,Ember Finance,Ethan Brown,VP Payments,ethan.brown34@emberfinance.com,+234541978277,NG,https://emberfinance.com
+LDL-0045,Brightwire Ledger,Yusuf Chukwu,Co-founder,yusuf.chukwu55@brightwireledger.io,+44828027357,GB,https://brightwireledger.io
+LDL-0046,Ledgerly Exchange,Tunde Clarke,VP Payments,tunde.clarke49@ledgerlyexchange.money,+19514546333,CA,https://ledgerlyexchange.money
+LDL-0047,Atlasfin Pay,Halima Walker,Founder & CEO,halima.walker78@atlasfinpay.co,+11806058201,US,https://atlasfinpay.co
+LDL-0048,Remitly Payments,Tunde Mokoena,Chief Operating Officer,tunde.mokoena37@remitlypayments.com,+27473983853,ZA,https://remitlypayments.com
+LDL-0049,Quanta Finance,Olivia Hughes,Founder & CEO,olivia.hughes22@quantafinance.com,+233765163396,GH,https://quantafinance.com
+LDL-0050,Quanta Credit,Wanjiru Taylor,VP Engineering,wanjiru.taylor42@quantacredit.finance,+19851649427,CA,https://quantacredit.finance
+LDL-0051,Kora Wallet,Olivia Wang,Co-founder,olivia.wang90@korawallet.co,+234787831626,NG,https://korawallet.co
+LDL-0052,Tallyo Payments,Daniel Sani,Chief Financial Officer,daniel.sani52@tallyopayments.co,+19980240750,US,https://tallyopayments.co
+LDL-0053,Juniper Treasury,Yusuf Odhiambo,Director of Risk,yusuf.odhiambo55@junipertreasury.io,+44284553637,GB,https://junipertreasury.io
+LDL-0054,Meridian Pay,Kwame Nwosu,Head of Product,kwame.nwosu68@meridianpay.com,+234946657456,NG,https://meridianpay.com
+LDL-0055,Payara Exchange,Ama Wang,Chief Operating Officer,ama.wang65@payaraexchange.io,+234567007718,NG,https://payaraexchange.io
+LDL-0056,Atlasfin Pay,Olivia Mokoena,Chief Operating Officer,olivia.mokoena59@atlasfinpay.finance,+16002753046,CA,https://atlasfinpay.finance
+LDL-0057,Kora Capital,Noah Abubakar,Founder & CEO,noah.abubakar72@koracapital.finance,+44349596268,GB,https://koracapital.finance
+LDL-0058,Settlr Rails,Bola Chukwu,Chief Financial Officer,bola.chukwu88@settlrrails.com,+44789289857,GB,https://settlrrails.com
+LDL-0059,Basalt Wallet,Ethan Mensah,Chief Technology Officer,ethan.mensah49@basaltwallet.com,+44493603257,GB,https://basaltwallet.com
+LDL-0060,Solace Wallet,Noah Sani,Head of Partnerships,noah.sani88@solacewallet.money,+234612575754,NG,https://solacewallet.money
+LDL-0061,Ledgerly Payments,Ama Brown,Founder & CEO,ama.brown93@ledgerlypayments.com,+44559362486,GB,https://ledgerlypayments.com
+LDL-0062,Sterling Rails,Yusuf Sani,Founder & CEO,yusuf.sani73@sterlingrails.com,+44908504237,GB,https://sterlingrails.com
+LDL-0063,Vaultic Wallet,Ethan Clarke,Chief Financial Officer,ethan.clarke47@vaulticwallet.com,+254538269141,KE,https://vaulticwallet.com
+LDL-0064,Halcyon Money,Sofia Martin,VP Payments,sofia.martin10@halcyonmoney.com,+234703072260,NG,https://halcyonmoney.com
+LDL-0065,Fundbridge Finance,Wanjiru Mensah,Director of Risk,wanjiru.mensah85@fundbridgefinance.io,+233657005603,GH,https://fundbridgefinance.io
+LDL-0066,Atlasfin Labs,Aisha Osei,Head of Product,aisha.osei46@atlasfinlabs.io,+234122596366,NG,https://atlasfinlabs.io
+LDL-0067,Juniper Markets,Yusuf Lawal,VP Engineering,yusuf.lawal23@junipermarkets.co,+44293802757,GB,https://junipermarkets.co
+LDL-0068,Lumen Exchange,Aisha Naidoo,Chief Technology Officer,aisha.naidoo58@lumenexchange.com,+233532107461,GH,https://lumenexchange.com
+LDL-0069,Basalt Rails,Fatima Chukwu,Chief Technology Officer,fatima.chukwu80@basaltrails.com,+16522866671,US,https://basaltrails.com
+LDL-0070,Tandem Pay,Bola Eze,Head of Partnerships,bola.eze25@tandempay.co,+234789280227,NG,https://tandempay.co
+LDL-0071,Settlr Money,Olivia Davies,Founder & CEO,olivia.davies94@settlrmoney.io,+234125540107,NG,https://settlrmoney.io
+LDL-0072,Ember Ledger,Kwame Clarke,Head of Product,kwame.clarke15@emberledger.com,+234958405610,NG,https://emberledger.com
+LDL-0073,Kora Markets,Wanjiru Nwosu,VP Payments,wanjiru.nwosu10@koramarkets.finance,+254321047739,KE,https://koramarkets.finance
+LDL-0074,Vaultic Labs,Ngozi Mbeki,VP Engineering,ngozi.mbeki24@vaulticlabs.co,+13751051619,US,https://vaulticlabs.co
+LDL-0075,Quanta Treasury,Lucas Wang,Chief Financial Officer,lucas.wang94@quantatreasury.finance,+18935904832,CA,https://quantatreasury.finance
+LDL-0076,Solace Markets,Yusuf Nwosu,Head of Partnerships,yusuf.nwosu12@solacemarkets.finance,+233324660143,GH,https://solacemarkets.finance
+LDL-0077,Ozone Payments,James Odhiambo,Head of Partnerships,james.odhiambo76@ozonepayments.com,+15380216871,CA,https://ozonepayments.com
+LDL-0078,Meridian Treasury,Emily Osei,Head of Product,emily.osei66@meridiantreasury.money,+233893024890,GH,https://meridiantreasury.money
+LDL-0079,Corvid Wallet,Chloe Davies,Head of Partnerships,chloe.davies34@corvidwallet.com,+27838446848,ZA,https://corvidwallet.com
+LDL-0080,Corvid Rails,Musa Walker,Director of Risk,musa.walker60@corvidrails.io,+234200140366,NG,https://corvidrails.io
+LDL-0081,Solace Wallet,Kofi Owusu,Chief Operating Officer,kofi.owusu11@solacewallet.co,+14444946688,CA,https://solacewallet.co
+LDL-0082,Cobalt Markets,Grace Walker,Head of Partnerships,grace.walker45@cobaltmarkets.com,+14810304113,US,https://cobaltmarkets.com
+LDL-0083,Coinvale Payments,Tunde Mbeki,Chief Financial Officer,tunde.mbeki64@coinvalepayments.finance,+233835009992,GH,https://coinvalepayments.finance
+LDL-0084,Vaultic Treasury,Ama Mokoena,VP Payments,ama.mokoena41@vaultictreasury.co,+15334072686,US,https://vaultictreasury.co
+LDL-0085,Corvid Treasury,Thabo Owusu,Chief Operating Officer,thabo.owusu30@corvidtreasury.finance,+233397051711,GH,https://corvidtreasury.finance
+LDL-0086,Solace Wallet,Chloe Lawal,Chief Operating Officer,chloe.lawal60@solacewallet.com,+233445587464,GH,https://solacewallet.com
+LDL-0087,Corvid Bank,Liam Brown,Chief Technology Officer,liam.brown67@corvidbank.money,+27834950850,ZA,https://corvidbank.money
+LDL-0088,Monzu Capital,Sofia Odhiambo,Co-founder,sofia.odhiambo68@monzucapital.finance,+27563438879,ZA,https://monzucapital.finance
+LDL-0089,Ember Exchange,Lucas Ibrahim,Chief Operating Officer,lucas.ibrahim63@emberexchange.com,+15352537150,CA,https://emberexchange.com
+LDL-0090,Vaultic Capital,Noah Taylor,Chief Operating Officer,noah.taylor95@vaulticcapital.co,+233258877735,GH,https://vaulticcapital.co
+LDL-0091,Novapay Rails,Mia Davies,Co-founder,mia.davies26@novapayrails.money,+27834671812,ZA,https://novapayrails.money
+LDL-0092,Corvid Wallet,Emily Johnson,Chief Operating Officer,emily.johnson97@corvidwallet.com,+27151745007,ZA,https://corvidwallet.com
+LDL-0093,Ember Capital,Ifeoma Owusu,Chief Financial Officer,ifeoma.owusu92@embercapital.money,+234612739824,NG,https://embercapital.money
+LDL-0094,Monzu Finance,Noah Odhiambo,VP Payments,noah.odhiambo77@monzufinance.co,+27495646764,ZA,https://monzufinance.co
+LDL-0095,Lumen Bank,Ama Kamau,Chief Financial Officer,ama.kamau56@lumenbank.finance,+254786899656,KE,https://lumenbank.finance
+LDL-0096,Riverbank Labs,James Johnson,Founder & CEO,james.johnson10@riverbanklabs.io,+234599953490,NG,https://riverbanklabs.io
+LDL-0097,Basalt Wallet,Kwame Clarke,Head of Partnerships,kwame.clarke42@basaltwallet.co,+254447614240,KE,https://basaltwallet.co
+LDL-0098,Ember Labs,Halima Davies,Co-founder,halima.davies33@emberlabs.finance,+17047203502,US,https://emberlabs.finance
+LDL-0099,Lumen Exchange,Noah Danjuma,Head of Product,noah.danjuma47@lumenexchange.co,+233634945203,GH,https://lumenexchange.co
+LDL-0100,Ozone Treasury,Ama Chukwu,Chief Technology Officer,ama.chukwu59@ozonetreasury.finance,+234763234392,NG,https://ozonetreasury.finance
+LDL-0101,Brightwire Markets,Tunde Lawal,Founder & CEO,tunde.lawal53@brightwiremarkets.co,+12274553472,US,https://brightwiremarkets.co
+LDL-0102,Northstar Money,Halima Hughes,VP Payments,halima.hughes97@northstarmoney.io,+44493372291,GB,https://northstarmoney.io
+LDL-0103,Remitly Treasury,Musa Davies,Head of Partnerships,musa.davies28@remitlytreasury.co,+44364607361,GB,https://remitlytreasury.co
+LDL-0104,Brightwire Finance,Ifeoma Kamau,Chief Financial Officer,ifeoma.kamau95@brightwirefinance.co,+44783759457,GB,https://brightwirefinance.co
+LDL-0105,Riverbank Finance,Ethan Ibrahim,VP Payments,ethan.ibrahim73@riverbankfinance.co,+27831101198,ZA,https://riverbankfinance.co
+LDL-0106,Coinvale Bank,Chen Hughes,Chief Technology Officer,chen.hughes85@coinvalebank.money,+234527000028,NG,https://coinvalebank.money
+LDL-0107,Settlr Labs,Kofi Owusu,VP Payments,kofi.owusu84@settlrlabs.finance,+27162437064,ZA,https://settlrlabs.finance
+LDL-0108,Northstar Labs,Hannah Mokoena,Chief Technology Officer,hannah.mokoena94@northstarlabs.io,+234541332791,NG,https://northstarlabs.io
+LDL-0109,Halcyon Ledger,Liam Mensah,VP Payments,liam.mensah52@halcyonledger.money,+233143661624,GH,https://halcyonledger.money
+LDL-0110,Ozone Exchange,Lucas Johnson,VP Payments,lucas.johnson81@ozoneexchange.io,+233973480545,GH,https://ozoneexchange.io
+LDL-0111,Juniper Credit,Ifeoma Brown,Chief Financial Officer,ifeoma.brown53@junipercredit.co,+27426338378,ZA,https://junipercredit.co
+LDL-0112,Remitly Payments,Mia Abubakar,Founder & CEO,mia.abubakar27@remitlypayments.io,+44106476858,GB,https://remitlypayments.io
+LDL-0113,Settlr Finance,Kofi Mokoena,Chief Operating Officer,kofi.mokoena36@settlrfinance.io,+254405781107,KE,https://settlrfinance.io
+LDL-0114,Lumen Markets,Tunde Owusu,Director of Risk,tunde.owusu87@lumenmarkets.finance,+254117345579,KE,https://lumenmarkets.finance
+LDL-0115,Meridian Exchange,James Owusu,Chief Operating Officer,james.owusu37@meridianexchange.money,+12174473506,US,https://meridianexchange.money
+LDL-0116,Riverbank Pay,Ethan Mbeki,Chief Operating Officer,ethan.mbeki62@riverbankpay.finance,+11235012310,CA,https://riverbankpay.finance
+LDL-0117,Fundbridge Capital,Fatima Ibrahim,VP Engineering,fatima.ibrahim96@fundbridgecapital.co,+44669212187,GB,https://fundbridgecapital.co
+LDL-0118,Tandem Payments,Olivia Sani,VP Engineering,olivia.sani31@tandempayments.co,+233686271957,GH,https://tandempayments.co
+LDL-0119,Remitly Bank,Zainab Garcia,Head of Partnerships,zainab.garcia74@remitlybank.com,+27343813323,ZA,https://remitlybank.com
+LDL-0120,Brightwire Payments,Lucas Martin,Head of Partnerships,lucas.martin29@brightwirepayments.money,+44285895226,GB,https://brightwirepayments.money
+LDL-0121,Ozone Credit,Ethan Danjuma,Head of Partnerships,ethan.danjuma81@ozonecredit.money,+44983036041,GB,https://ozonecredit.money
+LDL-0122,Juniper Finance,Chen Davies,Chief Financial Officer,chen.davies38@juniperfinance.io,+44444200501,GB,https://juniperfinance.io
+LDL-0123,Quanta Markets,Halima Martin,Head of Partnerships,halima.martin77@quantamarkets.co,+233484716536,GH,https://quantamarkets.co
+LDL-0124,Clearmint Money,Emily Owusu,Founder & CEO,emily.owusu15@clearmintmoney.io,+234251881789,NG,https://clearmintmoney.io
+LDL-0125,Vaultic Payments,Yusuf Bello,VP Engineering,yusuf.bello44@vaulticpayments.co,+254901059854,KE,https://vaulticpayments.co
+LDL-0126,Coinvale Markets,Lucas Johnson,Chief Operating Officer,lucas.johnson76@coinvalemarkets.com,+27887452602,ZA,https://coinvalemarkets.com
+LDL-0127,Solace Money,Musa Walker,Co-founder,musa.walker80@solacemoney.com,+254490354447,KE,https://solacemoney.com
+LDL-0128,Ozone Pay,Mia Brown,Chief Financial Officer,mia.brown77@ozonepay.money,+27798326741,ZA,https://ozonepay.money
+LDL-0129,Basalt Exchange,Aisha Garcia,Head of Partnerships,aisha.garcia83@basaltexchange.co,+12100097288,US,https://basaltexchange.co
+LDL-0130,Coinvale Payments,Wanjiru Smith,Chief Operating Officer,wanjiru.smith94@coinvalepayments.co,+254371799858,KE,https://coinvalepayments.co
+LDL-0131,Paystream Capital,Noah Bello,Director of Risk,noah.bello46@paystreamcapital.io,+234893883148,NG,https://paystreamcapital.io
+LDL-0132,Halcyon Markets,Chen Nwosu,Co-founder,chen.nwosu10@halcyonmarkets.money,+233666092108,GH,https://halcyonmarkets.money
+LDL-0133,Solace Labs,Chloe Odhiambo,Director of Risk,chloe.odhiambo50@solacelabs.finance,+254967193878,KE,https://solacelabs.finance
+LDL-0134,Riverbank Exchange,Noah Davies,Co-founder,noah.davies17@riverbankexchange.money,+27435868855,ZA,https://riverbankexchange.money
+LDL-0135,Vaultic Rails,Kofi Walker,Head of Partnerships,kofi.walker74@vaulticrails.co,+233254200633,GH,https://vaulticrails.co
+LDL-0136,Sterling Treasury,Amara Walker,Founder & CEO,amara.walker67@sterlingtreasury.money,+11279415651,CA,https://sterlingtreasury.money
+LDL-0137,Juniper Treasury,Emily Hughes,Chief Operating Officer,emily.hughes96@junipertreasury.io,+13473120027,CA,https://junipertreasury.io
+LDL-0138,Settlr Money,Halima Abubakar,Chief Operating Officer,halima.abubakar88@settlrmoney.money,+254336983325,KE,https://settlrmoney.money
+LDL-0139,Cobalt Credit,Daniel Osei,Chief Operating Officer,daniel.osei52@cobaltcredit.finance,+233547742414,GH,https://cobaltcredit.finance
+LDL-0140,Ledgerly Ledger,Chen Chukwu,Chief Technology Officer,chen.chukwu82@ledgerlyledger.co,+254358979837,KE,https://ledgerlyledger.co
+LDL-0141,Ember Markets,Fatima Eze,VP Engineering,fatima.eze12@embermarkets.com,+234717469842,NG,https://embermarkets.com
+LDL-0142,Solace Markets,Emily Bello,Chief Technology Officer,emily.bello88@solacemarkets.com,+15499395419,US,https://solacemarkets.com
+LDL-0143,Monzu Capital,Liam Wang,Director of Risk,liam.wang71@monzucapital.io,+44636542709,GB,https://monzucapital.io
+LDL-0144,Corvid Credit,Hannah Bello,Co-founder,hannah.bello18@corvidcredit.com,+11882259934,US,https://corvidcredit.com
+LDL-0145,Riverbank Treasury,Olivia Clarke,Founder & CEO,olivia.clarke23@riverbanktreasury.money,+18492152123,US,https://riverbanktreasury.money
+LDL-0146,Payara Labs,Kwame Brown,Founder & CEO,kwame.brown24@payaralabs.com,+233423027496,GH,https://payaralabs.com
+LDL-0147,Sterling Finance,Ifeoma Mokoena,Founder & CEO,ifeoma.mokoena79@sterlingfinance.finance,+233259438881,GH,https://sterlingfinance.finance
+LDL-0148,Juniper Wallet,Kofi Clarke,Chief Technology Officer,kofi.clarke70@juniperwallet.io,+27809065125,ZA,https://juniperwallet.io
+LDL-0149,Meridian Markets,Halima Ibrahim,Head of Product,halima.ibrahim11@meridianmarkets.money,+16977732018,US,https://meridianmarkets.money
+LDL-0150,Fundbridge Finance,Liam Lawal,Founder & CEO,liam.lawal31@fundbridgefinance.io,+12542162518,US,https://fundbridgefinance.io
+LDL-0151,Juniper Treasury,Olivia Mensah,Head of Product,olivia.mensah84@junipertreasury.co,+254901521941,KE,https://junipertreasury.co
+LDL-0152,Remitly Labs,Halima Wang,Chief Technology Officer,halima.wang90@remitlylabs.io,+15286542702,CA,https://remitlylabs.io
+LDL-0153,Ledgerly Ledger,Aisha Abubakar,VP Payments,aisha.abubakar42@ledgerlyledger.com,+27381862717,ZA,https://ledgerlyledger.com
+LDL-0154,Ozone Payments,Mia Brown,VP Payments,mia.brown12@ozonepayments.com,+254884849172,KE,https://ozonepayments.com
+LDL-0155,Solace Markets,Ama Okafor,VP Payments,ama.okafor91@solacemarkets.co,+234650254153,NG,https://solacemarkets.co
+LDL-0156,Settlr Pay,Halima Kamau,Head of Partnerships,halima.kamau30@settlrpay.io,+254398108024,KE,https://settlrpay.io
+LDL-0157,Paystream Money,Zainab Taylor,Head of Product,zainab.taylor34@paystreammoney.co,+27776141801,ZA,https://paystreammoney.co
+LDL-0158,Basalt Labs,Fatima Lawal,Chief Operating Officer,fatima.lawal61@basaltlabs.io,+18106301111,CA,https://basaltlabs.io
+LDL-0159,Quanta Markets,Sofia Nwosu,Chief Operating Officer,sofia.nwosu30@quantamarkets.finance,+234479143993,NG,https://quantamarkets.finance
+LDL-0160,Riverbank Pay,Lucas Brown,Head of Product,lucas.brown39@riverbankpay.co,+27862100672,ZA,https://riverbankpay.co
+LDL-0161,Cobalt Bank,Sofia Danjuma,Chief Technology Officer,sofia.danjuma73@cobaltbank.money,+12912359788,CA,https://cobaltbank.money
+LDL-0162,Ozone Wallet,Halima Garcia,Director of Risk,halima.garcia66@ozonewallet.co,+254768315678,KE,https://ozonewallet.co
+LDL-0163,Settlr Bank,Chen Eze,Chief Technology Officer,chen.eze20@settlrbank.co,+15510185921,CA,https://settlrbank.co
+LDL-0164,Quanta Finance,Grace Brown,Co-founder,grace.brown26@quantafinance.co,+254552432207,KE,https://quantafinance.co
+LDL-0165,Brightwire Credit,Kofi Chukwu,Chief Financial Officer,kofi.chukwu42@brightwirecredit.money,+44830918301,GB,https://brightwirecredit.money
+LDL-0166,Halcyon Rails,Grace Kamau,Head of Partnerships,grace.kamau70@halcyonrails.money,+14633195254,CA,https://halcyonrails.money
+LDL-0167,Fundbridge Rails,Wanjiru Kamau,Director of Risk,wanjiru.kamau95@fundbridgerails.io,+12865933111,US,https://fundbridgerails.io
+LDL-0168,Payara Bank,Kofi Naidoo,Head of Product,kofi.naidoo62@payarabank.finance,+44139753356,GB,https://payarabank.finance
+LDL-0169,Meridian Payments,Fatima Abubakar,Head of Product,fatima.abubakar97@meridianpayments.com,+12236225553,US,https://meridianpayments.com
+LDL-0170,Ember Capital,Ngozi Johnson,Chief Technology Officer,ngozi.johnson33@embercapital.finance,+27230382139,ZA,https://embercapital.finance
+LDL-0171,Cobalt Bank,Noah Owusu,Co-founder,noah.owusu20@cobaltbank.co,+44979562217,GB,https://cobaltbank.co
+LDL-0172,Settlr Ledger,Halima Abubakar,VP Engineering,halima.abubakar51@settlrledger.co,+12291590989,US,https://settlrledger.co
+LDL-0173,Brightwire Wallet,Wanjiru Wang,Chief Operating Officer,wanjiru.wang42@brightwirewallet.com,+27267897650,ZA,https://brightwirewallet.com
+LDL-0174,Riverbank Credit,Mia Ibrahim,Founder & CEO,mia.ibrahim37@riverbankcredit.com,+44219172245,GB,https://riverbankcredit.com
+LDL-0175,Brightwire Exchange,Kofi Mbeki,Director of Risk,kofi.mbeki80@brightwireexchange.io,+233502062391,GH,https://brightwireexchange.io
+LDL-0176,Juniper Capital,Emily Lawal,Chief Technology Officer,emily.lawal59@junipercapital.co,+234676887017,NG,https://junipercapital.co
+LDL-0177,Clearmint Credit,Ethan Odhiambo,Co-founder,ethan.odhiambo26@clearmintcredit.co,+27320551833,ZA,https://clearmintcredit.co
+LDL-0178,Settlr Finance,Mia Owusu,Director of Risk,mia.owusu64@settlrfinance.io,+15095392921,CA,https://settlrfinance.io
+LDL-0179,Corvid Exchange,Chloe Lawal,Director of Risk,chloe.lawal41@corvidexchange.co,+233589600742,GH,https://corvidexchange.co
+LDL-0180,Solace Ledger,Sofia Bello,Head of Product,sofia.bello32@solaceledger.co,+15641214474,US,https://solaceledger.co
+LDL-0181,Ozone Capital,Liam Bello,Founder & CEO,liam.bello85@ozonecapital.io,+254320680312,KE,https://ozonecapital.io
+LDL-0182,Paystream Pay,Halima Nwosu,Chief Financial Officer,halima.nwosu86@paystreampay.finance,+234445044709,NG,https://paystreampay.finance
+LDL-0183,Payara Credit,Olivia Smith,Head of Product,olivia.smith93@payaracredit.com,+44700411547,GB,https://payaracredit.com
+LDL-0184,Solace Money,Fatima Martin,Chief Financial Officer,fatima.martin71@solacemoney.finance,+44272629280,GB,https://solacemoney.finance
+LDL-0185,Ember Ledger,Emily Danjuma,Chief Financial Officer,emily.danjuma58@emberledger.co,+233704896124,GH,https://emberledger.co
+LDL-0186,Coinvale Exchange,Ethan Danjuma,VP Payments,ethan.danjuma36@coinvaleexchange.co,+233798254453,GH,https://coinvaleexchange.co
+LDL-0187,Quanta Ledger,Ethan Clarke,Co-founder,ethan.clarke53@quantaledger.money,+233532986917,GH,https://quantaledger.money
+LDL-0188,Monzu Markets,Yusuf Sani,Chief Financial Officer,yusuf.sani70@monzumarkets.com,+12389026548,US,https://monzumarkets.com
+LDL-0189,Riverbank Rails,Halima Odhiambo,VP Engineering,halima.odhiambo18@riverbankrails.io,+254655960834,KE,https://riverbankrails.io
+LDL-0190,Cobalt Money,Fatima Taylor,Chief Operating Officer,fatima.taylor67@cobaltmoney.finance,+14102761415,US,https://cobaltmoney.finance
+LDL-0191,Ember Wallet,Thabo Davies,Co-founder,thabo.davies65@emberwallet.com,+254514651118,KE,https://emberwallet.com
+LDL-0192,Remitly Markets,Grace Hughes,Chief Operating Officer,grace.hughes22@remitlymarkets.com,+44244764799,GB,https://remitlymarkets.com
+LDL-0193,Fundbridge Finance,Ngozi Taylor,Head of Product,ngozi.taylor48@fundbridgefinance.money,+233466152832,GH,https://fundbridgefinance.money
+LDL-0194,Novapay Credit,Sofia Owusu,Director of Risk,sofia.owusu81@novapaycredit.money,+254697258163,KE,https://novapaycredit.money
+LDL-0195,Novapay Markets,Ngozi Sani,VP Engineering,ngozi.sani85@novapaymarkets.com,+44900351489,GB,https://novapaymarkets.com
+LDL-0196,Fundbridge Rails,Hannah Davies,Chief Technology Officer,hannah.davies54@fundbridgerails.money,+233444277411,GH,https://fundbridgerails.money
+LDL-0197,Tandem Finance,Chloe Owusu,Chief Technology Officer,chloe.owusu23@tandemfinance.money,+44298054472,GB,https://tandemfinance.money
+LDL-0198,Tandem Rails,Chen Osei,VP Payments,chen.osei36@tandemrails.finance,+44594160030,GB,https://tandemrails.finance
+LDL-0199,Meridian Credit,Amara Hughes,Chief Operating Officer,amara.hughes78@meridiancredit.finance,+44896686789,GB,https://meridiancredit.finance
+LDL-0200,Vaultic Money,Liam Adeyemi,VP Engineering,liam.adeyemi53@vaulticmoney.co,+14736725984,US,https://vaulticmoney.co
+LDL-0201,Tallyo Credit,Halima Nwosu,Co-founder,halima.nwosu42@tallyocredit.io,+12618057840,CA,https://tallyocredit.io
+LDL-0202,Remitly Money,Chen Eze,Founder & CEO,chen.eze30@remitlymoney.com,+44914150666,GB,https://remitlymoney.com
+LDL-0203,Monzu Money,Ama Brown,Founder & CEO,ama.brown97@monzumoney.finance,+11044527923,US,https://monzumoney.finance
+LDL-0204,Clearmint Payments,Noah Eze,Head of Product,noah.eze90@clearmintpayments.finance,+254121568207,KE,https://clearmintpayments.finance
+LDL-0205,Halcyon Pay,Wanjiru Brown,Head of Product,wanjiru.brown98@halcyonpay.money,+27585703562,ZA,https://halcyonpay.money
+LDL-0206,Coinvale Ledger,Olivia Mensah,Head of Product,olivia.mensah11@coinvaleledger.com,+254255961525,KE,https://coinvaleledger.com
+LDL-0207,Riverbank Wallet,Aisha Davies,Co-founder,aisha.davies37@riverbankwallet.com,+27540003340,ZA,https://riverbankwallet.com
+LDL-0208,Ledgerly Labs,Kofi Sani,Chief Technology Officer,kofi.sani14@ledgerlylabs.co,+233516525240,GH,https://ledgerlylabs.co
+LDL-0209,Meridian Exchange,Lucas Johnson,Head of Product,lucas.johnson65@meridianexchange.co,+15220323397,US,https://meridianexchange.co
+LDL-0210,Payara Finance,Lucas Bello,Chief Technology Officer,lucas.bello59@payarafinance.finance,+15996742601,US,https://payarafinance.finance
+LDL-0211,Ledgerly Payments,Mia Martin,VP Engineering,mia.martin56@ledgerlypayments.money,+233562499195,GH,https://ledgerlypayments.money
+LDL-0212,Basalt Capital,Aisha Bello,Head of Product,aisha.bello62@basaltcapital.io,+13969419860,US,https://basaltcapital.io
+LDL-0213,Ledgerly Capital,Aisha Mbeki,VP Payments,aisha.mbeki95@ledgerlycapital.finance,+44188729072,GB,https://ledgerlycapital.finance
+LDL-0214,Quanta Ledger,Ngozi Mensah,VP Payments,ngozi.mensah30@quantaledger.com,+13288419193,US,https://quantaledger.com
+LDL-0215,Paystream Markets,Zainab Walker,Chief Operating Officer,zainab.walker41@paystreammarkets.io,+44824551972,GB,https://paystreammarkets.io
+LDL-0216,Payara Rails,Kofi Brown,Chief Operating Officer,kofi.brown90@payararails.finance,+233310282262,GH,https://payararails.finance
+LDL-0217,Ember Rails,Bola Martin,VP Payments,bola.martin76@emberrails.money,+234264176515,NG,https://emberrails.money
+LDL-0218,Halcyon Rails,Fatima Mbeki,Chief Operating Officer,fatima.mbeki35@halcyonrails.finance,+44612425061,GB,https://halcyonrails.finance
+LDL-0219,Atlasfin Rails,Mia Mensah,Founder & CEO,mia.mensah11@atlasfinrails.money,+254818094276,KE,https://atlasfinrails.money
+LDL-0220,Remitly Markets,Emily Ibrahim,Director of Risk,emily.ibrahim18@remitlymarkets.money,+254141415992,KE,https://remitlymarkets.money
+LDL-0221,Ember Credit,Ethan Taylor,Founder & CEO,ethan.taylor26@embercredit.co,+254940425278,KE,https://embercredit.co
+LDL-0222,Atlasfin Pay,James Johnson,VP Payments,james.johnson80@atlasfinpay.co,+27646950437,ZA,https://atlasfinpay.co
+LDL-0223,Monzu Markets,Amara Chukwu,Chief Operating Officer,amara.chukwu91@monzumarkets.money,+234543317048,NG,https://monzumarkets.money
+LDL-0224,Ember Wallet,Sofia Taylor,Chief Technology Officer,sofia.taylor56@emberwallet.finance,+13543533823,CA,https://emberwallet.finance
+LDL-0225,Settlr Finance,Musa Kamau,VP Payments,musa.kamau73@settlrfinance.money,+27951358012,ZA,https://settlrfinance.money
+LDL-0226,Atlasfin Finance,Amara Okafor,VP Payments,amara.okafor10@atlasfinfinance.co,+19149692990,US,https://atlasfinfinance.co
+LDL-0227,Monzu Wallet,Zainab Clarke,Chief Operating Officer,zainab.clarke64@monzuwallet.io,+233361380392,GH,https://monzuwallet.io
+LDL-0228,Tandem Credit,Ngozi Adeyemi,VP Engineering,ngozi.adeyemi83@tandemcredit.io,+27842183140,ZA,https://tandemcredit.io
+LDL-0229,Ember Credit,Olivia Wang,Director of Risk,olivia.wang92@embercredit.com,+27477088086,ZA,https://embercredit.com
+LDL-0230,Coinvale Ledger,Mia Naidoo,Head of Partnerships,mia.naidoo39@coinvaleledger.money,+14979798404,CA,https://coinvaleledger.money
+LDL-0231,Atlasfin Payments,Hannah Mensah,VP Payments,hannah.mensah91@atlasfinpayments.com,+233684478734,GH,https://atlasfinpayments.com
+LDL-0232,Ember Pay,Ethan Martin,Founder & CEO,ethan.martin71@emberpay.com,+233227155191,GH,https://emberpay.com
+LDL-0233,Tandem Ledger,Lucas Mbeki,Chief Financial Officer,lucas.mbeki16@tandemledger.io,+16317472233,CA,https://tandemledger.io
+LDL-0234,Brightwire Bank,Wanjiru Owusu,Chief Technology Officer,wanjiru.owusu79@brightwirebank.finance,+19468364838,US,https://brightwirebank.finance
+LDL-0235,Coinvale Bank,Daniel Nwosu,Chief Operating Officer,daniel.nwosu37@coinvalebank.io,+234426558287,NG,https://coinvalebank.io
+LDL-0236,Tallyo Capital,Zainab Okafor,VP Payments,zainab.okafor32@tallyocapital.money,+15376675382,US,https://tallyocapital.money
+LDL-0237,Riverbank Treasury,Kofi Nwosu,Chief Technology Officer,kofi.nwosu77@riverbanktreasury.com,+27661509981,ZA,https://riverbanktreasury.com
+LDL-0238,Meridian Finance,Sofia Eze,Chief Operating Officer,sofia.eze26@meridianfinance.com,+234974566480,NG,https://meridianfinance.com
+LDL-0239,Brightwire Credit,Olivia Owusu,Founder & CEO,olivia.owusu83@brightwirecredit.money,+254975977627,KE,https://brightwirecredit.money
+LDL-0240,Halcyon Markets,Ifeoma Sani,Chief Operating Officer,ifeoma.sani12@halcyonmarkets.money,+11722626833,CA,https://halcyonmarkets.money
+LDL-0241,Cobalt Ledger,Thabo Ibrahim,Head of Product,thabo.ibrahim46@cobaltledger.finance,+234172824422,NG,https://cobaltledger.finance
+LDL-0242,Settlr Finance,Mia Lawal,Head of Product,mia.lawal19@settlrfinance.finance,+234697545160,NG,https://settlrfinance.finance
+LDL-0243,Coinvale Payments,Daniel Walker,Founder & CEO,daniel.walker77@coinvalepayments.co,+17178927948,CA,https://coinvalepayments.co
+LDL-0244,Tandem Money,Kofi Naidoo,Chief Technology Officer,kofi.naidoo63@tandemmoney.co,+44523131752,GB,https://tandemmoney.co
+LDL-0245,Vaultic Bank,Noah Ibrahim,Head of Partnerships,noah.ibrahim62@vaulticbank.money,+254191843629,KE,https://vaulticbank.money
+LDL-0246,Brightwire Exchange,Daniel Sani,Head of Product,daniel.sani89@brightwireexchange.com,+234429503465,NG,https://brightwireexchange.com
+LDL-0247,Northstar Bank,Chloe Wang,Chief Technology Officer,chloe.wang47@northstarbank.money,+18935905073,US,https://northstarbank.money
+LDL-0248,Lumen Rails,Kofi Owusu,Head of Partnerships,kofi.owusu48@lumenrails.io,+234475669550,NG,https://lumenrails.io
+LDL-0249,Paystream Rails,Halima Brown,Co-founder,halima.brown51@paystreamrails.finance,+27323374103,ZA,https://paystreamrails.finance
+LDL-0250,Juniper Finance,Sofia Owusu,Co-founder,sofia.owusu22@juniperfinance.money,+234379911458,NG,https://juniperfinance.money
+LDL-0251,Fundbridge Exchange,Amara Lawal,Co-founder,amara.lawal46@fundbridgeexchange.io,+254470697760,KE,https://fundbridgeexchange.io
+LDL-0252,Kora Capital,Chloe Taylor,Director of Risk,chloe.taylor15@koracapital.money,+44420451912,GB,https://koracapital.money
+LDL-0253,Monzu Finance,Bola Ibrahim,Head of Partnerships,bola.ibrahim71@monzufinance.co,+234557297434,NG,https://monzufinance.co
+LDL-0254,Vaultic Credit,Musa Mbeki,VP Engineering,musa.mbeki47@vaulticcredit.co,+27147335916,ZA,https://vaulticcredit.co
+LDL-0255,Cobalt Capital,Emily Kamau,Director of Risk,emily.kamau63@cobaltcapital.co,+17480705766,US,https://cobaltcapital.co
+LDL-0256,Paystream Treasury,Thabo Mbeki,Director of Risk,thabo.mbeki33@paystreamtreasury.io,+14280003784,CA,https://paystreamtreasury.io
+LDL-0257,Brightwire Pay,Daniel Owusu,VP Payments,daniel.owusu94@brightwirepay.finance,+27133757086,ZA,https://brightwirepay.finance
+LDL-0258,Payara Money,Emily Davies,Chief Technology Officer,emily.davies45@payaramoney.money,+15576255678,US,https://payaramoney.money
+LDL-0259,Fundbridge Credit,Ethan Taylor,Co-founder,ethan.taylor48@fundbridgecredit.com,+12706376832,US,https://fundbridgecredit.com
+LDL-0260,Clearmint Credit,Lucas Sani,Co-founder,lucas.sani83@clearmintcredit.finance,+16535849968,CA,https://clearmintcredit.finance
+LDL-0261,Payara Payments,Emily Ibrahim,Founder & CEO,emily.ibrahim35@payarapayments.co,+254711355757,KE,https://payarapayments.co
+LDL-0262,Halcyon Bank,Hannah Mokoena,VP Payments,hannah.mokoena36@halcyonbank.finance,+27743866909,ZA,https://halcyonbank.finance
+LDL-0263,Northstar Pay,Ngozi Nwosu,Chief Financial Officer,ngozi.nwosu46@northstarpay.money,+16220938878,US,https://northstarpay.money
+LDL-0264,Coinvale Treasury,Daniel Martin,VP Engineering,daniel.martin22@coinvaletreasury.money,+11694835534,CA,https://coinvaletreasury.money
+LDL-0265,Brightwire Treasury,Thabo Mensah,Head of Partnerships,thabo.mensah73@brightwiretreasury.co,+234224259646,NG,https://brightwiretreasury.co
+LDL-0266,Fundbridge Rails,Bola Okafor,Head of Partnerships,bola.okafor32@fundbridgerails.money,+234390926809,NG,https://fundbridgerails.money
+LDL-0267,Meridian Labs,Ethan Chukwu,Head of Partnerships,ethan.chukwu73@meridianlabs.io,+234494182337,NG,https://meridianlabs.io
+LDL-0268,Lumen Finance,Noah Garcia,Co-founder,noah.garcia65@lumenfinance.co,+44811325509,GB,https://lumenfinance.co
+LDL-0269,Halcyon Wallet,Emily Nwosu,Head of Partnerships,emily.nwosu83@halcyonwallet.com,+254216192871,KE,https://halcyonwallet.com
+LDL-0270,Corvid Exchange,Ngozi Owusu,Head of Product,ngozi.owusu94@corvidexchange.com,+233157420410,GH,https://corvidexchange.com
+LDL-0271,Novapay Credit,Amara Ibrahim,Founder & CEO,amara.ibrahim27@novapaycredit.com,+254755123940,KE,https://novapaycredit.com
+LDL-0272,Ozone Finance,Kofi Abubakar,Founder & CEO,kofi.abubakar85@ozonefinance.com,+18480732336,US,https://ozonefinance.com
+LDL-0273,Monzu Money,Fatima Osei,Chief Financial Officer,fatima.osei36@monzumoney.com,+27453524971,ZA,https://monzumoney.com
+LDL-0274,Northstar Bank,Tunde Walker,Founder & CEO,tunde.walker69@northstarbank.co,+27546901576,ZA,https://northstarbank.co
+LDL-0275,Kora Wallet,Wanjiru Walker,VP Engineering,wanjiru.walker34@korawallet.money,+27415351746,ZA,https://korawallet.money
+LDL-0276,Remitly Money,Grace Garcia,Chief Technology Officer,grace.garcia23@remitlymoney.co,+18589971189,US,https://remitlymoney.co
+LDL-0277,Clearmint Treasury,Ifeoma Lawal,VP Engineering,ifeoma.lawal59@clearminttreasury.co,+254389401313,KE,https://clearminttreasury.co
+LDL-0278,Tallyo Finance,Sofia Danjuma,Co-founder,sofia.danjuma39@tallyofinance.finance,+13179340421,US,https://tallyofinance.finance
+LDL-0279,Cobalt Bank,James Taylor,Founder & CEO,james.taylor93@cobaltbank.com,+27962383296,ZA,https://cobaltbank.com
+LDL-0280,Clearmint Wallet,Lucas Martin,Head of Product,lucas.martin38@clearmintwallet.io,+11952441972,US,https://clearmintwallet.io
+LDL-0281,Lumen Pay,Fatima Okafor,Founder & CEO,fatima.okafor68@lumenpay.com,+234156019890,NG,https://lumenpay.com
+LDL-0282,Remitly Payments,Liam Eze,VP Engineering,liam.eze15@remitlypayments.money,+233221577080,GH,https://remitlypayments.money
+LDL-0283,Clearmint Rails,Liam Eze,VP Payments,liam.eze23@clearmintrails.co,+44781445414,GB,https://clearmintrails.co
+LDL-0284,Solace Ledger,Aisha Taylor,Chief Technology Officer,aisha.taylor36@solaceledger.io,+233286079369,GH,https://solaceledger.io
+LDL-0285,Brightwire Payments,Grace Okafor,Chief Technology Officer,grace.okafor12@brightwirepayments.co,+12524429436,CA,https://brightwirepayments.co
+LDL-0286,Quanta Exchange,Tunde Owusu,VP Engineering,tunde.owusu66@quantaexchange.com,+14835699410,US,https://quantaexchange.com
+LDL-0287,Brightwire Wallet,Hannah Danjuma,Head of Product,hannah.danjuma21@brightwirewallet.io,+14706856689,CA,https://brightwirewallet.io
+LDL-0288,Halcyon Exchange,Ngozi Kamau,Founder & CEO,ngozi.kamau67@halcyonexchange.money,+233334191846,GH,https://halcyonexchange.money
+LDL-0289,Settlr Credit,Sofia Osei,Chief Financial Officer,sofia.osei37@settlrcredit.com,+44100797091,GB,https://settlrcredit.com
+LDL-0290,Vaultic Payments,Tunde Davies,Chief Technology Officer,tunde.davies49@vaulticpayments.money,+44833059428,GB,https://vaulticpayments.money
+LDL-0291,Ozone Pay,Olivia Taylor,Chief Technology Officer,olivia.taylor73@ozonepay.finance,+44175350790,GB,https://ozonepay.finance
+LDL-0292,Coinvale Capital,Musa Osei,Chief Operating Officer,musa.osei84@coinvalecapital.finance,+17345263439,US,https://coinvalecapital.finance
+LDL-0293,Ember Markets,Daniel Abubakar,Chief Financial Officer,daniel.abubakar37@embermarkets.com,+233843353786,GH,https://embermarkets.com
+LDL-0294,Northstar Ledger,Chen Taylor,Director of Risk,chen.taylor40@northstarledger.io,+254791371486,KE,https://northstarledger.io
+LDL-0295,Juniper Markets,Mia Danjuma,Chief Operating Officer,mia.danjuma96@junipermarkets.com,+254781467870,KE,https://junipermarkets.com
+LDL-0296,Ember Pay,Halima Adeyemi,VP Payments,halima.adeyemi70@emberpay.money,+44468860210,GB,https://emberpay.money
+LDL-0297,Sterling Bank,Wanjiru Martin,Founder & CEO,wanjiru.martin89@sterlingbank.finance,+233418796454,GH,https://sterlingbank.finance
+LDL-0298,Lumen Treasury,Kwame Mbeki,Head of Product,kwame.mbeki83@lumentreasury.finance,+16456700951,US,https://lumentreasury.finance
+LDL-0299,Fundbridge Payments,Wanjiru Danjuma,Head of Partnerships,wanjiru.danjuma11@fundbridgepayments.io,+234316881533,NG,https://fundbridgepayments.io
+LDL-0300,Atlasfin Finance,Grace Danjuma,Chief Technology Officer,grace.danjuma80@atlasfinfinance.com,+234527527061,NG,https://atlasfinfinance.com
+LDL-0301,Remitly Exchange,Yusuf Adeyemi,Founder & CEO,yusuf.adeyemi64@remitlyexchange.io,+15475086414,CA,https://remitlyexchange.io
+LDL-0302,Corvid Markets,Ethan Sani,Co-founder,ethan.sani56@corvidmarkets.money,+234609281874,NG,https://corvidmarkets.money
+LDL-0303,Halcyon Finance,Wanjiru Walker,Co-founder,wanjiru.walker33@halcyonfinance.money,+27617769861,ZA,https://halcyonfinance.money
+LDL-0304,Cobalt Pay,Daniel Taylor,Head of Partnerships,daniel.taylor14@cobaltpay.com,+234332121089,NG,https://cobaltpay.com
+LDL-0305,Fundbridge Labs,Bola Abubakar,Director of Risk,bola.abubakar38@fundbridgelabs.io,+15590122277,US,https://fundbridgelabs.io
+LDL-0306,Ember Treasury,Halima Davies,Director of Risk,halima.davies91@embertreasury.money,+233723621416,GH,https://embertreasury.money
+LDL-0307,Monzu Labs,Tunde Osei,Co-founder,tunde.osei65@monzulabs.com,+16710799836,CA,https://monzulabs.com
+LDL-0308,Ledgerly Exchange,Fatima Martin,VP Payments,fatima.martin68@ledgerlyexchange.co,+254395840622,KE,https://ledgerlyexchange.co
+LDL-0309,Brightwire Wallet,Musa Johnson,Co-founder,musa.johnson37@brightwirewallet.money,+254493303987,KE,https://brightwirewallet.money
+LDL-0310,Solace Payments,Ngozi Odhiambo,Chief Technology Officer,ngozi.odhiambo84@solacepayments.co,+27561163439,ZA,https://solacepayments.co
+LDL-0311,Atlasfin Labs,Kwame Ibrahim,Co-founder,kwame.ibrahim44@atlasfinlabs.money,+233178158131,GH,https://atlasfinlabs.money
+LDL-0312,Cobalt Rails,James Wang,Chief Financial Officer,james.wang19@cobaltrails.co,+254345213802,KE,https://cobaltrails.co
+LDL-0313,Clearmint Ledger,Grace Garcia,Co-founder,grace.garcia42@clearmintledger.com,+254116273638,KE,https://clearmintledger.com
+LDL-0314,Novapay Capital,Bola Danjuma,Head of Partnerships,bola.danjuma31@novapaycapital.co,+27442595762,ZA,https://novapaycapital.co
+LDL-0315,Quanta Money,James Smith,VP Payments,james.smith11@quantamoney.io,+27100928500,ZA,https://quantamoney.io
+LDL-0316,Atlasfin Exchange,Chen Chukwu,Chief Operating Officer,chen.chukwu91@atlasfinexchange.io,+27189048927,ZA,https://atlasfinexchange.io
+LDL-0317,Clearmint Money,Fatima Garcia,VP Payments,fatima.garcia24@clearmintmoney.io,+12050962065,US,https://clearmintmoney.io
+LDL-0318,Tandem Labs,James Davies,Chief Operating Officer,james.davies11@tandemlabs.io,+44757166611,GB,https://tandemlabs.io
+LDL-0319,Kora Bank,Tunde Johnson,Chief Operating Officer,tunde.johnson11@korabank.io,+233262465046,GH,https://korabank.io
+LDL-0320,Atlasfin Capital,Kwame Taylor,Co-founder,kwame.taylor51@atlasfincapital.io,+16060565493,CA,https://atlasfincapital.io
+LDL-0321,Clearmint Markets,Grace Danjuma,VP Payments,grace.danjuma84@clearmintmarkets.finance,+234491547205,NG,https://clearmintmarkets.finance
+LDL-0322,Juniper Money,Tunde Mensah,Chief Financial Officer,tunde.mensah99@junipermoney.money,+44631467480,GB,https://junipermoney.money
+LDL-0323,Brightwire Credit,Kofi Martin,Chief Technology Officer,kofi.martin96@brightwirecredit.money,+44290499546,GB,https://brightwirecredit.money
+LDL-0324,Tandem Ledger,Amara Mensah,VP Engineering,amara.mensah30@tandemledger.money,+233622506175,GH,https://tandemledger.money
+LDL-0325,Payara Pay,Halima Smith,Head of Product,halima.smith55@payarapay.money,+11683687397,CA,https://payarapay.money
+LDL-0326,Monzu Credit,Wanjiru Mensah,Co-founder,wanjiru.mensah64@monzucredit.com,+234369234540,NG,https://monzucredit.com
+LDL-0327,Payara Markets,Sofia Adeyemi,Co-founder,sofia.adeyemi69@payaramarkets.com,+254315818985,KE,https://payaramarkets.com
+LDL-0328,Settlr Credit,Chen Abubakar,Chief Operating Officer,chen.abubakar50@settlrcredit.money,+15521036117,CA,https://settlrcredit.money
+LDL-0329,Juniper Credit,Mia Okafor,VP Payments,mia.okafor18@junipercredit.io,+233909377039,GH,https://junipercredit.io
+LDL-0330,Novapay Labs,James Taylor,Head of Partnerships,james.taylor10@novapaylabs.co,+233856623169,GH,https://novapaylabs.co
+LDL-0331,Riverbank Pay,Aisha Mbeki,Chief Operating Officer,aisha.mbeki70@riverbankpay.com,+27232782828,ZA,https://riverbankpay.com
+LDL-0332,Monzu Capital,Aisha Smith,Director of Risk,aisha.smith65@monzucapital.io,+233319585722,GH,https://monzucapital.io
+LDL-0333,Northstar Payments,Emily Mokoena,Head of Partnerships,emily.mokoena17@northstarpayments.finance,+17644037887,CA,https://northstarpayments.finance
+LDL-0334,Brightwire Rails,Chloe Adeyemi,Head of Partnerships,chloe.adeyemi17@brightwirerails.money,+254294946151,KE,https://brightwirerails.money
+LDL-0335,Ozone Payments,Noah Smith,Chief Financial Officer,noah.smith61@ozonepayments.io,+234841673352,NG,https://ozonepayments.io
+LDL-0336,Remitly Exchange,Amara Garcia,VP Engineering,amara.garcia62@remitlyexchange.money,+254575927348,KE,https://remitlyexchange.money
+LDL-0337,Solace Finance,Hannah Nwosu,Founder & CEO,hannah.nwosu25@solacefinance.money,+44213464885,GB,https://solacefinance.money
+LDL-0338,Tandem Money,Ama Johnson,Chief Technology Officer,ama.johnson10@tandemmoney.io,+17815367624,US,https://tandemmoney.io
+LDL-0339,Tallyo Markets,Musa Okafor,VP Payments,musa.okafor21@tallyomarkets.money,+12509231899,CA,https://tallyomarkets.money
+LDL-0340,Tandem Bank,Chloe Kamau,Chief Financial Officer,chloe.kamau76@tandembank.com,+13205142727,CA,https://tandembank.com
+LDL-0341,Meridian Money,Halima Wang,VP Payments,halima.wang52@meridianmoney.money,+234131774709,NG,https://meridianmoney.money
+LDL-0342,Basalt Exchange,Chloe Garcia,Chief Operating Officer,chloe.garcia78@basaltexchange.money,+16800818762,CA,https://basaltexchange.money
+LDL-0343,Clearmint Rails,Grace Hughes,Head of Product,grace.hughes54@clearmintrails.io,+44534899261,GB,https://clearmintrails.io
+LDL-0344,Settlr Pay,Sofia Kamau,Co-founder,sofia.kamau23@settlrpay.money,+14457090609,CA,https://settlrpay.money
+LDL-0345,Lumen Money,James Mensah,VP Engineering,james.mensah39@lumenmoney.com,+44949309921,GB,https://lumenmoney.com
+LDL-0346,Clearmint Exchange,Olivia Davies,VP Engineering,olivia.davies18@clearmintexchange.io,+15495931861,CA,https://clearmintexchange.io
+LDL-0347,Kora Rails,Ngozi Johnson,Chief Technology Officer,ngozi.johnson72@korarails.finance,+233562418766,GH,https://korarails.finance
+LDL-0348,Clearmint Exchange,Mia Taylor,Head of Product,mia.taylor32@clearmintexchange.finance,+14209943297,US,https://clearmintexchange.finance
+LDL-0349,Riverbank Wallet,Tunde Ibrahim,Chief Operating Officer,tunde.ibrahim64@riverbankwallet.finance,+14513255222,CA,https://riverbankwallet.finance
+LDL-0350,Monzu Bank,Hannah Owusu,VP Payments,hannah.owusu15@monzubank.money,+254247047461,KE,https://monzubank.money
+LDL-0351,Cobalt Pay,Fatima Danjuma,Founder & CEO,fatima.danjuma39@cobaltpay.com,+254300488078,KE,https://cobaltpay.com
+LDL-0352,Northstar Bank,James Chukwu,Chief Operating Officer,james.chukwu72@northstarbank.co,+234931836612,NG,https://northstarbank.co
+LDL-0353,Tandem Ledger,Ethan Bello,Founder & CEO,ethan.bello96@tandemledger.finance,+233783337039,GH,https://tandemledger.finance
+LDL-0354,Atlasfin Credit,Fatima Chukwu,Head of Product,fatima.chukwu22@atlasfincredit.finance,+12861142142,US,https://atlasfincredit.finance
+LDL-0355,Payara Finance,Lucas Wang,VP Payments,lucas.wang35@payarafinance.finance,+44489295323,GB,https://payarafinance.finance
+LDL-0356,Paystream Bank,Chen Naidoo,VP Engineering,chen.naidoo77@paystreambank.com,+44419484235,GB,https://paystreambank.com
+LDL-0357,Brightwire Exchange,Ifeoma Brown,Head of Partnerships,ifeoma.brown59@brightwireexchange.money,+19407884055,CA,https://brightwireexchange.money
+LDL-0358,Payara Exchange,Chloe Lawal,Co-founder,chloe.lawal72@payaraexchange.io,+254389241282,KE,https://payaraexchange.io
+LDL-0359,Remitly Finance,Hannah Danjuma,Co-founder,hannah.danjuma92@remitlyfinance.co,+17391435783,CA,https://remitlyfinance.co
+LDL-0360,Coinvale Labs,Ethan Ibrahim,Chief Operating Officer,ethan.ibrahim92@coinvalelabs.money,+254383822332,KE,https://coinvalelabs.money
+LDL-0361,Basalt Money,Lucas Walker,VP Engineering,lucas.walker74@basaltmoney.money,+44962169036,GB,https://basaltmoney.money
+LDL-0362,Tallyo Credit,Ngozi Johnson,Chief Financial Officer,ngozi.johnson63@tallyocredit.money,+13325145152,CA,https://tallyocredit.money
+LDL-0363,Meridian Treasury,Sofia Okafor,Founder & CEO,sofia.okafor27@meridiantreasury.co,+233508560020,GH,https://meridiantreasury.co
+LDL-0364,Solace Credit,Emily Hughes,Head of Partnerships,emily.hughes53@solacecredit.co,+233443866335,GH,https://solacecredit.co
+LDL-0365,Riverbank Money,Emily Adeyemi,Chief Technology Officer,emily.adeyemi36@riverbankmoney.com,+12675853506,CA,https://riverbankmoney.com
+LDL-0366,Remitly Pay,Mia Mokoena,Chief Operating Officer,mia.mokoena71@remitlypay.co,+27307168635,ZA,https://remitlypay.co
+LDL-0367,Riverbank Rails,Chloe Brown,Head of Product,chloe.brown35@riverbankrails.money,+27464272606,ZA,https://riverbankrails.money
+LDL-0368,Ember Bank,Olivia Owusu,VP Payments,olivia.owusu67@emberbank.com,+12683604976,US,https://emberbank.com
+LDL-0369,Cobalt Payments,Amara Wang,VP Engineering,amara.wang37@cobaltpayments.finance,+254142042700,KE,https://cobaltpayments.finance
+LDL-0370,Juniper Treasury,Yusuf Garcia,Co-founder,yusuf.garcia98@junipertreasury.finance,+254622161534,KE,https://junipertreasury.finance
+LDL-0371,Solace Finance,Olivia Bello,VP Engineering,olivia.bello34@solacefinance.com,+44675527997,GB,https://solacefinance.com
+LDL-0372,Remitly Capital,Sofia Nwosu,Founder & CEO,sofia.nwosu62@remitlycapital.io,+27627834094,ZA,https://remitlycapital.io
+LDL-0373,Fundbridge Credit,Bola Mokoena,Founder & CEO,bola.mokoena35@fundbridgecredit.co,+234199337179,NG,https://fundbridgecredit.co
+LDL-0374,Ember Bank,Emily Johnson,VP Payments,emily.johnson66@emberbank.finance,+19343115353,US,https://emberbank.finance
+LDL-0375,Basalt Exchange,Fatima Chukwu,Co-founder,fatima.chukwu24@basaltexchange.com,+44306101838,GB,https://basaltexchange.com
+LDL-0376,Vaultic Treasury,Wanjiru Clarke,Chief Operating Officer,wanjiru.clarke37@vaultictreasury.co,+254739437122,KE,https://vaultictreasury.co
+LDL-0377,Kora Wallet,Kwame Garcia,VP Payments,kwame.garcia50@korawallet.com,+44949600820,GB,https://korawallet.com
+LDL-0378,Riverbank Wallet,Noah Mensah,Head of Product,noah.mensah99@riverbankwallet.co,+254213151927,KE,https://riverbankwallet.co
+LDL-0379,Cobalt Exchange,Grace Osei,Chief Financial Officer,grace.osei55@cobaltexchange.com,+44186232397,GB,https://cobaltexchange.com
+LDL-0380,Northstar Finance,Ngozi Sani,Director of Risk,ngozi.sani66@northstarfinance.io,+254967948110,KE,https://northstarfinance.io
+LDL-0381,Settlr Treasury,James Okafor,Founder & CEO,james.okafor50@settlrtreasury.io,+234808751421,NG,https://settlrtreasury.io
+LDL-0382,Payara Wallet,Emily Nwosu,Director of Risk,emily.nwosu76@payarawallet.io,+234294315967,NG,https://payarawallet.io
+LDL-0383,Payara Payments,Chloe Ibrahim,Head of Product,chloe.ibrahim45@payarapayments.finance,+11192737539,CA,https://payarapayments.finance
+LDL-0384,Coinvale Payments,Yusuf Walker,VP Payments,yusuf.walker58@coinvalepayments.io,+27983041868,ZA,https://coinvalepayments.io
+LDL-0385,Clearmint Bank,Ethan Davies,Head of Partnerships,ethan.davies66@clearmintbank.com,+254375815267,KE,https://clearmintbank.com
+LDL-0386,Quanta Ledger,James Ibrahim,VP Engineering,james.ibrahim43@quantaledger.io,+11910799783,US,https://quantaledger.io
+LDL-0387,Cobalt Money,Ifeoma Smith,VP Payments,ifeoma.smith94@cobaltmoney.co,+233316752831,GH,https://cobaltmoney.co
+LDL-0388,Ledgerly Markets,Ngozi Sani,Chief Operating Officer,ngozi.sani79@ledgerlymarkets.finance,+234866558030,NG,https://ledgerlymarkets.finance
+LDL-0389,Brightwire Labs,Wanjiru Wang,VP Payments,wanjiru.wang52@brightwirelabs.io,+233475391767,GH,https://brightwirelabs.io
+LDL-0390,Paystream Capital,Chen Naidoo,Chief Operating Officer,chen.naidoo27@paystreamcapital.finance,+254681868583,KE,https://paystreamcapital.finance
+LDL-0391,Quanta Capital,Chen Nwosu,Chief Financial Officer,chen.nwosu59@quantacapital.finance,+254851628798,KE,https://quantacapital.finance
+LDL-0392,Clearmint Money,Hannah Brown,Head of Partnerships,hannah.brown30@clearmintmoney.io,+234121217832,NG,https://clearmintmoney.io
+LDL-0393,Corvid Labs,Daniel Mensah,Head of Product,daniel.mensah53@corvidlabs.io,+233184577883,GH,https://corvidlabs.io
+LDL-0394,Tallyo Exchange,Chen Taylor,Director of Risk,chen.taylor73@tallyoexchange.finance,+13077300645,CA,https://tallyoexchange.finance
+LDL-0395,Ember Credit,Grace Mensah,VP Payments,grace.mensah64@embercredit.com,+254162830442,KE,https://embercredit.com
+LDL-0396,Atlasfin Exchange,Tunde Hughes,VP Payments,tunde.hughes13@atlasfinexchange.com,+12195019884,CA,https://atlasfinexchange.com
+LDL-0397,Northstar Money,Olivia Mbeki,Founder & CEO,olivia.mbeki49@northstarmoney.co,+233711521337,GH,https://northstarmoney.co
+LDL-0398,Northstar Markets,Kofi Bello,Head of Product,kofi.bello83@northstarmarkets.com,+12679418224,US,https://northstarmarkets.com
+LDL-0399,Tandem Pay,Grace Martin,Head of Partnerships,grace.martin39@tandempay.co,+234912140529,NG,https://tandempay.co
+LDL-0400,Lumen Labs,Wanjiru Davies,VP Engineering,wanjiru.davies35@lumenlabs.io,+17611761526,US,https://lumenlabs.io
+LDL-0401,Tandem Finance,Ama Taylor,VP Payments,ama.taylor15@tandemfinance.com,+234216950173,NG,https://tandemfinance.com
+LDL-0402,Ledgerly Labs,Amara Chukwu,Head of Product,amara.chukwu58@ledgerlylabs.co,+233473876671,GH,https://ledgerlylabs.co
+LDL-0403,Solace Bank,Zainab Naidoo,Director of Risk,zainab.naidoo52@solacebank.com,+234658550684,NG,https://solacebank.com
+LDL-0404,Corvid Finance,Zainab Smith,VP Engineering,zainab.smith11@corvidfinance.finance,+27998642279,ZA,https://corvidfinance.finance
+LDL-0405,Quanta Exchange,Tunde Naidoo,Head of Product,tunde.naidoo67@quantaexchange.io,+12693312109,US,https://quantaexchange.io
+LDL-0406,Meridian Ledger,Kwame Mensah,Chief Technology Officer,kwame.mensah52@meridianledger.io,+13861655644,CA,https://meridianledger.io
+LDL-0407,Northstar Credit,Musa Abubakar,Co-founder,musa.abubakar50@northstarcredit.co,+44256821826,GB,https://northstarcredit.co
+LDL-0408,Vaultic Exchange,Ifeoma Nwosu,VP Payments,ifeoma.nwosu65@vaulticexchange.co,+254776359113,KE,https://vaulticexchange.co
+LDL-0409,Tandem Capital,Daniel Abubakar,VP Engineering,daniel.abubakar88@tandemcapital.com,+234424820601,NG,https://tandemcapital.com
+LDL-0410,Ledgerly Pay,Bola Johnson,Chief Financial Officer,bola.johnson72@ledgerlypay.finance,+12789453985,US,https://ledgerlypay.finance
+LDL-0411,Ledgerly Bank,Sofia Sani,Chief Financial Officer,sofia.sani52@ledgerlybank.finance,+27351028961,ZA,https://ledgerlybank.finance
+LDL-0412,Kora Money,Mia Danjuma,Head of Product,mia.danjuma83@koramoney.co,+254251836036,KE,https://koramoney.co
+LDL-0413,Clearmint Payments,James Bello,Chief Financial Officer,james.bello64@clearmintpayments.money,+17348171046,US,https://clearmintpayments.money
+LDL-0414,Tallyo Treasury,Fatima Mokoena,VP Payments,fatima.mokoena53@tallyotreasury.co,+233525170473,GH,https://tallyotreasury.co
+LDL-0415,Remitly Finance,Musa Wang,Founder & CEO,musa.wang52@remitlyfinance.io,+44416987916,GB,https://remitlyfinance.io
+LDL-0416,Ledgerly Rails,Tunde Wang,Chief Operating Officer,tunde.wang51@ledgerlyrails.co,+234183078532,NG,https://ledgerlyrails.co
+LDL-0417,Clearmint Markets,Ifeoma Wang,Chief Operating Officer,ifeoma.wang64@clearmintmarkets.co,+234742298854,NG,https://clearmintmarkets.co
+LDL-0418,Lumen Bank,Amara Brown,Founder & CEO,amara.brown69@lumenbank.com,+234750621346,NG,https://lumenbank.com
+LDL-0419,Quanta Pay,Liam Nwosu,VP Payments,liam.nwosu81@quantapay.finance,+254237186981,KE,https://quantapay.finance
+LDL-0420,Novapay Payments,Kofi Danjuma,Chief Operating Officer,kofi.danjuma28@novapaypayments.co,+15491813736,CA,https://novapaypayments.co
+LDL-0421,Riverbank Treasury,Thabo Garcia,Co-founder,thabo.garcia66@riverbanktreasury.money,+234822150991,NG,https://riverbanktreasury.money
+LDL-0422,Solace Money,James Owusu,VP Payments,james.owusu50@solacemoney.io,+233751565567,GH,https://solacemoney.io
+LDL-0423,Atlasfin Ledger,Emily Brown,Chief Operating Officer,emily.brown77@atlasfinledger.finance,+17125168538,CA,https://atlasfinledger.finance
+LDL-0424,Basalt Pay,Amara Ibrahim,Head of Partnerships,amara.ibrahim16@basaltpay.co,+13113463417,CA,https://basaltpay.co
+LDL-0425,Ember Bank,Grace Kamau,Head of Product,grace.kamau29@emberbank.money,+234323254610,NG,https://emberbank.money
+LDL-0426,Payara Capital,Ngozi Odhiambo,Head of Product,ngozi.odhiambo90@payaracapital.finance,+254542208227,KE,https://payaracapital.finance
+LDL-0427,Tallyo Money,Yusuf Sani,Chief Financial Officer,yusuf.sani69@tallyomoney.co,+18131769770,CA,https://tallyomoney.co
+LDL-0428,Monzu Labs,Ama Mensah,Head of Product,ama.mensah76@monzulabs.money,+16016643153,US,https://monzulabs.money
+LDL-0429,Settlr Exchange,Halima Walker,Head of Partnerships,halima.walker86@settlrexchange.com,+13449625619,CA,https://settlrexchange.com
+LDL-0430,Coinvale Exchange,Olivia Hughes,Head of Partnerships,olivia.hughes45@coinvaleexchange.io,+17067764960,CA,https://coinvaleexchange.io
+LDL-0431,Northstar Capital,Daniel Ibrahim,Founder & CEO,daniel.ibrahim92@northstarcapital.finance,+17668058008,CA,https://northstarcapital.finance
+LDL-0432,Tallyo Credit,Lucas Davies,Head of Product,lucas.davies85@tallyocredit.finance,+233556136713,GH,https://tallyocredit.finance
+LDL-0433,Corvid Bank,Olivia Davies,VP Engineering,olivia.davies98@corvidbank.money,+234786640398,NG,https://corvidbank.money
+LDL-0434,Paystream Capital,Hannah Hughes,Director of Risk,hannah.hughes33@paystreamcapital.finance,+16938636541,CA,https://paystreamcapital.finance
+LDL-0435,Vaultic Wallet,Mia Martin,Co-founder,mia.martin33@vaulticwallet.money,+44156161168,GB,https://vaulticwallet.money
+LDL-0436,Halcyon Treasury,Yusuf Abubakar,VP Payments,yusuf.abubakar99@halcyontreasury.com,+19234333795,US,https://halcyontreasury.com
+LDL-0437,Settlr Pay,Mia Smith,Head of Partnerships,mia.smith36@settlrpay.money,+27928142994,ZA,https://settlrpay.money
+LDL-0438,Ozone Pay,Ethan Johnson,Head of Partnerships,ethan.johnson22@ozonepay.co,+233731354350,GH,https://ozonepay.co
+LDL-0439,Riverbank Credit,Ama Johnson,Chief Technology Officer,ama.johnson57@riverbankcredit.co,+12286288046,US,https://riverbankcredit.co
+LDL-0440,Basalt Finance,Halima Johnson,Head of Product,halima.johnson25@basaltfinance.finance,+254624990426,KE,https://basaltfinance.finance
+LDL-0441,Ozone Bank,Bola Sani,Co-founder,bola.sani58@ozonebank.io,+27927373949,ZA,https://ozonebank.io
+LDL-0442,Tallyo Capital,Lucas Eze,Head of Product,lucas.eze69@tallyocapital.co,+27819889819,ZA,https://tallyocapital.co
+LDL-0443,Basalt Ledger,Thabo Owusu,Director of Risk,thabo.owusu56@basaltledger.io,+254793596616,KE,https://basaltledger.io
+LDL-0444,Solace Exchange,Olivia Mbeki,Head of Product,olivia.mbeki99@solaceexchange.finance,+233411587748,GH,https://solaceexchange.finance
+LDL-0445,Quanta Labs,Zainab Johnson,VP Engineering,zainab.johnson85@quantalabs.money,+18994597729,CA,https://quantalabs.money
+LDL-0446,Solace Markets,Chen Lawal,Co-founder,chen.lawal17@solacemarkets.money,+13187229266,CA,https://solacemarkets.money
+LDL-0447,Atlasfin Rails,Mia Smith,Chief Financial Officer,mia.smith51@atlasfinrails.io,+16634240706,US,https://atlasfinrails.io
+LDL-0448,Ember Markets,Olivia Taylor,Head of Partnerships,olivia.taylor73@embermarkets.com,+254154493297,KE,https://embermarkets.com
+LDL-0449,Paystream Labs,Kwame Adeyemi,Director of Risk,kwame.adeyemi71@paystreamlabs.finance,+18803990036,US,https://paystreamlabs.finance
+LDL-0450,Sterling Markets,Hannah Mensah,Chief Financial Officer,hannah.mensah49@sterlingmarkets.finance,+12460471701,CA,https://sterlingmarkets.finance
+LDL-0451,Novapay Bank,Zainab Wang,Chief Financial Officer,zainab.wang56@novapaybank.io,+17480486014,US,https://novapaybank.io
+LDL-0452,Kora Pay,Yusuf Nwosu,Director of Risk,yusuf.nwosu60@korapay.co,+254549927494,KE,https://korapay.co
+LDL-0453,Ledgerly Bank,Aisha Wang,VP Engineering,aisha.wang84@ledgerlybank.money,+44707842256,GB,https://ledgerlybank.money
+LDL-0454,Quanta Labs,Halima Hughes,Chief Operating Officer,halima.hughes56@quantalabs.com,+233612289137,GH,https://quantalabs.com
+LDL-0455,Cobalt Exchange,Chloe Martin,Director of Risk,chloe.martin26@cobaltexchange.finance,+18936041662,US,https://cobaltexchange.finance
+LDL-0456,Settlr Credit,James Sani,Director of Risk,james.sani52@settlrcredit.money,+17308110364,CA,https://settlrcredit.money
+LDL-0457,Quanta Treasury,Ethan Hughes,VP Engineering,ethan.hughes61@quantatreasury.co,+27309431686,ZA,https://quantatreasury.co
+LDL-0458,Settlr Payments,Ethan Mbeki,Chief Operating Officer,ethan.mbeki17@settlrpayments.io,+44280394231,GB,https://settlrpayments.io
+LDL-0459,Tandem Exchange,Chloe Sani,Chief Technology Officer,chloe.sani88@tandemexchange.money,+27113150848,ZA,https://tandemexchange.money
+LDL-0460,Tallyo Capital,Kofi Abubakar,Head of Product,kofi.abubakar80@tallyocapital.finance,+44233331589,GB,https://tallyocapital.finance
+LDL-0461,Northstar Wallet,Fatima Adeyemi,Chief Operating Officer,fatima.adeyemi19@northstarwallet.money,+254741088877,KE,https://northstarwallet.money
+LDL-0462,Remitly Labs,Bola Mokoena,Director of Risk,bola.mokoena20@remitlylabs.money,+44335323411,GB,https://remitlylabs.money
+LDL-0463,Payara Labs,Fatima Bello,Head of Product,fatima.bello69@payaralabs.finance,+27854359577,ZA,https://payaralabs.finance
+LDL-0464,Remitly Credit,Noah Kamau,Founder & CEO,noah.kamau46@remitlycredit.io,+233931338603,GH,https://remitlycredit.io
+LDL-0465,Remitly Wallet,Emily Mokoena,Chief Financial Officer,emily.mokoena43@remitlywallet.com,+17821790577,US,https://remitlywallet.com
+LDL-0466,Quanta Labs,James Kamau,Head of Partnerships,james.kamau43@quantalabs.finance,+17848151246,CA,https://quantalabs.finance
+LDL-0467,Fundbridge Bank,Bola Bello,Head of Product,bola.bello24@fundbridgebank.com,+12152931331,CA,https://fundbridgebank.com
+LDL-0468,Northstar Wallet,Thabo Naidoo,VP Engineering,thabo.naidoo77@northstarwallet.finance,+13957432739,CA,https://northstarwallet.finance
+LDL-0469,Fundbridge Credit,Halima Kamau,VP Engineering,halima.kamau19@fundbridgecredit.com,+233993539353,GH,https://fundbridgecredit.com
+LDL-0470,Corvid Ledger,Daniel Osei,Head of Partnerships,daniel.osei74@corvidledger.finance,+233673773802,GH,https://corvidledger.finance
+LDL-0471,Meridian Labs,Chloe Abubakar,Director of Risk,chloe.abubakar58@meridianlabs.io,+233892128330,GH,https://meridianlabs.io
+LDL-0472,Atlasfin Payments,Bola Martin,Head of Product,bola.martin79@atlasfinpayments.com,+44775415092,GB,https://atlasfinpayments.com
+LDL-0473,Clearmint Markets,Halima Johnson,Chief Financial Officer,halima.johnson64@clearmintmarkets.io,+17523386531,CA,https://clearmintmarkets.io
+LDL-0474,Atlasfin Labs,Chloe Sani,Founder & CEO,chloe.sani22@atlasfinlabs.co,+14303692319,CA,https://atlasfinlabs.co
+LDL-0475,Vaultic Rails,Daniel Davies,VP Engineering,daniel.davies60@vaulticrails.co,+254469594523,KE,https://vaulticrails.co
+LDL-0476,Basalt Rails,Fatima Martin,Head of Product,fatima.martin72@basaltrails.io,+15010165722,CA,https://basaltrails.io
+LDL-0477,Solace Exchange,Ethan Ibrahim,Director of Risk,ethan.ibrahim60@solaceexchange.finance,+27639150618,ZA,https://solaceexchange.finance
+LDL-0478,Paystream Labs,Wanjiru Hughes,Head of Partnerships,wanjiru.hughes54@paystreamlabs.money,+233303906926,GH,https://paystreamlabs.money
+LDL-0479,Cobalt Rails,Aisha Johnson,Founder & CEO,aisha.johnson66@cobaltrails.money,+233798530841,GH,https://cobaltrails.money
+LDL-0480,Kora Money,Liam Garcia,VP Payments,liam.garcia36@koramoney.com,+16762671990,US,https://koramoney.com
+LDL-0481,Ledgerly Money,Sofia Garcia,Co-founder,sofia.garcia34@ledgerlymoney.money,+27506770330,ZA,https://ledgerlymoney.money
+LDL-0482,Sterling Payments,Bola Mensah,VP Engineering,bola.mensah93@sterlingpayments.io,+233198796180,GH,https://sterlingpayments.io
+LDL-0483,Paystream Bank,Amara Osei,Director of Risk,amara.osei90@paystreambank.finance,+15062455239,US,https://paystreambank.finance
+LDL-0484,Meridian Exchange,Amara Odhiambo,VP Payments,amara.odhiambo31@meridianexchange.io,+234159540681,NG,https://meridianexchange.io
+LDL-0485,Tallyo Treasury,Bola Kamau,Founder & CEO,bola.kamau74@tallyotreasury.finance,+14615400923,US,https://tallyotreasury.finance
+LDL-0486,Northstar Exchange,Liam Johnson,Chief Operating Officer,liam.johnson23@northstarexchange.finance,+27704642302,ZA,https://northstarexchange.finance
+LDL-0487,Remitly Labs,Lucas Walker,Chief Technology Officer,lucas.walker13@remitlylabs.money,+18294368170,CA,https://remitlylabs.money
+LDL-0488,Ember Credit,Halima Danjuma,Chief Technology Officer,halima.danjuma61@embercredit.com,+233418376672,GH,https://embercredit.com
+LDL-0489,Atlasfin Labs,Ethan Bello,Chief Technology Officer,ethan.bello52@atlasfinlabs.co,+11510580395,CA,https://atlasfinlabs.co
+LDL-0490,Clearmint Rails,Grace Chukwu,VP Engineering,grace.chukwu77@clearmintrails.finance,+18530809754,US,https://clearmintrails.finance
+LDL-0491,Fundbridge Exchange,Ama Okafor,Co-founder,ama.okafor22@fundbridgeexchange.io,+254363687748,KE,https://fundbridgeexchange.io
+LDL-0492,Kora Treasury,Daniel Davies,Founder & CEO,daniel.davies30@koratreasury.finance,+44423453332,GB,https://koratreasury.finance
+LDL-0493,Brightwire Wallet,Daniel Mensah,Head of Partnerships,daniel.mensah33@brightwirewallet.finance,+233378341835,GH,https://brightwirewallet.finance
+LDL-0494,Ember Pay,Bola Lawal,Chief Operating Officer,bola.lawal30@emberpay.finance,+233251648864,GH,https://emberpay.finance
+LDL-0495,Northstar Treasury,Halima Chukwu,Head of Product,halima.chukwu99@northstartreasury.io,+233287574765,GH,https://northstartreasury.io
+LDL-0496,Quanta Markets,Yusuf Sani,VP Payments,yusuf.sani78@quantamarkets.com,+27305649847,ZA,https://quantamarkets.com
+LDL-0497,Settlr Exchange,Wanjiru Danjuma,VP Engineering,wanjiru.danjuma74@settlrexchange.io,+27327702382,ZA,https://settlrexchange.io
+LDL-0498,Juniper Credit,Lucas Mbeki,Chief Financial Officer,lucas.mbeki88@junipercredit.io,+44450211256,GB,https://junipercredit.io
+LDL-0499,Tandem Treasury,Halima Kamau,VP Payments,halima.kamau29@tandemtreasury.io,+234750037563,NG,https://tandemtreasury.io
+LDL-0500,Remitly Rails,Lucas Danjuma,VP Payments,lucas.danjuma30@remitlyrails.io,+27381385227,ZA,https://remitlyrails.io
+LDL-0501,Paystream Capital,Liam Davies,Co-founder,liam.davies84@paystreamcapital.money,+44326569763,GB,https://paystreamcapital.money
+LDL-0502,Ember Pay,Ama Osei,Chief Financial Officer,ama.osei10@emberpay.co,+12446347589,US,https://emberpay.co
+LDL-0503,Vaultic Labs,James Eze,Head of Partnerships,james.eze30@vaulticlabs.com,+254272342066,KE,https://vaulticlabs.com
+LDL-0504,Paystream Markets,Olivia Adeyemi,Chief Operating Officer,olivia.adeyemi18@paystreammarkets.io,+233560708073,GH,https://paystreammarkets.io
+LDL-0505,Meridian Pay,Mia Brown,Chief Financial Officer,mia.brown49@meridianpay.finance,+234917913002,NG,https://meridianpay.finance
+LDL-0506,Kora Money,Halima Mensah,Director of Risk,halima.mensah91@koramoney.money,+18205509386,US,https://koramoney.money
+LDL-0507,Juniper Exchange,Ifeoma Nwosu,Chief Financial Officer,ifeoma.nwosu61@juniperexchange.io,+233485211590,GH,https://juniperexchange.io
+LDL-0508,Basalt Bank,Sofia Chukwu,Head of Partnerships,sofia.chukwu85@basaltbank.io,+44867753142,GB,https://basaltbank.io
+LDL-0509,Monzu Bank,Ngozi Eze,Director of Risk,ngozi.eze10@monzubank.finance,+16897246253,US,https://monzubank.finance
+LDL-0510,Kora Payments,Kofi Wang,Chief Financial Officer,kofi.wang31@korapayments.io,+44811678402,GB,https://korapayments.io
+LDL-0511,Tandem Capital,Halima Walker,Director of Risk,halima.walker68@tandemcapital.co,+234258386124,NG,https://tandemcapital.co
+LDL-0512,Sterling Bank,Thabo Danjuma,Chief Operating Officer,thabo.danjuma42@sterlingbank.io,+234298041564,NG,https://sterlingbank.io
+LDL-0513,Fundbridge Treasury,Yusuf Chukwu,Director of Risk,yusuf.chukwu20@fundbridgetreasury.finance,+44401530471,GB,https://fundbridgetreasury.finance
+LDL-0514,Corvid Rails,Tunde Mensah,Chief Technology Officer,tunde.mensah87@corvidrails.finance,+233119989502,GH,https://corvidrails.finance
+LDL-0515,Meridian Exchange,Amara Adeyemi,Head of Product,amara.adeyemi68@meridianexchange.money,+27992035590,ZA,https://meridianexchange.money
+LDL-0516,Basalt Exchange,Wanjiru Sani,Chief Operating Officer,wanjiru.sani54@basaltexchange.money,+44775802718,GB,https://basaltexchange.money
+LDL-0517,Cobalt Pay,Zainab Naidoo,Founder & CEO,zainab.naidoo86@cobaltpay.finance,+254118682490,KE,https://cobaltpay.finance
+LDL-0518,Ledgerly Pay,Wanjiru Abubakar,Head of Product,wanjiru.abubakar56@ledgerlypay.io,+16812823406,US,https://ledgerlypay.io
+LDL-0519,Paystream Exchange,Lucas Sani,Chief Operating Officer,lucas.sani56@paystreamexchange.finance,+13718273860,CA,https://paystreamexchange.finance
+LDL-0520,Halcyon Markets,Tunde Smith,Founder & CEO,tunde.smith56@halcyonmarkets.com,+27520659311,ZA,https://halcyonmarkets.com
+LDL-0521,Basalt Payments,Emily Johnson,Chief Operating Officer,emily.johnson17@basaltpayments.finance,+233883632133,GH,https://basaltpayments.finance
+LDL-0522,Kora Credit,Noah Bello,Head of Partnerships,noah.bello36@koracredit.com,+234909206245,NG,https://koracredit.com
+LDL-0523,Kora Credit,Lucas Mokoena,VP Engineering,lucas.mokoena35@koracredit.com,+254300311160,KE,https://koracredit.com
+LDL-0524,Monzu Pay,Musa Garcia,Chief Technology Officer,musa.garcia10@monzupay.co,+14958506964,CA,https://monzupay.co
+LDL-0525,Tandem Payments,Mia Hughes,Chief Operating Officer,mia.hughes48@tandempayments.io,+44248696222,GB,https://tandempayments.io
+LDL-0526,Meridian Credit,Yusuf Osei,Director of Risk,yusuf.osei25@meridiancredit.io,+233923680739,GH,https://meridiancredit.io
+LDL-0527,Basalt Rails,Amara Garcia,Founder & CEO,amara.garcia31@basaltrails.io,+19589291738,CA,https://basaltrails.io
+LDL-0528,Remitly Money,Yusuf Brown,Chief Financial Officer,yusuf.brown19@remitlymoney.com,+19686772384,US,https://remitlymoney.com
+LDL-0529,Ozone Labs,Kwame Garcia,Founder & CEO,kwame.garcia63@ozonelabs.finance,+44490932274,GB,https://ozonelabs.finance
+LDL-0530,Vaultic Rails,Ifeoma Abubakar,Founder & CEO,ifeoma.abubakar80@vaulticrails.co,+27679288621,ZA,https://vaulticrails.co
+LDL-0531,Northstar Credit,Fatima Mokoena,Chief Operating Officer,fatima.mokoena62@northstarcredit.io,+11804656894,CA,https://northstarcredit.io
+LDL-0532,Fundbridge Treasury,Wanjiru Mokoena,Head of Partnerships,wanjiru.mokoena66@fundbridgetreasury.io,+14837671611,CA,https://fundbridgetreasury.io
+LDL-0533,Basalt Labs,Yusuf Smith,Co-founder,yusuf.smith64@basaltlabs.co,+254242812335,KE,https://basaltlabs.co
+LDL-0534,Lumen Rails,Chen Abubakar,Chief Financial Officer,chen.abubakar63@lumenrails.finance,+254169453679,KE,https://lumenrails.finance
+LDL-0535,Monzu Treasury,Olivia Davies,Co-founder,olivia.davies81@monzutreasury.co,+44461525239,GB,https://monzutreasury.co
+LDL-0536,Northstar Money,Emily Davies,Founder & CEO,emily.davies26@northstarmoney.finance,+254481928694,KE,https://northstarmoney.finance
+LDL-0537,Riverbank Labs,Wanjiru Brown,Head of Product,wanjiru.brown23@riverbanklabs.co,+17793698728,CA,https://riverbanklabs.co
+LDL-0538,Lumen Ledger,Lucas Chukwu,Head of Product,lucas.chukwu62@lumenledger.com,+234253736234,NG,https://lumenledger.com
+LDL-0539,Monzu Labs,Daniel Adeyemi,Head of Partnerships,daniel.adeyemi64@monzulabs.money,+254704266528,KE,https://monzulabs.money
+LDL-0540,Kora Ledger,Olivia Owusu,Co-founder,olivia.owusu31@koraledger.money,+16920604300,CA,https://koraledger.money
+LDL-0541,Fundbridge Rails,Liam Bello,Chief Technology Officer,liam.bello27@fundbridgerails.finance,+254280278168,KE,https://fundbridgerails.finance
+LDL-0542,Brightwire Markets,Hannah Martin,Head of Product,hannah.martin91@brightwiremarkets.com,+44764142904,GB,https://brightwiremarkets.com
+LDL-0543,Halcyon Markets,Thabo Bello,VP Payments,thabo.bello18@halcyonmarkets.finance,+234656021002,NG,https://halcyonmarkets.finance
+LDL-0544,Ember Bank,James Chukwu,VP Engineering,james.chukwu75@emberbank.io,+234916684316,NG,https://emberbank.io
+LDL-0545,Vaultic Pay,James Hughes,Head of Partnerships,james.hughes64@vaulticpay.finance,+44456917737,GB,https://vaulticpay.finance
+LDL-0546,Cobalt Wallet,James Owusu,Head of Partnerships,james.owusu10@cobaltwallet.io,+254254896705,KE,https://cobaltwallet.io
+LDL-0547,Riverbank Markets,Yusuf Mensah,Co-founder,yusuf.mensah28@riverbankmarkets.money,+254110500734,KE,https://riverbankmarkets.money
+LDL-0548,Coinvale Payments,Chloe Adeyemi,Head of Product,chloe.adeyemi62@coinvalepayments.money,+12058952412,US,https://coinvalepayments.money
+LDL-0549,Settlr Labs,Emily Okafor,Chief Financial Officer,emily.okafor45@settlrlabs.finance,+13072787782,CA,https://settlrlabs.finance
+LDL-0550,Ozone Markets,Ngozi Sani,Chief Technology Officer,ngozi.sani38@ozonemarkets.co,+233249959327,GH,https://ozonemarkets.co
+LDL-0551,Atlasfin Pay,Fatima Taylor,Chief Technology Officer,fatima.taylor50@atlasfinpay.finance,+254952924057,KE,https://atlasfinpay.finance
+LDL-0552,Paystream Rails,Tunde Okafor,VP Payments,tunde.okafor12@paystreamrails.finance,+44752020784,GB,https://paystreamrails.finance
+LDL-0553,Tallyo Payments,Daniel Hughes,VP Payments,daniel.hughes67@tallyopayments.money,+15172092363,US,https://tallyopayments.money
+LDL-0554,Basalt Finance,Kwame Okafor,Chief Technology Officer,kwame.okafor58@basaltfinance.io,+234194371353,NG,https://basaltfinance.io
+LDL-0555,Coinvale Capital,Noah Osei,Head of Partnerships,noah.osei56@coinvalecapital.money,+234238371266,NG,https://coinvalecapital.money
+LDL-0556,Ozone Pay,Ethan Smith,VP Engineering,ethan.smith78@ozonepay.money,+15293900969,US,https://ozonepay.money
+LDL-0557,Northstar Treasury,Musa Eze,Co-founder,musa.eze78@northstartreasury.com,+15685517094,US,https://northstartreasury.com
+LDL-0558,Cobalt Markets,Chloe Bello,Director of Risk,chloe.bello32@cobaltmarkets.co,+233886819608,GH,https://cobaltmarkets.co
+LDL-0559,Monzu Money,Sofia Osei,Head of Product,sofia.osei11@monzumoney.co,+19389384239,US,https://monzumoney.co
+LDL-0560,Brightwire Treasury,Thabo Johnson,Chief Operating Officer,thabo.johnson40@brightwiretreasury.money,+16864412953,US,https://brightwiretreasury.money
+LDL-0561,Riverbank Bank,Liam Walker,Chief Technology Officer,liam.walker30@riverbankbank.io,+233377516393,GH,https://riverbankbank.io
+LDL-0562,Paystream Payments,Bola Odhiambo,VP Payments,bola.odhiambo56@paystreampayments.money,+234780354232,NG,https://paystreampayments.money
+LDL-0563,Cobalt Finance,Yusuf Mbeki,VP Payments,yusuf.mbeki70@cobaltfinance.co,+13735985818,US,https://cobaltfinance.co
+LDL-0564,Clearmint Exchange,Zainab Wang,VP Engineering,zainab.wang31@clearmintexchange.finance,+234132102488,NG,https://clearmintexchange.finance
+LDL-0565,Settlr Ledger,Ama Wang,Chief Operating Officer,ama.wang21@settlrledger.com,+44821680783,GB,https://settlrledger.com
+LDL-0566,Brightwire Markets,Olivia Osei,Head of Partnerships,olivia.osei20@brightwiremarkets.money,+13148167974,US,https://brightwiremarkets.money
+LDL-0567,Basalt Pay,Aisha Davies,Chief Operating Officer,aisha.davies13@basaltpay.com,+234643288110,NG,https://basaltpay.com
+LDL-0568,Solace Ledger,Amara Hughes,Founder & CEO,amara.hughes58@solaceledger.money,+12151560224,US,https://solaceledger.money
+LDL-0569,Northstar Pay,Noah Sani,Head of Product,noah.sani92@northstarpay.com,+44702476443,GB,https://northstarpay.com
+LDL-0570,Corvid Money,Chen Chukwu,Director of Risk,chen.chukwu50@corvidmoney.finance,+27493322016,ZA,https://corvidmoney.finance
+LDL-0571,Riverbank Labs,Aisha Martin,VP Engineering,aisha.martin29@riverbanklabs.finance,+11060504350,US,https://riverbanklabs.finance
+LDL-0572,Novapay Finance,Musa Sani,Founder & CEO,musa.sani18@novapayfinance.money,+233433488589,GH,https://novapayfinance.money
+LDL-0573,Remitly Labs,Ngozi Sani,Co-founder,ngozi.sani89@remitlylabs.money,+27800196859,ZA,https://remitlylabs.money
+LDL-0574,Riverbank Labs,Zainab Osei,Director of Risk,zainab.osei82@riverbanklabs.com,+27194543644,ZA,https://riverbanklabs.com
+LDL-0575,Lumen Exchange,Noah Davies,VP Engineering,noah.davies20@lumenexchange.com,+13759632242,CA,https://lumenexchange.com
+LDL-0576,Monzu Capital,Lucas Abubakar,VP Engineering,lucas.abubakar64@monzucapital.com,+233321944275,GH,https://monzucapital.com
+LDL-0577,Lumen Credit,Zainab Johnson,Director of Risk,zainab.johnson54@lumencredit.co,+254640887307,KE,https://lumencredit.co
+LDL-0578,Corvid Wallet,Musa Naidoo,Head of Product,musa.naidoo37@corvidwallet.money,+14292280641,US,https://corvidwallet.money
+LDL-0579,Quanta Rails,Grace Brown,Director of Risk,grace.brown41@quantarails.io,+13377119556,CA,https://quantarails.io
+LDL-0580,Coinvale Wallet,Chen Danjuma,VP Payments,chen.danjuma19@coinvalewallet.com,+233878878608,GH,https://coinvalewallet.com
+LDL-0581,Riverbank Credit,Halima Mokoena,VP Engineering,halima.mokoena19@riverbankcredit.io,+233201119085,GH,https://riverbankcredit.io
+LDL-0582,Quanta Bank,Chen Okafor,Head of Product,chen.okafor79@quantabank.co,+44813163517,GB,https://quantabank.co
+LDL-0583,Riverbank Pay,Tunde Davies,Director of Risk,tunde.davies90@riverbankpay.com,+27500364138,ZA,https://riverbankpay.com
+LDL-0584,Solace Ledger,Fatima Sani,Founder & CEO,fatima.sani24@solaceledger.finance,+233813828535,GH,https://solaceledger.finance
+LDL-0585,Tandem Treasury,Ethan Mensah,Head of Partnerships,ethan.mensah75@tandemtreasury.io,+44923417911,GB,https://tandemtreasury.io
+LDL-0586,Tallyo Wallet,Chloe Adeyemi,Head of Partnerships,chloe.adeyemi51@tallyowallet.io,+234361892796,NG,https://tallyowallet.io
+LDL-0587,Payara Pay,Wanjiru Mensah,Chief Financial Officer,wanjiru.mensah34@payarapay.com,+12913351942,US,https://payarapay.com
+LDL-0588,Juniper Ledger,Kwame Nwosu,Chief Technology Officer,kwame.nwosu19@juniperledger.finance,+44763352277,GB,https://juniperledger.finance
+LDL-0589,Basalt Exchange,Wanjiru Mensah,Co-founder,wanjiru.mensah50@basaltexchange.com,+44161480907,GB,https://basaltexchange.com
+LDL-0590,Settlr Treasury,Noah Naidoo,Head of Partnerships,noah.naidoo33@settlrtreasury.io,+13914128701,CA,https://settlrtreasury.io
+LDL-0591,Vaultic Ledger,Chen Osei,Founder & CEO,chen.osei94@vaulticledger.finance,+254854335234,KE,https://vaulticledger.finance
+LDL-0592,Coinvale Credit,Ifeoma Davies,Co-founder,ifeoma.davies83@coinvalecredit.money,+27284723533,ZA,https://coinvalecredit.money
+LDL-0593,Solace Labs,Ngozi Eze,Chief Financial Officer,ngozi.eze62@solacelabs.co,+27310575319,ZA,https://solacelabs.co
+LDL-0594,Halcyon Exchange,Zainab Wang,VP Payments,zainab.wang85@halcyonexchange.co,+13965143141,CA,https://halcyonexchange.co
+LDL-0595,Remitly Pay,Sofia Owusu,Head of Partnerships,sofia.owusu47@remitlypay.io,+254637219954,KE,https://remitlypay.io
+LDL-0596,Quanta Rails,Fatima Chukwu,Co-founder,fatima.chukwu93@quantarails.finance,+254112888155,KE,https://quantarails.finance
+LDL-0597,Brightwire Ledger,Ethan Walker,Director of Risk,ethan.walker84@brightwireledger.com,+234961263902,NG,https://brightwireledger.com
+LDL-0598,Solace Wallet,Olivia Abubakar,Chief Operating Officer,olivia.abubakar28@solacewallet.money,+11047963764,US,https://solacewallet.money
+LDL-0599,Tandem Credit,Musa Lawal,Chief Financial Officer,musa.lawal21@tandemcredit.finance,+254809149137,KE,https://tandemcredit.finance
+LDL-0600,Cobalt Wallet,Fatima Davies,Head of Partnerships,fatima.davies68@cobaltwallet.co,+16981891765,US,https://cobaltwallet.co
+LDL-0601,Lumen Bank,Fatima Mensah,VP Payments,fatima.mensah39@lumenbank.co,+234902778242,NG,https://lumenbank.co
+LDL-0602,Basalt Payments,Lucas Odhiambo,Chief Operating Officer,lucas.odhiambo51@basaltpayments.co,+233904668897,GH,https://basaltpayments.co
+LDL-0603,Solace Capital,Grace Taylor,Head of Product,grace.taylor19@solacecapital.com,+44887221910,GB,https://solacecapital.com
+LDL-0604,Novapay Finance,Grace Smith,VP Payments,grace.smith99@novapayfinance.money,+13770280759,CA,https://novapayfinance.money
+LDL-0605,Tandem Exchange,Chloe Mensah,VP Payments,chloe.mensah77@tandemexchange.com,+254545269757,KE,https://tandemexchange.com
+LDL-0606,Fundbridge Wallet,James Ibrahim,Head of Partnerships,james.ibrahim13@fundbridgewallet.money,+254546626955,KE,https://fundbridgewallet.money
+LDL-0607,Tallyo Treasury,Emily Mokoena,Co-founder,emily.mokoena74@tallyotreasury.co,+27347904140,ZA,https://tallyotreasury.co
+LDL-0608,Settlr Markets,Musa Kamau,Chief Technology Officer,musa.kamau99@settlrmarkets.co,+44360686782,GB,https://settlrmarkets.co
+LDL-0609,Vaultic Markets,Ethan Odhiambo,Chief Operating Officer,ethan.odhiambo42@vaulticmarkets.io,+18495166283,US,https://vaulticmarkets.io
+LDL-0610,Paystream Rails,Chloe Clarke,Chief Technology Officer,chloe.clarke19@paystreamrails.finance,+27803776747,ZA,https://paystreamrails.finance
+LDL-0611,Kora Exchange,Kofi Taylor,Head of Partnerships,kofi.taylor13@koraexchange.com,+27963827438,ZA,https://koraexchange.com
+LDL-0612,Coinvale Credit,Ethan Chukwu,Chief Financial Officer,ethan.chukwu50@coinvalecredit.co,+233961167420,GH,https://coinvalecredit.co
+LDL-0613,Paystream Finance,Mia Clarke,Head of Product,mia.clarke87@paystreamfinance.co,+27316493900,ZA,https://paystreamfinance.co
+LDL-0614,Tallyo Wallet,Emily Owusu,Head of Product,emily.owusu75@tallyowallet.money,+44410994751,GB,https://tallyowallet.money
+LDL-0615,Kora Wallet,Ngozi Bello,Chief Financial Officer,ngozi.bello85@korawallet.com,+15267036284,US,https://korawallet.com
+LDL-0616,Settlr Finance,Noah Owusu,Co-founder,noah.owusu89@settlrfinance.co,+44639032277,GB,https://settlrfinance.co
+LDL-0617,Settlr Wallet,Musa Davies,Chief Financial Officer,musa.davies67@settlrwallet.co,+254623728307,KE,https://settlrwallet.co
+LDL-0618,Monzu Finance,Musa Sani,Chief Financial Officer,musa.sani47@monzufinance.io,+234150515240,NG,https://monzufinance.io
+LDL-0619,Novapay Exchange,Daniel Clarke,Head of Partnerships,daniel.clarke77@novapayexchange.io,+17342788327,CA,https://novapayexchange.io
+LDL-0620,Atlasfin Exchange,Hannah Walker,Chief Financial Officer,hannah.walker56@atlasfinexchange.money,+233364013051,GH,https://atlasfinexchange.money
+LDL-0621,Monzu Rails,Halima Owusu,Head of Product,halima.owusu79@monzurails.money,+27266689796,ZA,https://monzurails.money
+LDL-0622,Sterling Finance,Ethan Odhiambo,Co-founder,ethan.odhiambo78@sterlingfinance.com,+27414739461,ZA,https://sterlingfinance.com
+LDL-0623,Solace Exchange,Ethan Walker,VP Engineering,ethan.walker68@solaceexchange.co,+19801489132,CA,https://solaceexchange.co
+LDL-0624,Vaultic Wallet,Thabo Smith,Chief Operating Officer,thabo.smith27@vaulticwallet.io,+44978920339,GB,https://vaulticwallet.io
+LDL-0625,Solace Ledger,Kofi Taylor,VP Engineering,kofi.taylor59@solaceledger.co,+17360334919,US,https://solaceledger.co
+LDL-0626,Meridian Exchange,Thabo Martin,Chief Operating Officer,thabo.martin84@meridianexchange.money,+15153733371,US,https://meridianexchange.money
+LDL-0627,Monzu Payments,Emily Davies,Director of Risk,emily.davies43@monzupayments.com,+254369579028,KE,https://monzupayments.com
+LDL-0628,Lumen Ledger,Ethan Kamau,Chief Financial Officer,ethan.kamau79@lumenledger.co,+234506307073,NG,https://lumenledger.co
+LDL-0629,Riverbank Wallet,Thabo Okafor,Head of Partnerships,thabo.okafor56@riverbankwallet.money,+11767514009,CA,https://riverbankwallet.money
+LDL-0630,Riverbank Treasury,Noah Brown,Chief Technology Officer,noah.brown43@riverbanktreasury.co,+234916250816,NG,https://riverbanktreasury.co
+LDL-0631,Lumen Exchange,Mia Lawal,VP Payments,mia.lawal13@lumenexchange.co,+254303962936,KE,https://lumenexchange.co
+LDL-0632,Fundbridge Rails,Hannah Owusu,Co-founder,hannah.owusu88@fundbridgerails.finance,+18467751947,CA,https://fundbridgerails.finance
+LDL-0633,Remitly Capital,Yusuf Eze,Founder & CEO,yusuf.eze82@remitlycapital.money,+233449059921,GH,https://remitlycapital.money
+LDL-0634,Juniper Markets,Hannah Bello,Chief Operating Officer,hannah.bello71@junipermarkets.money,+44672594399,GB,https://junipermarkets.money
+LDL-0635,Settlr Payments,Kofi Walker,Head of Partnerships,kofi.walker69@settlrpayments.finance,+234620570397,NG,https://settlrpayments.finance
+LDL-0636,Cobalt Markets,Hannah Mbeki,Chief Technology Officer,hannah.mbeki57@cobaltmarkets.co,+234524819535,NG,https://cobaltmarkets.co
+LDL-0637,Novapay Labs,Halima Garcia,Director of Risk,halima.garcia51@novapaylabs.io,+44902976581,GB,https://novapaylabs.io
+LDL-0638,Corvid Ledger,Grace Brown,VP Engineering,grace.brown41@corvidledger.co,+233968673636,GH,https://corvidledger.co
+LDL-0639,Juniper Capital,Daniel Martin,Chief Technology Officer,daniel.martin44@junipercapital.co,+233716269539,GH,https://junipercapital.co
+LDL-0640,Monzu Markets,Grace Lawal,Co-founder,grace.lawal76@monzumarkets.com,+44244456137,GB,https://monzumarkets.com
+LDL-0641,Remitly Finance,Olivia Naidoo,Head of Product,olivia.naidoo97@remitlyfinance.money,+27291678857,ZA,https://remitlyfinance.money
+LDL-0642,Clearmint Labs,Thabo Eze,Chief Technology Officer,thabo.eze94@clearmintlabs.money,+233110094347,GH,https://clearmintlabs.money
+LDL-0643,Tandem Capital,Hannah Lawal,VP Payments,hannah.lawal49@tandemcapital.co,+254638734650,KE,https://tandemcapital.co
+LDL-0644,Brightwire Wallet,Wanjiru Okafor,Chief Financial Officer,wanjiru.okafor91@brightwirewallet.finance,+44855709669,GB,https://brightwirewallet.finance
+LDL-0645,Vaultic Capital,Kofi Hughes,Head of Partnerships,kofi.hughes73@vaulticcapital.co,+254636722546,KE,https://vaulticcapital.co
+LDL-0646,Meridian Payments,Lucas Mbeki,Chief Financial Officer,lucas.mbeki51@meridianpayments.finance,+12498062956,CA,https://meridianpayments.finance
+LDL-0647,Atlasfin Wallet,Halima Mokoena,Head of Partnerships,halima.mokoena15@atlasfinwallet.finance,+234409027280,NG,https://atlasfinwallet.finance
+LDL-0648,Coinvale Ledger,Ethan Osei,Co-founder,ethan.osei75@coinvaleledger.io,+44946723465,GB,https://coinvaleledger.io
+LDL-0649,Kora Payments,Noah Smith,VP Payments,noah.smith59@korapayments.co,+254892878757,KE,https://korapayments.co
+LDL-0650,Kora Ledger,Tunde Smith,Head of Partnerships,tunde.smith69@koraledger.io,+44851421337,GB,https://koraledger.io
+LDL-0651,Kora Credit,Kwame Nwosu,Chief Financial Officer,kwame.nwosu98@koracredit.io,+234468695477,NG,https://koracredit.io
+LDL-0652,Vaultic Ledger,Ngozi Brown,VP Payments,ngozi.brown88@vaulticledger.io,+12606862779,CA,https://vaulticledger.io
+LDL-0653,Riverbank Treasury,Noah Garcia,Founder & CEO,noah.garcia55@riverbanktreasury.io,+11711443656,CA,https://riverbanktreasury.io
+LDL-0654,Paystream Markets,Liam Brown,Head of Partnerships,liam.brown90@paystreammarkets.money,+27319206513,ZA,https://paystreammarkets.money
+LDL-0655,Quanta Finance,Zainab Smith,Head of Partnerships,zainab.smith57@quantafinance.money,+233873724508,GH,https://quantafinance.money
+LDL-0656,Vaultic Treasury,Emily Okafor,Chief Financial Officer,emily.okafor11@vaultictreasury.com,+14281427702,US,https://vaultictreasury.com
+LDL-0657,Quanta Labs,Wanjiru Sani,Chief Financial Officer,wanjiru.sani96@quantalabs.com,+27513199677,ZA,https://quantalabs.com
+LDL-0658,Settlr Treasury,Halima Hughes,Director of Risk,halima.hughes49@settlrtreasury.money,+27392837117,ZA,https://settlrtreasury.money
+LDL-0659,Kora Exchange,Halima Eze,Director of Risk,halima.eze98@koraexchange.co,+44443216053,GB,https://koraexchange.co
+LDL-0660,Ozone Finance,Musa Johnson,Founder & CEO,musa.johnson25@ozonefinance.io,+233880177617,GH,https://ozonefinance.io
+LDL-0661,Payara Pay,Chloe Adeyemi,VP Engineering,chloe.adeyemi48@payarapay.co,+233784961114,GH,https://payarapay.co
+LDL-0662,Basalt Credit,Hannah Taylor,Head of Product,hannah.taylor29@basaltcredit.io,+17426954221,US,https://basaltcredit.io
+LDL-0663,Remitly Bank,Liam Adeyemi,VP Payments,liam.adeyemi57@remitlybank.money,+234761433083,NG,https://remitlybank.money
+LDL-0664,Vaultic Bank,Ngozi Hughes,Chief Operating Officer,ngozi.hughes41@vaulticbank.co,+254411691702,KE,https://vaulticbank.co
+LDL-0665,Northstar Credit,Emily Hughes,VP Payments,emily.hughes18@northstarcredit.com,+254453047090,KE,https://northstarcredit.com
+LDL-0666,Halcyon Exchange,Tunde Odhiambo,Director of Risk,tunde.odhiambo71@halcyonexchange.money,+44277145893,GB,https://halcyonexchange.money
+LDL-0667,Tallyo Labs,Olivia Danjuma,Head of Product,olivia.danjuma94@tallyolabs.co,+14998452702,CA,https://tallyolabs.co
+LDL-0668,Northstar Labs,Tunde Mensah,Co-founder,tunde.mensah90@northstarlabs.com,+233514716019,GH,https://northstarlabs.com
+LDL-0669,Sterling Pay,Ama Kamau,Co-founder,ama.kamau12@sterlingpay.money,+27945094500,ZA,https://sterlingpay.money
+LDL-0670,Fundbridge Finance,Bola Odhiambo,Co-founder,bola.odhiambo46@fundbridgefinance.co,+27972007450,ZA,https://fundbridgefinance.co
+LDL-0671,Meridian Wallet,Grace Ibrahim,Director of Risk,grace.ibrahim23@meridianwallet.com,+234952899343,NG,https://meridianwallet.com
+LDL-0672,Monzu Treasury,Ama Johnson,Chief Technology Officer,ama.johnson13@monzutreasury.finance,+44662665827,GB,https://monzutreasury.finance
+LDL-0673,Cobalt Pay,Amara Brown,VP Engineering,amara.brown12@cobaltpay.co,+234306704900,NG,https://cobaltpay.co
+LDL-0674,Quanta Payments,Ethan Chukwu,Chief Financial Officer,ethan.chukwu13@quantapayments.money,+18071420327,US,https://quantapayments.money
+LDL-0675,Cobalt Wallet,Halima Odhiambo,Head of Partnerships,halima.odhiambo29@cobaltwallet.io,+254564103013,KE,https://cobaltwallet.io
+LDL-0676,Vaultic Wallet,Mia Chukwu,Co-founder,mia.chukwu97@vaulticwallet.io,+15755787169,US,https://vaulticwallet.io
+LDL-0677,Coinvale Wallet,Ethan Osei,Co-founder,ethan.osei73@coinvalewallet.co,+44112348572,GB,https://coinvalewallet.co
+LDL-0678,Lumen Credit,Ngozi Chukwu,Director of Risk,ngozi.chukwu55@lumencredit.com,+233476795635,GH,https://lumencredit.com
+LDL-0679,Paystream Treasury,Chen Odhiambo,Founder & CEO,chen.odhiambo77@paystreamtreasury.finance,+13550153767,CA,https://paystreamtreasury.finance
+LDL-0680,Clearmint Treasury,Daniel Osei,Chief Technology Officer,daniel.osei37@clearminttreasury.money,+234606465731,NG,https://clearminttreasury.money
+LDL-0681,Corvid Payments,Musa Lawal,Director of Risk,musa.lawal15@corvidpayments.com,+44725609584,GB,https://corvidpayments.com
+LDL-0682,Paystream Markets,Bola Garcia,VP Engineering,bola.garcia35@paystreammarkets.money,+254257830635,KE,https://paystreammarkets.money
+LDL-0683,Monzu Wallet,Halima Bello,Chief Financial Officer,halima.bello19@monzuwallet.io,+233301986512,GH,https://monzuwallet.io
+LDL-0684,Vaultic Exchange,Ama Ibrahim,Founder & CEO,ama.ibrahim49@vaulticexchange.com,+44459954014,GB,https://vaulticexchange.com
+LDL-0685,Meridian Markets,Ifeoma Osei,Founder & CEO,ifeoma.osei89@meridianmarkets.co,+12760182441,CA,https://meridianmarkets.co
+LDL-0686,Sterling Labs,Aisha Okafor,Founder & CEO,aisha.okafor94@sterlinglabs.com,+44748014614,GB,https://sterlinglabs.com
+LDL-0687,Meridian Payments,Ifeoma Abubakar,Co-founder,ifeoma.abubakar23@meridianpayments.com,+19937969566,CA,https://meridianpayments.com
+LDL-0688,Clearmint Payments,Halima Mensah,Head of Product,halima.mensah45@clearmintpayments.co,+234841753268,NG,https://clearmintpayments.co
+LDL-0689,Quanta Finance,Musa Clarke,Head of Partnerships,musa.clarke53@quantafinance.money,+12379248842,CA,https://quantafinance.money
+LDL-0690,Tallyo Capital,Emily Odhiambo,Co-founder,emily.odhiambo32@tallyocapital.co,+254889665559,KE,https://tallyocapital.co
+LDL-0691,Lumen Rails,Liam Owusu,Head of Product,liam.owusu16@lumenrails.money,+13865542395,US,https://lumenrails.money
+LDL-0692,Ember Labs,Aisha Kamau,Head of Partnerships,aisha.kamau88@emberlabs.finance,+27472586580,ZA,https://emberlabs.finance
+LDL-0693,Basalt Capital,Musa Bello,Co-founder,musa.bello40@basaltcapital.finance,+44796119614,GB,https://basaltcapital.finance
+LDL-0694,Solace Rails,Emily Sani,VP Engineering,emily.sani60@solacerails.io,+44327467352,GB,https://solacerails.io
+LDL-0695,Halcyon Payments,Ethan Osei,Chief Technology Officer,ethan.osei34@halcyonpayments.com,+16342143684,CA,https://halcyonpayments.com
+LDL-0696,Monzu Bank,Ngozi Nwosu,Co-founder,ngozi.nwosu44@monzubank.com,+14539767965,US,https://monzubank.com
+LDL-0697,Clearmint Ledger,Amara Taylor,Head of Product,amara.taylor83@clearmintledger.finance,+27774674917,ZA,https://clearmintledger.finance
+LDL-0698,Halcyon Markets,Zainab Garcia,Chief Operating Officer,zainab.garcia37@halcyonmarkets.money,+233980434664,GH,https://halcyonmarkets.money
+LDL-0699,Quanta Finance,Grace Ibrahim,VP Engineering,grace.ibrahim25@quantafinance.finance,+15140159282,CA,https://quantafinance.finance
+LDL-0700,Meridian Markets,Musa Bello,Co-founder,musa.bello93@meridianmarkets.io,+12128265712,US,https://meridianmarkets.io
+LDL-0701,Fundbridge Credit,Yusuf Taylor,Co-founder,yusuf.taylor83@fundbridgecredit.com,+233186390686,GH,https://fundbridgecredit.com
+LDL-0702,Payara Bank,Mia Clarke,Chief Financial Officer,mia.clarke41@payarabank.io,+44414010122,GB,https://payarabank.io
+LDL-0703,Lumen Labs,Tunde Odhiambo,Chief Technology Officer,tunde.odhiambo72@lumenlabs.money,+44273739457,GB,https://lumenlabs.money
+LDL-0704,Quanta Finance,Liam Lawal,Co-founder,liam.lawal15@quantafinance.co,+27930183587,ZA,https://quantafinance.co
+LDL-0705,Tandem Capital,Fatima Smith,Chief Financial Officer,fatima.smith30@tandemcapital.finance,+44339713157,GB,https://tandemcapital.finance
+LDL-0706,Quanta Wallet,Amara Eze,Co-founder,amara.eze55@quantawallet.com,+254224893741,KE,https://quantawallet.com
+LDL-0707,Quanta Bank,Fatima Garcia,Founder & CEO,fatima.garcia27@quantabank.co,+15672662896,CA,https://quantabank.co
+LDL-0708,Atlasfin Wallet,Emily Mokoena,Co-founder,emily.mokoena17@atlasfinwallet.money,+13513573611,US,https://atlasfinwallet.money
+LDL-0709,Ember Labs,Emily Odhiambo,Head of Partnerships,emily.odhiambo11@emberlabs.money,+27958784972,ZA,https://emberlabs.money
+LDL-0710,Cobalt Payments,Chen Adeyemi,Head of Product,chen.adeyemi16@cobaltpayments.co,+27277880044,ZA,https://cobaltpayments.co
+LDL-0711,Cobalt Rails,Wanjiru Okafor,Chief Technology Officer,wanjiru.okafor14@cobaltrails.com,+13749214821,US,https://cobaltrails.com
+LDL-0712,Solace Treasury,Liam Mokoena,VP Engineering,liam.mokoena40@solacetreasury.io,+27998148753,ZA,https://solacetreasury.io
+LDL-0713,Riverbank Labs,Kwame Ibrahim,Director of Risk,kwame.ibrahim22@riverbanklabs.com,+27754369487,ZA,https://riverbanklabs.com
+LDL-0714,Atlasfin Markets,Aisha Eze,Chief Financial Officer,aisha.eze17@atlasfinmarkets.finance,+44790075942,GB,https://atlasfinmarkets.finance
+LDL-0715,Brightwire Rails,James Ibrahim,Chief Technology Officer,james.ibrahim21@brightwirerails.co,+14425192019,CA,https://brightwirerails.co
+LDL-0716,Kora Pay,Amara Mbeki,Head of Product,amara.mbeki92@korapay.money,+27942643893,ZA,https://korapay.money
+LDL-0717,Remitly Bank,Ifeoma Chukwu,Director of Risk,ifeoma.chukwu34@remitlybank.money,+233295856396,GH,https://remitlybank.money
+LDL-0718,Atlasfin Exchange,Liam Bello,Co-founder,liam.bello94@atlasfinexchange.co,+18819448400,CA,https://atlasfinexchange.co
+LDL-0719,Cobalt Capital,Ifeoma Garcia,Head of Partnerships,ifeoma.garcia89@cobaltcapital.com,+14551868348,CA,https://cobaltcapital.com
+LDL-0720,Atlasfin Finance,Liam Davies,Head of Partnerships,liam.davies12@atlasfinfinance.com,+254406108221,KE,https://atlasfinfinance.com
+LDL-0721,Northstar Rails,Ethan Walker,Founder & CEO,ethan.walker23@northstarrails.io,+12229122965,CA,https://northstarrails.io
+LDL-0722,Tallyo Rails,Amara Abubakar,VP Payments,amara.abubakar55@tallyorails.co,+254977727691,KE,https://tallyorails.co
+LDL-0723,Vaultic Labs,Chen Chukwu,VP Payments,chen.chukwu83@vaulticlabs.money,+27177444314,ZA,https://vaulticlabs.money
+LDL-0724,Remitly Credit,Tunde Danjuma,Co-founder,tunde.danjuma94@remitlycredit.finance,+15059590574,US,https://remitlycredit.finance
+LDL-0725,Corvid Exchange,Ama Hughes,Founder & CEO,ama.hughes88@corvidexchange.io,+15564284402,CA,https://corvidexchange.io
+LDL-0726,Clearmint Exchange,Aisha Kamau,Head of Product,aisha.kamau74@clearmintexchange.money,+44962445988,GB,https://clearmintexchange.money
+LDL-0727,Lumen Capital,Lucas Brown,Head of Product,lucas.brown88@lumencapital.co,+27602885380,ZA,https://lumencapital.co
+LDL-0728,Ozone Finance,Tunde Adeyemi,Chief Financial Officer,tunde.adeyemi27@ozonefinance.com,+234750664173,NG,https://ozonefinance.com
+LDL-0729,Lumen Money,Musa Chukwu,Co-founder,musa.chukwu34@lumenmoney.money,+44322522821,GB,https://lumenmoney.money
+LDL-0730,Settlr Wallet,Hannah Mbeki,VP Payments,hannah.mbeki60@settlrwallet.co,+254949047463,KE,https://settlrwallet.co
+LDL-0731,Basalt Markets,Ifeoma Martin,Chief Financial Officer,ifeoma.martin28@basaltmarkets.io,+27666810600,ZA,https://basaltmarkets.io
+LDL-0732,Tandem Labs,Musa Mensah,VP Engineering,musa.mensah35@tandemlabs.com,+234198425589,NG,https://tandemlabs.com
+LDL-0733,Halcyon Money,Bola Martin,Chief Technology Officer,bola.martin49@halcyonmoney.io,+234847863599,NG,https://halcyonmoney.io
+LDL-0734,Tallyo Payments,Aisha Nwosu,Founder & CEO,aisha.nwosu71@tallyopayments.io,+233134563308,GH,https://tallyopayments.io
+LDL-0735,Remitly Payments,Tunde Odhiambo,Head of Product,tunde.odhiambo92@remitlypayments.co,+13203442342,CA,https://remitlypayments.co
+LDL-0736,Kora Exchange,Aisha Okafor,Founder & CEO,aisha.okafor79@koraexchange.co,+254987017460,KE,https://koraexchange.co
+LDL-0737,Novapay Capital,Musa Bello,VP Engineering,musa.bello90@novapaycapital.io,+233697450921,GH,https://novapaycapital.io
+LDL-0738,Fundbridge Markets,Zainab Odhiambo,Head of Partnerships,zainab.odhiambo57@fundbridgemarkets.io,+18592602293,CA,https://fundbridgemarkets.io
+LDL-0739,Tallyo Ledger,Chloe Adeyemi,VP Payments,chloe.adeyemi70@tallyoledger.co,+233163698646,GH,https://tallyoledger.co
+LDL-0740,Atlasfin Capital,Zainab Chukwu,Chief Operating Officer,zainab.chukwu17@atlasfincapital.io,+16584995831,CA,https://atlasfincapital.io
+LDL-0741,Lumen Capital,Halima Adeyemi,Director of Risk,halima.adeyemi44@lumencapital.finance,+234975829489,NG,https://lumencapital.finance
+LDL-0742,Coinvale Finance,Halima Smith,VP Engineering,halima.smith51@coinvalefinance.io,+234635662514,NG,https://coinvalefinance.io
+LDL-0743,Sterling Bank,James Walker,Chief Financial Officer,james.walker90@sterlingbank.co,+27134803131,ZA,https://sterlingbank.co
+LDL-0744,Meridian Wallet,Tunde Ibrahim,Co-founder,tunde.ibrahim98@meridianwallet.finance,+44698128479,GB,https://meridianwallet.finance
+LDL-0745,Halcyon Capital,Grace Clarke,Co-founder,grace.clarke69@halcyoncapital.io,+11149813422,CA,https://halcyoncapital.io
+LDL-0746,Fundbridge Payments,Ifeoma Wang,Director of Risk,ifeoma.wang54@fundbridgepayments.money,+27873740754,ZA,https://fundbridgepayments.money
+LDL-0747,Settlr Exchange,Kofi Hughes,Chief Technology Officer,kofi.hughes97@settlrexchange.com,+254195114917,KE,https://settlrexchange.com
+LDL-0748,Corvid Rails,Amara Chukwu,Head of Partnerships,amara.chukwu30@corvidrails.money,+254597633262,KE,https://corvidrails.money
+LDL-0749,Brightwire Exchange,Mia Odhiambo,Co-founder,mia.odhiambo65@brightwireexchange.finance,+233230424780,GH,https://brightwireexchange.finance
+LDL-0750,Cobalt Capital,Mia Adeyemi,Chief Financial Officer,mia.adeyemi39@cobaltcapital.com,+254758421889,KE,https://cobaltcapital.com
+LDL-0751,Fundbridge Money,Aisha Taylor,Chief Technology Officer,aisha.taylor84@fundbridgemoney.finance,+233463127914,GH,https://fundbridgemoney.finance
+LDL-0752,Novapay Markets,Noah Kamau,Chief Operating Officer,noah.kamau22@novapaymarkets.finance,+234249490912,NG,https://novapaymarkets.finance
+LDL-0753,Solace Labs,Daniel Smith,VP Engineering,daniel.smith27@solacelabs.com,+12979937152,CA,https://solacelabs.com
+LDL-0754,Settlr Bank,James Mokoena,Chief Financial Officer,james.mokoena68@settlrbank.finance,+27313097920,ZA,https://settlrbank.finance
+LDL-0755,Atlasfin Bank,Amara Naidoo,Co-founder,amara.naidoo91@atlasfinbank.finance,+254623458144,KE,https://atlasfinbank.finance
+LDL-0756,Tallyo Wallet,Ifeoma Mensah,Chief Financial Officer,ifeoma.mensah19@tallyowallet.finance,+44781029666,GB,https://tallyowallet.finance
+LDL-0757,Ozone Payments,Lucas Lawal,Head of Partnerships,lucas.lawal69@ozonepayments.co,+254455181619,KE,https://ozonepayments.co
+LDL-0758,Remitly Capital,James Ibrahim,Co-founder,james.ibrahim89@remitlycapital.co,+234968939083,NG,https://remitlycapital.co
+LDL-0759,Lumen Wallet,Ngozi Okafor,VP Engineering,ngozi.okafor29@lumenwallet.io,+254770790052,KE,https://lumenwallet.io
+LDL-0760,Tallyo Bank,Tunde Odhiambo,VP Engineering,tunde.odhiambo83@tallyobank.money,+254572205821,KE,https://tallyobank.money
+LDL-0761,Basalt Bank,Kwame Clarke,VP Payments,kwame.clarke12@basaltbank.money,+233655869716,GH,https://basaltbank.money
+LDL-0762,Ember Rails,Chloe Bello,Director of Risk,chloe.bello67@emberrails.money,+12602547909,CA,https://emberrails.money
+LDL-0763,Paystream Bank,Grace Clarke,VP Engineering,grace.clarke49@paystreambank.co,+17711560209,CA,https://paystreambank.co
+LDL-0764,Fundbridge Capital,Noah Mbeki,Head of Product,noah.mbeki49@fundbridgecapital.com,+233125438836,GH,https://fundbridgecapital.com
+LDL-0765,Solace Pay,Zainab Nwosu,Chief Operating Officer,zainab.nwosu57@solacepay.com,+27453097425,ZA,https://solacepay.com
+LDL-0766,Lumen Markets,Thabo Taylor,Co-founder,thabo.taylor35@lumenmarkets.money,+27662604222,ZA,https://lumenmarkets.money
+LDL-0767,Novapay Treasury,Tunde Mbeki,Chief Operating Officer,tunde.mbeki36@novapaytreasury.money,+14217345733,CA,https://novapaytreasury.money
+LDL-0768,Clearmint Bank,Tunde Clarke,Head of Product,tunde.clarke20@clearmintbank.finance,+44724310972,GB,https://clearmintbank.finance
+LDL-0769,Monzu Treasury,Ifeoma Naidoo,VP Engineering,ifeoma.naidoo13@monzutreasury.finance,+233486882556,GH,https://monzutreasury.finance
+LDL-0770,Payara Labs,Chloe Smith,Co-founder,chloe.smith65@payaralabs.com,+254411800393,KE,https://payaralabs.com
+LDL-0771,Settlr Ledger,Halima Ibrahim,Head of Product,halima.ibrahim40@settlrledger.co,+19658550029,CA,https://settlrledger.co
+LDL-0772,Riverbank Money,Fatima Martin,VP Payments,fatima.martin37@riverbankmoney.co,+254839148377,KE,https://riverbankmoney.co
+LDL-0773,Ember Payments,Chloe Wang,Chief Financial Officer,chloe.wang49@emberpayments.com,+27508899849,ZA,https://emberpayments.com
+LDL-0774,Northstar Bank,Halima Mbeki,Head of Partnerships,halima.mbeki70@northstarbank.io,+27646952183,ZA,https://northstarbank.io
+LDL-0775,Sterling Money,Wanjiru Taylor,Chief Operating Officer,wanjiru.taylor86@sterlingmoney.com,+254715475500,KE,https://sterlingmoney.com
+LDL-0776,Solace Bank,Daniel Mbeki,Chief Operating Officer,daniel.mbeki68@solacebank.finance,+234629506443,NG,https://solacebank.finance
+LDL-0777,Meridian Payments,Ama Clarke,Director of Risk,ama.clarke52@meridianpayments.com,+44521833300,GB,https://meridianpayments.com
+LDL-0778,Atlasfin Wallet,Ngozi Martin,Head of Product,ngozi.martin84@atlasfinwallet.finance,+15627699006,CA,https://atlasfinwallet.finance
+LDL-0779,Ledgerly Treasury,Mia Wang,Director of Risk,mia.wang61@ledgerlytreasury.com,+233967332491,GH,https://ledgerlytreasury.com
+LDL-0780,Vaultic Bank,Liam Nwosu,VP Payments,liam.nwosu29@vaulticbank.co,+234255409766,NG,https://vaulticbank.co
+LDL-0781,Kora Rails,Liam Mbeki,Chief Operating Officer,liam.mbeki58@korarails.finance,+254934771601,KE,https://korarails.finance
+LDL-0782,Novapay Ledger,Chen Ibrahim,Director of Risk,chen.ibrahim55@novapayledger.com,+233619683963,GH,https://novapayledger.com
+LDL-0783,Ozone Pay,Kofi Owusu,Head of Partnerships,kofi.owusu43@ozonepay.finance,+44101355793,GB,https://ozonepay.finance
+LDL-0784,Sterling Credit,James Johnson,Director of Risk,james.johnson28@sterlingcredit.money,+233917000958,GH,https://sterlingcredit.money
+LDL-0785,Tandem Labs,Ama Nwosu,Head of Partnerships,ama.nwosu79@tandemlabs.co,+233538726456,GH,https://tandemlabs.co
+LDL-0786,Tandem Treasury,Bola Johnson,Chief Technology Officer,bola.johnson23@tandemtreasury.co,+18559532588,CA,https://tandemtreasury.co
+LDL-0787,Kora Pay,Aisha Eze,Chief Financial Officer,aisha.eze46@korapay.co,+13559030638,US,https://korapay.co
+LDL-0788,Paystream Treasury,Sofia Lawal,Head of Product,sofia.lawal15@paystreamtreasury.com,+18718100289,US,https://paystreamtreasury.com
+LDL-0789,Lumen Bank,Olivia Bello,Chief Technology Officer,olivia.bello49@lumenbank.co,+18360675299,US,https://lumenbank.co
+LDL-0790,Ember Wallet,Bola Mokoena,VP Engineering,bola.mokoena93@emberwallet.co,+18400151432,CA,https://emberwallet.co
+LDL-0791,Novapay Bank,Kofi Davies,Co-founder,kofi.davies57@novapaybank.money,+11127180992,CA,https://novapaybank.money
+LDL-0792,Fundbridge Pay,Lucas Chukwu,Head of Product,lucas.chukwu11@fundbridgepay.com,+11197360940,US,https://fundbridgepay.com
+LDL-0793,Halcyon Treasury,Sofia Wang,Chief Operating Officer,sofia.wang55@halcyontreasury.finance,+27704538918,ZA,https://halcyontreasury.finance
+LDL-0794,Ember Money,Hannah Nwosu,Chief Technology Officer,hannah.nwosu56@embermoney.io,+234950651150,NG,https://embermoney.io
+LDL-0795,Atlasfin Treasury,Mia Naidoo,Director of Risk,mia.naidoo33@atlasfintreasury.io,+27144484750,ZA,https://atlasfintreasury.io
+LDL-0796,Brightwire Exchange,Yusuf Naidoo,Founder & CEO,yusuf.naidoo35@brightwireexchange.co,+254871043320,KE,https://brightwireexchange.co
+LDL-0797,Corvid Credit,Amara Wang,Head of Partnerships,amara.wang19@corvidcredit.com,+233565206139,GH,https://corvidcredit.com
+LDL-0798,Vaultic Bank,Mia Garcia,Chief Operating Officer,mia.garcia76@vaulticbank.io,+233671497261,GH,https://vaulticbank.io
+LDL-0799,Corvid Treasury,Emily Owusu,Head of Product,emily.owusu25@corvidtreasury.money,+15014563350,CA,https://corvidtreasury.money
+LDL-0800,Fundbridge Credit,Ifeoma Davies,Head of Partnerships,ifeoma.davies68@fundbridgecredit.co,+16668729536,CA,https://fundbridgecredit.co
+LDL-0801,Corvid Capital,Daniel Clarke,Chief Financial Officer,daniel.clarke70@corvidcapital.money,+13109886046,CA,https://corvidcapital.money
+LDL-0802,Brightwire Pay,Wanjiru Mensah,Co-founder,wanjiru.mensah28@brightwirepay.io,+27943286783,ZA,https://brightwirepay.io
+LDL-0803,Lumen Ledger,Mia Taylor,Co-founder,mia.taylor99@lumenledger.co,+233592882926,GH,https://lumenledger.co
+LDL-0804,Kora Wallet,Aisha Garcia,Head of Partnerships,aisha.garcia50@korawallet.com,+254882081592,KE,https://korawallet.com
+LDL-0805,Payara Payments,Musa Eze,VP Payments,musa.eze92@payarapayments.com,+233821233424,GH,https://payarapayments.com
+LDL-0806,Vaultic Wallet,Liam Mokoena,Director of Risk,liam.mokoena29@vaulticwallet.com,+234628238616,NG,https://vaulticwallet.com
+LDL-0807,Lumen Exchange,Olivia Okafor,Director of Risk,olivia.okafor44@lumenexchange.co,+16216121796,US,https://lumenexchange.co
+LDL-0808,Quanta Bank,Bola Smith,VP Payments,bola.smith65@quantabank.money,+234491234490,NG,https://quantabank.money
+LDL-0809,Sterling Capital,Grace Odhiambo,VP Engineering,grace.odhiambo81@sterlingcapital.co,+16626968803,CA,https://sterlingcapital.co
+LDL-0810,Quanta Wallet,Musa Eze,VP Payments,musa.eze67@quantawallet.finance,+44222449701,GB,https://quantawallet.finance
+LDL-0811,Meridian Rails,Kofi Abubakar,VP Payments,kofi.abubakar37@meridianrails.co,+233923269062,GH,https://meridianrails.co
+LDL-0812,Cobalt Credit,Daniel Danjuma,Co-founder,daniel.danjuma15@cobaltcredit.com,+27305176643,ZA,https://cobaltcredit.com
+LDL-0813,Remitly Treasury,Chen Davies,Founder & CEO,chen.davies77@remitlytreasury.com,+254524816006,KE,https://remitlytreasury.com
+LDL-0814,Coinvale Wallet,Sofia Ibrahim,Head of Product,sofia.ibrahim88@coinvalewallet.io,+233294158529,GH,https://coinvalewallet.io
+LDL-0815,Corvid Finance,Sofia Hughes,Chief Operating Officer,sofia.hughes85@corvidfinance.finance,+18866783622,CA,https://corvidfinance.finance
+LDL-0816,Halcyon Capital,James Walker,Co-founder,james.walker18@halcyoncapital.money,+14216754487,US,https://halcyoncapital.money
+LDL-0817,Riverbank Bank,Sofia Mbeki,Chief Technology Officer,sofia.mbeki47@riverbankbank.money,+13514598667,US,https://riverbankbank.money
+LDL-0818,Tallyo Finance,Wanjiru Wang,Co-founder,wanjiru.wang78@tallyofinance.co,+13797534178,US,https://tallyofinance.co
+LDL-0819,Juniper Credit,Olivia Nwosu,Chief Financial Officer,olivia.nwosu42@junipercredit.money,+44921440695,GB,https://junipercredit.money
+LDL-0820,Ozone Exchange,Thabo Ibrahim,Head of Product,thabo.ibrahim11@ozoneexchange.money,+14771497828,CA,https://ozoneexchange.money
+LDL-0821,Coinvale Rails,Lucas Nwosu,Co-founder,lucas.nwosu37@coinvalerails.finance,+234106691216,NG,https://coinvalerails.finance
+LDL-0822,Monzu Labs,Ngozi Mensah,VP Engineering,ngozi.mensah81@monzulabs.com,+233176263138,GH,https://monzulabs.com
+LDL-0823,Lumen Capital,Ifeoma Osei,Chief Financial Officer,ifeoma.osei90@lumencapital.money,+27133457683,ZA,https://lumencapital.money
+LDL-0824,Tallyo Rails,Mia Adeyemi,Founder & CEO,mia.adeyemi61@tallyorails.com,+234779330699,NG,https://tallyorails.com
+LDL-0825,Clearmint Markets,Kwame Walker,Founder & CEO,kwame.walker31@clearmintmarkets.money,+11082533977,US,https://clearmintmarkets.money
+LDL-0826,Lumen Treasury,Noah Taylor,Chief Operating Officer,noah.taylor37@lumentreasury.com,+234403513923,NG,https://lumentreasury.com
+LDL-0827,Novapay Exchange,Sofia Wang,Chief Financial Officer,sofia.wang92@novapayexchange.io,+11951737226,CA,https://novapayexchange.io
+LDL-0828,Corvid Exchange,Zainab Kamau,VP Engineering,zainab.kamau32@corvidexchange.money,+44213065540,GB,https://corvidexchange.money
+LDL-0829,Meridian Capital,Bola Martin,Director of Risk,bola.martin19@meridiancapital.io,+15154575424,US,https://meridiancapital.io
+LDL-0830,Novapay Rails,Noah Johnson,Head of Partnerships,noah.johnson50@novapayrails.co,+27441596653,ZA,https://novapayrails.co
+LDL-0831,Coinvale Credit,Aisha Smith,Director of Risk,aisha.smith44@coinvalecredit.finance,+16916682273,US,https://coinvalecredit.finance
+LDL-0832,Northstar Exchange,Zainab Johnson,Chief Technology Officer,zainab.johnson98@northstarexchange.io,+233643404614,GH,https://northstarexchange.io
+LDL-0833,Ledgerly Capital,Tunde Martin,Founder & CEO,tunde.martin97@ledgerlycapital.co,+44366882216,GB,https://ledgerlycapital.co
+LDL-0834,Clearmint Capital,Musa Okafor,Director of Risk,musa.okafor97@clearmintcapital.io,+233882248258,GH,https://clearmintcapital.io
+LDL-0835,Basalt Labs,Wanjiru Walker,Head of Product,wanjiru.walker47@basaltlabs.finance,+254861112779,KE,https://basaltlabs.finance
+LDL-0836,Coinvale Capital,Musa Eze,Director of Risk,musa.eze64@coinvalecapital.co,+233995046294,GH,https://coinvalecapital.co
+LDL-0837,Kora Labs,Chen Martin,Chief Financial Officer,chen.martin18@koralabs.co,+234861968706,NG,https://koralabs.co
+LDL-0838,Basalt Payments,Kofi Adeyemi,Head of Product,kofi.adeyemi19@basaltpayments.io,+234174866438,NG,https://basaltpayments.io
+LDL-0839,Lumen Money,Lucas Nwosu,Founder & CEO,lucas.nwosu20@lumenmoney.io,+234612845207,NG,https://lumenmoney.io
+LDL-0840,Paystream Treasury,Kwame Owusu,Chief Operating Officer,kwame.owusu28@paystreamtreasury.money,+233283258174,GH,https://paystreamtreasury.money
+LDL-0841,Fundbridge Bank,James Eze,Co-founder,james.eze77@fundbridgebank.money,+16799537401,US,https://fundbridgebank.money
+LDL-0842,Remitly Money,Ethan Smith,VP Payments,ethan.smith59@remitlymoney.co,+17321569363,US,https://remitlymoney.co
+LDL-0843,Atlasfin Money,Thabo Hughes,Director of Risk,thabo.hughes76@atlasfinmoney.com,+19190922743,US,https://atlasfinmoney.com
+LDL-0844,Corvid Labs,Grace Lawal,Chief Technology Officer,grace.lawal94@corvidlabs.io,+16559761237,US,https://corvidlabs.io
+LDL-0845,Ember Money,Yusuf Smith,Co-founder,yusuf.smith39@embermoney.com,+27253628521,ZA,https://embermoney.com
+LDL-0846,Quanta Labs,Lucas Martin,Chief Operating Officer,lucas.martin52@quantalabs.co,+16683535338,US,https://quantalabs.co
+LDL-0847,Ledgerly Finance,Tunde Lawal,Chief Financial Officer,tunde.lawal33@ledgerlyfinance.money,+27519373414,ZA,https://ledgerlyfinance.money
+LDL-0848,Payara Credit,Musa Okafor,Director of Risk,musa.okafor55@payaracredit.com,+14937448540,US,https://payaracredit.com
+LDL-0849,Riverbank Wallet,Hannah Johnson,Director of Risk,hannah.johnson40@riverbankwallet.money,+234145255654,NG,https://riverbankwallet.money
+LDL-0850,Ozone Labs,Olivia Mensah,Chief Operating Officer,olivia.mensah88@ozonelabs.co,+233341077442,GH,https://ozonelabs.co
+LDL-0851,Paystream Wallet,Chen Sani,Chief Technology Officer,chen.sani30@paystreamwallet.co,+13418065572,CA,https://paystreamwallet.co
+LDL-0852,Fundbridge Bank,Sofia Eze,Head of Product,sofia.eze23@fundbridgebank.co,+234449101240,NG,https://fundbridgebank.co
+LDL-0853,Ember Money,James Osei,Chief Technology Officer,james.osei42@embermoney.money,+233770588633,GH,https://embermoney.money
+LDL-0854,Brightwire Pay,Halima Osei,VP Engineering,halima.osei94@brightwirepay.co,+233667541739,GH,https://brightwirepay.co
+LDL-0855,Paystream Treasury,Aisha Eze,Founder & CEO,aisha.eze62@paystreamtreasury.co,+233569038185,GH,https://paystreamtreasury.co
+LDL-0856,Payara Rails,Yusuf Naidoo,Chief Technology Officer,yusuf.naidoo52@payararails.co,+14568717469,US,https://payararails.co
+LDL-0857,Quanta Exchange,Emily Odhiambo,Co-founder,emily.odhiambo77@quantaexchange.finance,+234697100285,NG,https://quantaexchange.finance
+LDL-0858,Quanta Labs,Mia Mensah,Director of Risk,mia.mensah18@quantalabs.money,+233399391381,GH,https://quantalabs.money
+LDL-0859,Kora Treasury,Tunde Johnson,Chief Technology Officer,tunde.johnson49@koratreasury.co,+234504380657,NG,https://koratreasury.co
+LDL-0860,Novapay Markets,Kwame Walker,Head of Partnerships,kwame.walker49@novapaymarkets.money,+27582928127,ZA,https://novapaymarkets.money
+LDL-0861,Ozone Pay,Halima Nwosu,Chief Technology Officer,halima.nwosu64@ozonepay.com,+233517369425,GH,https://ozonepay.com
+LDL-0862,Paystream Credit,Ngozi Kamau,Chief Operating Officer,ngozi.kamau88@paystreamcredit.com,+44952529800,GB,https://paystreamcredit.com
+LDL-0863,Brightwire Payments,Zainab Kamau,Head of Partnerships,zainab.kamau80@brightwirepayments.finance,+234787980187,NG,https://brightwirepayments.finance
+LDL-0864,Coinvale Capital,Mia Walker,Head of Product,mia.walker98@coinvalecapital.com,+17948953687,CA,https://coinvalecapital.com
+LDL-0865,Coinvale Markets,Halima Odhiambo,Head of Partnerships,halima.odhiambo21@coinvalemarkets.finance,+234531807688,NG,https://coinvalemarkets.finance
+LDL-0866,Kora Wallet,Zainab Eze,Founder & CEO,zainab.eze57@korawallet.io,+16158025123,US,https://korawallet.io
+LDL-0867,Meridian Payments,Kwame Odhiambo,VP Engineering,kwame.odhiambo40@meridianpayments.money,+27814411512,ZA,https://meridianpayments.money
+LDL-0868,Monzu Wallet,Kofi Naidoo,Founder & CEO,kofi.naidoo25@monzuwallet.io,+234315047566,NG,https://monzuwallet.io
+LDL-0869,Paystream Payments,Ama Danjuma,VP Payments,ama.danjuma51@paystreampayments.com,+234573946271,NG,https://paystreampayments.com
+LDL-0870,Basalt Exchange,Grace Kamau,Co-founder,grace.kamau84@basaltexchange.finance,+234964934748,NG,https://basaltexchange.finance
+LDL-0871,Corvid Finance,Chloe Clarke,Founder & CEO,chloe.clarke12@corvidfinance.money,+233804568608,GH,https://corvidfinance.money
+LDL-0872,Meridian Money,Mia Naidoo,VP Engineering,mia.naidoo24@meridianmoney.io,+16967789636,CA,https://meridianmoney.io
+LDL-0873,Payara Pay,Bola Sani,VP Payments,bola.sani92@payarapay.co,+19772419846,CA,https://payarapay.co
+LDL-0874,Ozone Treasury,Fatima Mensah,Chief Technology Officer,fatima.mensah70@ozonetreasury.io,+17276962574,US,https://ozonetreasury.io
+LDL-0875,Northstar Exchange,Chloe Garcia,Chief Operating Officer,chloe.garcia59@northstarexchange.io,+11581090601,US,https://northstarexchange.io
+LDL-0876,Settlr Ledger,Emily Kamau,Head of Product,emily.kamau70@settlrledger.finance,+233677759160,GH,https://settlrledger.finance
+LDL-0877,Settlr Money,Hannah Owusu,Head of Partnerships,hannah.owusu11@settlrmoney.io,+15522050547,CA,https://settlrmoney.io
+LDL-0878,Ember Exchange,Emily Martin,Director of Risk,emily.martin64@emberexchange.money,+16395022632,CA,https://emberexchange.money
+LDL-0879,Basalt Finance,Musa Garcia,Director of Risk,musa.garcia66@basaltfinance.money,+44964744469,GB,https://basaltfinance.money
+LDL-0880,Tallyo Ledger,Wanjiru Lawal,Director of Risk,wanjiru.lawal71@tallyoledger.finance,+27101861338,ZA,https://tallyoledger.finance
+LDL-0881,Monzu Rails,Lucas Davies,Head of Partnerships,lucas.davies41@monzurails.money,+27311124135,ZA,https://monzurails.money
+LDL-0882,Settlr Payments,Aisha Clarke,Head of Partnerships,aisha.clarke45@settlrpayments.io,+233930283574,GH,https://settlrpayments.io
+LDL-0883,Novapay Capital,Tunde Nwosu,Head of Product,tunde.nwosu65@novapaycapital.co,+233149662397,GH,https://novapaycapital.co
+LDL-0884,Vaultic Markets,Ifeoma Hughes,Head of Product,ifeoma.hughes14@vaulticmarkets.co,+233907816717,GH,https://vaulticmarkets.co
+LDL-0885,Riverbank Credit,Ifeoma Bello,Head of Product,ifeoma.bello84@riverbankcredit.money,+27478102363,ZA,https://riverbankcredit.money
+LDL-0886,Tallyo Ledger,Olivia Naidoo,Founder & CEO,olivia.naidoo96@tallyoledger.io,+14576789658,US,https://tallyoledger.io
+LDL-0887,Solace Ledger,Lucas Adeyemi,Founder & CEO,lucas.adeyemi35@solaceledger.money,+14150153604,CA,https://solaceledger.money
+LDL-0888,Kora Payments,Mia Mokoena,Co-founder,mia.mokoena77@korapayments.co,+254266183383,KE,https://korapayments.co
+LDL-0889,Northstar Pay,Sofia Adeyemi,VP Payments,sofia.adeyemi79@northstarpay.finance,+233705057537,GH,https://northstarpay.finance
+LDL-0890,Meridian Capital,Daniel Hughes,Chief Operating Officer,daniel.hughes49@meridiancapital.com,+44586194882,GB,https://meridiancapital.com
+LDL-0891,Novapay Rails,Bola Smith,Founder & CEO,bola.smith48@novapayrails.finance,+44982045564,GB,https://novapayrails.finance
+LDL-0892,Monzu Markets,Ama Bello,Chief Financial Officer,ama.bello87@monzumarkets.com,+44916525988,GB,https://monzumarkets.com
+LDL-0893,Remitly Exchange,Musa Odhiambo,Chief Technology Officer,musa.odhiambo17@remitlyexchange.finance,+234465881355,NG,https://remitlyexchange.finance
+LDL-0894,Ozone Ledger,Yusuf Osei,Founder & CEO,yusuf.osei11@ozoneledger.io,+233563894375,GH,https://ozoneledger.io
+LDL-0895,Tallyo Labs,Tunde Taylor,Head of Product,tunde.taylor67@tallyolabs.co,+44923451321,GB,https://tallyolabs.co
+LDL-0896,Atlasfin Money,Sofia Kamau,Director of Risk,sofia.kamau88@atlasfinmoney.com,+19738762547,US,https://atlasfinmoney.com
+LDL-0897,Clearmint Money,Amara Adeyemi,Founder & CEO,amara.adeyemi78@clearmintmoney.finance,+234156646580,NG,https://clearmintmoney.finance
+LDL-0898,Vaultic Labs,Zainab Naidoo,Chief Financial Officer,zainab.naidoo87@vaulticlabs.com,+254993336296,KE,https://vaulticlabs.com
+LDL-0899,Kora Money,Halima Wang,Co-founder,halima.wang37@koramoney.com,+234955736641,NG,https://koramoney.com
+LDL-0900,Ozone Finance,Liam Sani,Co-founder,liam.sani68@ozonefinance.com,+15793383621,US,https://ozonefinance.com
+LDL-0901,Tandem Money,Emily Sani,Chief Technology Officer,emily.sani94@tandemmoney.co,+233162328870,GH,https://tandemmoney.co
+LDL-0902,Northstar Labs,James Owusu,Chief Technology Officer,james.owusu51@northstarlabs.money,+16192265149,CA,https://northstarlabs.money
+LDL-0903,Northstar Rails,Chen Odhiambo,Co-founder,chen.odhiambo87@northstarrails.finance,+19749758837,US,https://northstarrails.finance
+LDL-0904,Meridian Ledger,Kwame Lawal,VP Engineering,kwame.lawal16@meridianledger.io,+254605999607,KE,https://meridianledger.io
+LDL-0905,Novapay Finance,Thabo Abubakar,VP Engineering,thabo.abubakar28@novapayfinance.money,+234692136032,NG,https://novapayfinance.money
+LDL-0906,Settlr Labs,James Eze,Co-founder,james.eze95@settlrlabs.com,+15952675966,CA,https://settlrlabs.com
+LDL-0907,Payara Wallet,Noah Sani,Director of Risk,noah.sani14@payarawallet.io,+27434720422,ZA,https://payarawallet.io
+LDL-0908,Juniper Pay,Aisha Owusu,Founder & CEO,aisha.owusu72@juniperpay.com,+27454759014,ZA,https://juniperpay.com
+LDL-0909,Ember Bank,Ngozi Garcia,VP Engineering,ngozi.garcia98@emberbank.com,+14964876020,CA,https://emberbank.com
+LDL-0910,Quanta Finance,Ngozi Adeyemi,Founder & CEO,ngozi.adeyemi54@quantafinance.co,+233504669059,GH,https://quantafinance.co
+LDL-0911,Ember Money,Daniel Owusu,Head of Product,daniel.owusu64@embermoney.finance,+19298203830,US,https://embermoney.finance
+LDL-0912,Clearmint Labs,Noah Johnson,Head of Product,noah.johnson19@clearmintlabs.co,+233679070413,GH,https://clearmintlabs.co
+LDL-0913,Ozone Rails,Emily Osei,VP Payments,emily.osei79@ozonerails.com,+27491147982,ZA,https://ozonerails.com
+LDL-0914,Basalt Capital,Aisha Mbeki,VP Payments,aisha.mbeki25@basaltcapital.money,+44200864029,GB,https://basaltcapital.money
+LDL-0915,Clearmint Labs,Emily Mbeki,VP Engineering,emily.mbeki56@clearmintlabs.money,+27692047272,ZA,https://clearmintlabs.money
+LDL-0916,Remitly Finance,James Hughes,Head of Product,james.hughes41@remitlyfinance.co,+234639054936,NG,https://remitlyfinance.co
+LDL-0917,Settlr Finance,Kofi Naidoo,VP Payments,kofi.naidoo39@settlrfinance.com,+234849491626,NG,https://settlrfinance.com
+LDL-0918,Brightwire Rails,Wanjiru Danjuma,Chief Technology Officer,wanjiru.danjuma61@brightwirerails.finance,+254353329596,KE,https://brightwirerails.finance
+LDL-0919,Monzu Pay,James Owusu,Head of Partnerships,james.owusu34@monzupay.money,+17978683136,US,https://monzupay.money
+LDL-0920,Vaultic Ledger,Chen Walker,Chief Operating Officer,chen.walker51@vaulticledger.co,+234119194374,NG,https://vaulticledger.co
+LDL-0921,Basalt Payments,Lucas Kamau,Head of Product,lucas.kamau19@basaltpayments.finance,+27170544094,ZA,https://basaltpayments.finance
+LDL-0922,Vaultic Finance,Hannah Mbeki,Chief Technology Officer,hannah.mbeki78@vaulticfinance.co,+234668086439,NG,https://vaulticfinance.co
+LDL-0923,Solace Money,Kwame Abubakar,Chief Financial Officer,kwame.abubakar33@solacemoney.co,+254773553005,KE,https://solacemoney.co
+LDL-0924,Kora Rails,Wanjiru Garcia,Founder & CEO,wanjiru.garcia19@korarails.io,+234451912652,NG,https://korarails.io
+LDL-0925,Payara Wallet,Musa Ibrahim,Chief Financial Officer,musa.ibrahim93@payarawallet.finance,+11705966826,US,https://payarawallet.finance
+LDL-0926,Remitly Ledger,Kofi Davies,Head of Partnerships,kofi.davies66@remitlyledger.io,+254723009446,KE,https://remitlyledger.io
+LDL-0927,Payara Wallet,Zainab Nwosu,Chief Operating Officer,zainab.nwosu27@payarawallet.co,+18151774560,CA,https://payarawallet.co
+LDL-0928,Clearmint Labs,Ifeoma Danjuma,Chief Financial Officer,ifeoma.danjuma23@clearmintlabs.finance,+254433023979,KE,https://clearmintlabs.finance
+LDL-0929,Lumen Bank,Ama Sani,Chief Financial Officer,ama.sani47@lumenbank.com,+233266160466,GH,https://lumenbank.com
+LDL-0930,Tandem Finance,Ethan Garcia,Founder & CEO,ethan.garcia47@tandemfinance.io,+254992598682,KE,https://tandemfinance.io
+LDL-0931,Quanta Ledger,Kofi Owusu,Director of Risk,kofi.owusu94@quantaledger.com,+254796167455,KE,https://quantaledger.com
+LDL-0932,Halcyon Capital,Chloe Owusu,Head of Partnerships,chloe.owusu80@halcyoncapital.co,+233454336808,GH,https://halcyoncapital.co
+LDL-0933,Atlasfin Labs,Grace Chukwu,Co-founder,grace.chukwu10@atlasfinlabs.co,+44366107332,GB,https://atlasfinlabs.co
+LDL-0934,Fundbridge Ledger,Yusuf Danjuma,Chief Operating Officer,yusuf.danjuma52@fundbridgeledger.money,+254519595556,KE,https://fundbridgeledger.money
+LDL-0935,Lumen Labs,Liam Osei,VP Payments,liam.osei79@lumenlabs.finance,+27846371278,ZA,https://lumenlabs.finance
+LDL-0936,Tandem Money,Grace Brown,Head of Partnerships,grace.brown32@tandemmoney.finance,+14448180153,US,https://tandemmoney.finance
+LDL-0937,Quanta Ledger,Sofia Wang,Head of Partnerships,sofia.wang65@quantaledger.finance,+27513080455,ZA,https://quantaledger.finance
+LDL-0938,Juniper Money,Musa Adeyemi,Co-founder,musa.adeyemi36@junipermoney.io,+27687602863,ZA,https://junipermoney.io
+LDL-0939,Fundbridge Wallet,Emily Mokoena,VP Engineering,emily.mokoena51@fundbridgewallet.com,+27886650391,ZA,https://fundbridgewallet.com
+LDL-0940,Halcyon Capital,Aisha Adeyemi,VP Payments,aisha.adeyemi98@halcyoncapital.money,+14897477751,CA,https://halcyoncapital.money
+LDL-0941,Brightwire Markets,James Johnson,VP Engineering,james.johnson93@brightwiremarkets.money,+254746986814,KE,https://brightwiremarkets.money
+LDL-0942,Clearmint Treasury,Kofi Odhiambo,Head of Product,kofi.odhiambo69@clearminttreasury.finance,+18747745680,US,https://clearminttreasury.finance
+LDL-0943,Sterling Payments,Amara Chukwu,Chief Financial Officer,amara.chukwu96@sterlingpayments.money,+233589624784,GH,https://sterlingpayments.money
+LDL-0944,Meridian Ledger,Aisha Lawal,Chief Technology Officer,aisha.lawal80@meridianledger.co,+233184286457,GH,https://meridianledger.co
+LDL-0945,Remitly Pay,Amara Eze,Head of Partnerships,amara.eze36@remitlypay.io,+27901148670,ZA,https://remitlypay.io
+LDL-0946,Corvid Rails,James Wang,Director of Risk,james.wang75@corvidrails.com,+234581348442,NG,https://corvidrails.com
+LDL-0947,Quanta Money,Grace Okafor,Head of Partnerships,grace.okafor25@quantamoney.io,+254515927699,KE,https://quantamoney.io
+LDL-0948,Kora Bank,Bola Davies,VP Engineering,bola.davies45@korabank.io,+27724970937,ZA,https://korabank.io
+LDL-0949,Riverbank Exchange,Kofi Wang,Chief Financial Officer,kofi.wang24@riverbankexchange.io,+18350078770,CA,https://riverbankexchange.io
+LDL-0950,Ledgerly Exchange,Musa Okafor,VP Engineering,musa.okafor63@ledgerlyexchange.io,+233460023349,GH,https://ledgerlyexchange.io
+LDL-0951,Novapay Finance,Ifeoma Nwosu,Head of Product,ifeoma.nwosu97@novapayfinance.money,+27880533458,ZA,https://novapayfinance.money
+LDL-0952,Monzu Capital,Ama Mbeki,Chief Operating Officer,ama.mbeki90@monzucapital.com,+234342292297,NG,https://monzucapital.com
+LDL-0953,Sterling Finance,Chen Smith,Founder & CEO,chen.smith84@sterlingfinance.finance,+233671670003,GH,https://sterlingfinance.finance
+LDL-0954,Brightwire Ledger,Noah Abubakar,Head of Partnerships,noah.abubakar37@brightwireledger.finance,+12735613505,CA,https://brightwireledger.finance
+LDL-0955,Cobalt Credit,Daniel Danjuma,Head of Partnerships,daniel.danjuma42@cobaltcredit.com,+254423897283,KE,https://cobaltcredit.com
+LDL-0956,Ozone Bank,Lucas Chukwu,VP Engineering,lucas.chukwu86@ozonebank.com,+27152090641,ZA,https://ozonebank.com
+LDL-0957,Tandem Payments,Lucas Okafor,Head of Partnerships,lucas.okafor25@tandempayments.money,+27813009761,ZA,https://tandempayments.money
+LDL-0958,Fundbridge Payments,Emily Mokoena,Head of Product,emily.mokoena16@fundbridgepayments.finance,+44838870383,GB,https://fundbridgepayments.finance
+LDL-0959,Juniper Pay,Bola Mbeki,VP Engineering,bola.mbeki72@juniperpay.finance,+18477581557,US,https://juniperpay.finance
+LDL-0960,Lumen Payments,Kwame Nwosu,VP Payments,kwame.nwosu83@lumenpayments.io,+234837627197,NG,https://lumenpayments.io
+LDL-0961,Ember Payments,Ama Garcia,Chief Financial Officer,ama.garcia18@emberpayments.com,+44157181091,GB,https://emberpayments.com
+LDL-0962,Lumen Credit,Fatima Clarke,Founder & CEO,fatima.clarke30@lumencredit.co,+15155350638,CA,https://lumencredit.co
+LDL-0963,Coinvale Rails,Emily Okafor,VP Engineering,emily.okafor58@coinvalerails.money,+233459234159,GH,https://coinvalerails.money
+LDL-0964,Cobalt Capital,Ethan Okafor,Chief Operating Officer,ethan.okafor22@cobaltcapital.money,+254322009185,KE,https://cobaltcapital.money
+LDL-0965,Solace Pay,Grace Davies,Head of Product,grace.davies83@solacepay.finance,+14169171314,US,https://solacepay.finance
+LDL-0966,Ozone Credit,Emily Naidoo,Head of Product,emily.naidoo23@ozonecredit.co,+233453625733,GH,https://ozonecredit.co
+LDL-0967,Coinvale Credit,Halima Chukwu,Head of Partnerships,halima.chukwu96@coinvalecredit.finance,+17614030017,US,https://coinvalecredit.finance
+LDL-0968,Novapay Markets,Hannah Mokoena,VP Engineering,hannah.mokoena88@novapaymarkets.com,+234192088106,NG,https://novapaymarkets.com
+LDL-0969,Vaultic Capital,Amara Johnson,Co-founder,amara.johnson42@vaulticcapital.finance,+19533756855,US,https://vaulticcapital.finance
+LDL-0970,Coinvale Ledger,Zainab Mensah,Chief Technology Officer,zainab.mensah56@coinvaleledger.money,+27831187169,ZA,https://coinvaleledger.money
+LDL-0971,Solace Money,James Abubakar,Chief Operating Officer,james.abubakar15@solacemoney.co,+234894194075,NG,https://solacemoney.co
+LDL-0972,Meridian Money,Thabo Martin,Head of Partnerships,thabo.martin52@meridianmoney.money,+234152205272,NG,https://meridianmoney.money
+LDL-0973,Riverbank Bank,Amara Osei,Head of Partnerships,amara.osei12@riverbankbank.finance,+254206571463,KE,https://riverbankbank.finance
+LDL-0974,Cobalt Pay,Kofi Taylor,Head of Product,kofi.taylor36@cobaltpay.finance,+27792344207,ZA,https://cobaltpay.finance
+LDL-0975,Fundbridge Wallet,Kwame Martin,Director of Risk,kwame.martin91@fundbridgewallet.co,+254481688177,KE,https://fundbridgewallet.co
+LDL-0976,Fundbridge Bank,Olivia Davies,Chief Financial Officer,olivia.davies60@fundbridgebank.io,+27309642804,ZA,https://fundbridgebank.io
+LDL-0977,Tandem Finance,Sofia Clarke,VP Engineering,sofia.clarke49@tandemfinance.io,+254212577027,KE,https://tandemfinance.io
+LDL-0978,Vaultic Money,Bola Mokoena,Co-founder,bola.mokoena77@vaulticmoney.finance,+233403866187,GH,https://vaulticmoney.finance
+LDL-0979,Settlr Ledger,Ama Mensah,VP Payments,ama.mensah62@settlrledger.finance,+11921009442,CA,https://settlrledger.finance
+LDL-0980,Cobalt Markets,Musa Mbeki,Director of Risk,musa.mbeki64@cobaltmarkets.co,+234264280026,NG,https://cobaltmarkets.co
+LDL-0981,Ledgerly Markets,Ama Wang,Chief Financial Officer,ama.wang40@ledgerlymarkets.finance,+19136787440,CA,https://ledgerlymarkets.finance
+LDL-0982,Remitly Payments,Hannah Eze,Chief Financial Officer,hannah.eze88@remitlypayments.finance,+233995333076,GH,https://remitlypayments.finance
+LDL-0983,Settlr Wallet,Lucas Clarke,Chief Financial Officer,lucas.clarke18@settlrwallet.io,+234591730817,NG,https://settlrwallet.io
+LDL-0984,Payara Labs,Sofia Martin,Chief Operating Officer,sofia.martin92@payaralabs.money,+233602415131,GH,https://payaralabs.money
+LDL-0985,Sterling Ledger,Chen Garcia,VP Payments,chen.garcia49@sterlingledger.money,+12844274984,US,https://sterlingledger.money
+LDL-0986,Ozone Wallet,Kofi Mbeki,VP Engineering,kofi.mbeki86@ozonewallet.io,+44683687854,GB,https://ozonewallet.io
+LDL-0987,Monzu Capital,Daniel Garcia,Director of Risk,daniel.garcia39@monzucapital.io,+27500301910,ZA,https://monzucapital.io
+LDL-0988,Novapay Treasury,Kwame Adeyemi,Co-founder,kwame.adeyemi18@novapaytreasury.co,+44746442677,GB,https://novapaytreasury.co
+LDL-0989,Ember Payments,Hannah Clarke,Head of Product,hannah.clarke37@emberpayments.io,+234775357542,NG,https://emberpayments.io
+LDL-0990,Remitly Labs,Wanjiru Garcia,VP Payments,wanjiru.garcia15@remitlylabs.io,+234487778144,NG,https://remitlylabs.io
+LDL-0991,Kora Credit,Liam Lawal,Chief Operating Officer,liam.lawal95@koracredit.co,+13295712028,CA,https://koracredit.co
+LDL-0992,Fundbridge Wallet,Yusuf Brown,Co-founder,yusuf.brown62@fundbridgewallet.io,+13818441552,US,https://fundbridgewallet.io
+LDL-0993,Tallyo Ledger,Liam Taylor,Chief Financial Officer,liam.taylor23@tallyoledger.money,+254335818103,KE,https://tallyoledger.money
+LDL-0994,Atlasfin Labs,Bola Osei,Chief Operating Officer,bola.osei18@atlasfinlabs.finance,+234956064559,NG,https://atlasfinlabs.finance
+LDL-0995,Novapay Payments,Olivia Lawal,Head of Partnerships,olivia.lawal24@novapaypayments.finance,+254133723818,KE,https://novapaypayments.finance
+LDL-0996,Payara Finance,Fatima Nwosu,Chief Operating Officer,fatima.nwosu86@payarafinance.com,+44788443641,GB,https://payarafinance.com
+LDL-0997,Juniper Finance,Noah Okafor,Director of Risk,noah.okafor56@juniperfinance.money,+233771808285,GH,https://juniperfinance.money
+LDL-0998,Ozone Ledger,Lucas Odhiambo,Director of Risk,lucas.odhiambo58@ozoneledger.co,+14538835068,US,https://ozoneledger.co
+LDL-0999,Juniper Pay,Musa Osei,Chief Financial Officer,musa.osei85@juniperpay.money,+19873263077,CA,https://juniperpay.money
+LDL-1000,Tallyo Exchange,Sofia Garcia,Head of Partnerships,sofia.garcia45@tallyoexchange.io,+233405856407,GH,https://tallyoexchange.io

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AgentKee: pay for what was delivered</title>
+  <meta name="description" content="AgentKee lets AI agents pay only for what was actually delivered: PayPal holds the payment, AgentKee verifies the delivery, then captures, partially captures or voids." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230E1A2B'/><rect x='6' y='13' width='12' height='6' rx='2' fill='%2346D39A'/><rect x='19' y='13' width='7' height='6' rx='2' fill='%237FB2FF'/></svg>" />
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#/" aria-label="AgentKee home">
+      <span class="mark" aria-hidden="true"><i></i><i></i></span>
+      AgentKee
+    </a>
+    <nav>
+      <a href="#/">Purchases</a>
+      <a href="#/new" class="btn btn-small">New purchase</a>
+    </nav>
+    <span id="env" class="env" title="Environment"></span>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <footer class="foot">
+    PayPal sandbox only: no real money moves. Amounts are computed by code from verified records; AI can only explain and escalate.
+  </footer>
+  <script src="/app.js" type="module"></script>
+</body>
+</html>

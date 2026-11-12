@@ -1,0 +1,23 @@
+{
+  "name": "agentkee-paypal",
+  "version": "1.0.0",
+  "description": "AgentKee: AI agents pay only for what was actually delivered. PayPal authorize \u2192 verify \u2192 capture / partial capture / void.",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js",
+    "datasets": "node scripts/make-datasets.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.22.3"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  }
+}
