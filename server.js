@@ -8,7 +8,7 @@ loadEnv();
 import express from "express";
 import * as store from "./lib/store.js";
 import * as paypal from "./lib/paypal.js";
-import { verifyDelivery } from "./lib/verify.js";
+import { verifyDelivery, verifyRecords } from "./lib/verify.js";
 import { decide } from "./lib/decide.js";
 import { assess, aiInfo } from "./lib/ai.js";
 import { SELLERS, draftAgreement, mountSellers, requestDelivery } from "./lib/agents.js";
@@ -21,6 +21,8 @@ const app = express();
 app.use(express.json({ limit: "3mb" }));
 app.use(express.static("public"));
 app.use("/datasets", express.static("datasets"));
+// AG Grid Community (MIT), served locally so the demo never depends on a CDN.
+app.get("/vendor/ag-grid-community.min.js", (_req, res) => res.sendFile("ag-grid-community.min.js", { root: "node_modules/ag-grid-community/dist" }));
 mountSellers(app);
 
 // ---------- helpers ----------
@@ -151,6 +153,14 @@ app.get("/api/purchases/:id/delivery.csv", (req, res) => {
   const csv = p?.delivery?.path && store.readArtifact(p.delivery.path);
   if (!csv) return res.status(404).send("No delivery");
   res.attachment(`${p.id}-delivery.csv`).type("text/csv").send(csv);
+});
+
+// Every delivered record with its verdict, for the AG Grid records explorer.
+app.get("/api/purchases/:id/records", (req, res) => {
+  const p = store.getPurchase(req.params.id);
+  const csv = p?.delivery?.path && store.readArtifact(p.delivery.path);
+  if (!csv) return res.status(404).json({ error: "No delivery yet" });
+  res.json(verifyRecords(csv, p.agreement));
 });
 
 app.get("/api/purchases/:id/evidence.json", (req, res) => {

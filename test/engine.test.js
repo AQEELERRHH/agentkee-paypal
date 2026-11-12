@@ -74,3 +74,13 @@ test("Extra records beyond the agreed quantity are not payable", () => {
   assert.equal(v.accepted, 100);
   assert.equal(d.capture_cents, 500);
 });
+
+test("Records grid data matches the verification totals", async () => {
+  const { verifyRecords } = await import("../lib/verify.js");
+  const a = agreement("leadsprint");
+  const r = verifyRecords(readFileSync(SELLERS.leadsprint.file, "utf8"), a);
+  assert.equal(r.records.length, 1000);
+  assert.equal(r.records.filter((x) => x.status === "passed").length, 720);
+  assert.equal(r.records.filter((x) => x.status === "rejected").length, 280);
+  assert.ok(r.records.filter((x) => x.status === "rejected").every((x) => x.reasons.length > 0));
+});
