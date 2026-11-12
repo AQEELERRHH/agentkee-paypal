@@ -47,6 +47,39 @@ function bar(s, big = false) {
   return `<div class="bar${big ? " big" : ""}" role="img" aria-label="${label}">${s.paid ? seg("paid") : ""}${s.pending ? seg("pending") : ""}${s.released ? seg("released") : ""}</div>`;
 }
 
+
+// ---------------- icons (inline SVG, no external assets) ----------------
+const ICON = {
+  check: '<path d="M5 12.5l4.2 4.2L19 7" />',
+  x: '<path d="M6 6l12 12M18 6L6 18" />',
+  clock: '<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2" />',
+  half: '<circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v17" /><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor" stroke="none"/>',
+  alert: '<path d="M12 4l9 16H3z"/><path d="M12 10v4M12 17.2v.3" />',
+  doc: '<path d="M7 3.5h7l4 4v13H7z"/><path d="M14 3.5v4h4M10 12h5M10 15.5h5" />',
+  records: '<ellipse cx="12" cy="6.5" rx="7" ry="3"/><path d="M5 6.5v11c0 1.7 3.1 3 7 3s7-1.3 7-3v-11M5 12c0 1.7 3.1 3 7 3s7-1.3 7-3" />',
+  wallet: '<rect x="3.5" y="6.5" width="17" height="12" rx="2.5"/><path d="M3.5 9.5h17M15.5 14h2" />',
+  bolt: '<path d="M13 3L5 13.5h6L10 21l8-10.5h-6z" />',
+  spark: '<path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M18 6l-2.5 2.5M8.5 15.5L6 18" />',
+  shield: '<path d="M12 3l7.5 3v6c0 4.6-3.2 7.9-7.5 9-4.3-1.1-7.5-4.4-7.5-9V6z"/><path d="M8.5 12.2l2.4 2.4 4.6-4.8" />',
+  card: '<rect x="3.5" y="5.5" width="17" height="13" rx="2.5"/><path d="M3.5 10h17M7 15h3" />',
+  brain: '<path d="M9 4.5a3 3 0 0 0-3 3v.2A3 3 0 0 0 4.5 13a3 3 0 0 0 2 4.6A3 3 0 0 0 12 18V6.5a2 2 0 0 0-3-2z"/><path d="M15 4.5a3 3 0 0 1 3 3v.2a3 3 0 0 1 1.5 5.3 3 3 0 0 1-2 4.6A3 3 0 0 1 12 18" />',
+};
+const icon = (k, cls = "") => `<svg class="ico ${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[k]}</svg>`;
+
+// Visual status of a purchase: [label, tone, icon]
+function look(state) {
+  return ({
+    SETTLED_FULL: ["Fully paid", "ok", "check"],
+    SETTLED_PARTIAL: ["Partial", "part", "half"],
+    VOIDED: ["Rejected", "bad", "x"],
+    AWAITING_REVIEW: ["Needs approval", "warn", "alert"],
+    FAILED: ["Failed", "bad", "alert"],
+    CANCELLED: ["Cancelled", "mute", "x"],
+    AWAITING_BUYER_APPROVAL: ["Awaiting PayPal", "info", "clock"],
+  })[state] || ["In progress", "info", "clock"];
+}
+const dateShort = (iso) => new Date(iso).toLocaleString([], { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" });
+
 let env = null;
 async function loadEnv() {
   try {
@@ -59,30 +92,65 @@ async function loadEnv() {
 // ---------------- Dashboard ----------------
 async function viewList() {
   const list = await api("/api/purchases");
-  const t = list.reduce((acc, p) => { const s = split(p); acc.paid += s.paid; acc.released += s.released; acc.held += s.pending; return acc; }, { paid: 0, released: 0, held: 0 });
+  const SETTLED = ["SETTLED_FULL", "SETTLED_PARTIAL", "VOIDED"];
+  const t = list.reduce((acc, p) => {
+    const s = split(p); acc.paid += s.paid; acc.released += s.released; acc.held += s.pending;
+    if (p.summary) { acc.verified += p.summary.accepted; acc.delivered += p.summary.delivered; }
+    if (SETTLED.includes(p.state)) { acc.settled++; if (/autonomous/.test(p.settled_by || "")) acc.auto++; }
+    return acc;
+  }, { paid: 0, released: 0, held: 0, verified: 0, delivered: 0, settled: 0, auto: 0 });
+  const autoPct = t.settled ? Math.round((t.auto / t.settled) * 100) : 0;
+  const flow = { a: t.paid + t.released + t.held, paid: t.paid, released: t.released, pending: t.held };
+
   $app.innerHTML = `
-    <section class="hero">
-      <div>
+    <section class="hero2">
+      <div class="hero2-copy">
         <h1>Agents should pay for what was delivered.</h1>
         <p>AgentKee holds an AI agent's PayPal payment, checks the delivery against the agreement, then pays the seller for exactly what passed. The rest goes back to the buyer.</p>
-        <a class="btn" href="#/new">Start a purchase</a>
+        <div class="hero2-cta"><a class="btn btn-glow" href="#/new">Start a purchase</a><a class="btn btn-ghost" href="https://github.com/AQEELERRHH/agentkee-paypal#how-it-works" target="_blank" rel="noopener">How it works</a></div>
       </div>
-      <div class="totals" aria-label="Totals across all purchases">
-        <div class="total paid"><span>Paid to sellers</span><b>${usd(t.paid)}</b></div>
-        <div class="total released"><span>Released to buyers</span><b>${usd(t.released)}</b></div>
-        <div class="total held"><span>Held, awaiting verification</span><b>${usd(t.held)}</b></div>
+      <div class="hero2-art" aria-hidden="true">
+        <div class="orbit"></div>
+        <div class="big-shield">${icon("shield")}</div>
+        <ol class="chips">
+          <li style="--d:0">${icon("check")}Hold the payment</li>
+          <li style="--d:1">${icon("check")}Verify every record</li>
+          <li style="--d:2">${icon("check")}Pay only what passed</li>
+        </ol>
       </div>
     </section>
-    <div class="list-head"><h2>Purchases</h2><span class="notice">${list.length} total</span></div>
-    ${list.length ? `<div class="rows">${list.map((p) => {
-      const s = split(p);
-      return `<a class="row" href="#/p/${p.id}">
-        <div class="who"><b>${esc(p.agreement.seller.name)}</b><span>${p.agreement.quantity.toLocaleString()} records · ${usd(p.agreement.unit_price_cents)} each</span></div>
-        <div>${pill(p.state)}</div>
-        ${bar(s)}
-        <div class="amt">${usd(s.paid)}<span>of ${usd(s.a)}</span></div>
-      </a>`;
-    }).join("")}</div>` : `<div class="empty">No purchases yet. Start one to watch a payment get held, verified and settled.<br><a class="btn" href="#/new">Start a purchase</a></div>`}`;
+
+    <section class="stats" aria-label="Totals across all purchases">
+      <div class="stat t-blue">${icon("doc")}<div><b>${t.settled}</b><span>Purchases settled</span><small>${list.length} created</small></div></div>
+      <div class="stat t-green">${icon("records")}<div><b>${t.verified.toLocaleString()}</b><span>Records verified</span><small>of ${t.delivered.toLocaleString()} delivered</small></div></div>
+      <div class="stat t-violet">${icon("wallet")}<div><b>${usd(t.paid)}</b><span>Paid to sellers</span><small>${usd(t.released)} released to buyers</small></div></div>
+      <div class="stat t-cyan">${icon("bolt")}<div><b>${autoPct}%</b><span>Settled autonomously</span><small>${t.auto} of ${t.settled} without a human</small></div></div>
+    </section>
+
+    <div class="dash-cols">
+      <section class="panel">
+        <div class="list-head"><h2>Recent purchases</h2><a class="btn btn-small btn-ghost" href="#/new">New purchase</a></div>
+        ${list.length ? `<div class="tx-list">${list.map((p) => {
+          const s = split(p), [label, tone, ic] = look(p.state);
+          return `<a class="tx tone-${tone}" href="#/p/${p.id}">
+            <span class="tx-ico">${icon(ic)}</span>
+            <span class="tx-main"><b>${esc(p.agreement.seller.name)}</b><span>${p.agreement.quantity.toLocaleString()} records · ${dateShort(p.created_at)}</span>${bar(s)}</span>
+            <span class="tx-amt"><b>${usd(s.paid)}</b><span class="badge tone-${tone}">${label}</span></span>
+          </a>`;
+        }).join("")}</div>` : `<div class="empty">No purchases yet. Start one to watch a payment get held, verified and settled.<br><a class="btn btn-glow" href="#/new">Start a purchase</a></div>`}
+      </section>
+
+      <aside class="panel money">
+        <h2>Where the money went</h2>
+        ${bar(flow, true)}
+        <div class="money-rows">
+          <div class="m-paid"><i></i><span>Paid to sellers</span><b>${usd(t.paid)}</b></div>
+          <div class="m-released"><i></i><span>Released to buyers</span><b>${usd(t.released)}</b></div>
+          <div class="m-held"><i></i><span>Held, awaiting verification</span><b>${usd(t.held)}</b></div>
+        </div>
+        <p class="notice">Every amount comes from PayPal's own records after each capture or void.</p>
+      </aside>
+    </div>`;
 }
 
 // ---------------- New purchase ----------------
@@ -209,14 +277,20 @@ async function viewDetail(id) {
   catch (e) { $app.innerHTML = `<p class="error">${esc(e.message)}</p>`; return; }
   const s = split(p), a = p.agreement, v = p.verification, ai = p.ai, d = p.decision, pp = p.paypal || {};
 
+  const [label, tone, ic] = look(p.state);
   $app.innerHTML = `
     <div class="detail-head">
-      <div><div class="sub">Purchase <code>${esc(p.id)}</code> · ${time(p.created_at)}</div>
-      <h1>${a.quantity.toLocaleString()} records from ${esc(a.seller.name)}</h1></div>
-      ${pill(p.state)}
+      <div class="dh-left">
+        <span class="dh-ico tone-${tone}">${icon(ic)}</span>
+        <div><h1>${esc(a.seller.name)}</h1><div class="sub">${a.quantity.toLocaleString()} records · ${usd(a.unit_price_cents)} each · purchase <code>${esc(p.id)}</code> · ${time(p.created_at)}</div></div>
+      </div>
+      <span class="badge big tone-${tone}">${label}</span>
     </div>
 
-    <section class="settle" aria-label="Settlement">
+    ${banner(p, s)}
+    ${stepper(p)}
+
+    <section class="settle panel" aria-label="Settlement">
       ${bar(s, true)}
       <div class="legend">
         <div class="paid"><b>${usd(s.paid)}</b><span>Paid to seller</span></div>
@@ -254,13 +328,13 @@ async function viewDetail(id) {
 
     <div class="grid" style="margin-top:28px">
       <aside class="panel">
-        <h3>What happened</h3>
+        <h3 class="card-h">${icon("clock")} What happened</h3>
         <ol class="timeline">${p.events.map((e) => `<li class="${e.type === "error" || e.type === "ai_error" ? "err" : e.type === "settled" ? "ok" : ""}"><b>${esc(EVENT_LABELS[e.type] || e.type)}</b><span>${esc(eventDetail(e))}</span><br><span>${time(e.ts)} · ${esc(e.actor)}</span></li>`).join("")}</ol>
       </aside>
       <div>
         ${v ? `
         <section class="panel">
-          <h3>Verification report</h3>
+          <h3 class="card-h">${icon("records")} Verification report</h3>
           <div class="big-num">${v.accepted.toLocaleString()} <span class="notice" style="font-size:16px;font-weight:500">of ${v.promised.toLocaleString()} promised records passed</span></div>
           <p class="notice">${v.delivered.toLocaleString()} delivered · checked by code in ${v.duration_ms} ms · ${esc(v.engine)}</p>
           ${v.findings.map((f) => `<div class="${f.level === "critical" ? "error" : "notice"}">${esc(f.message)}</div>`).join("")}
@@ -286,8 +360,8 @@ async function viewDetail(id) {
         </section>` : ""}
 
         ${ai ? `
-        <section class="panel">
-          <h3>AI analysis</h3>
+        <section class="panel ai-card">
+          <h3 class="card-h">${icon("brain")} AI insights <span class="by">${esc(ai.provider || "")}${ai.model ? " · " + esc(ai.model) : ""}</span></h3>
           ${ai.status === "ok" ? `
             <p class="ai-sum">${esc(ai.result.summary)}</p>
             <dl class="kv"><dt>Fits the purpose</dt><dd>${ai.result.semantic_match ? "Yes" : "No"}</dd><dt>Confidence</dt><dd>${ai.result.confidence.toFixed(2)}</dd><dt>Model</dt><dd>${esc(ai.provider)} · ${esc(ai.model)} · ${ai.duration_ms} ms</dd>${(ai.attempts || []).filter((x) => !x.ok).length ? `<dt>Fallback</dt><dd>${ai.attempts.filter((x) => !x.ok).map((x) => `${esc(x.model)} unavailable (${esc(x.error)})`).join("; ")}</dd>` : ""}</dl>
@@ -298,8 +372,8 @@ async function viewDetail(id) {
           <p class="notice" style="margin-top:12px">The AI can explain and escalate to you. It cannot change how much is paid.</p>
         </section>` : ""}
 
-        <section class="panel">
-          <h3>PayPal record</h3>
+        <section class="panel pp-card">
+          <h3 class="card-h">${icon("card")} PayPal record ${pp.authorization_status ? `<span class="badge tone-${["CAPTURED"].includes(pp.authorization_status) ? "ok" : pp.authorization_status === "VOIDED" ? "bad" : "info"}">${esc(pp.authorization_status)}</span>` : ""}</h3>
           <dl class="kv">
             <dt>Order</dt><dd><code>${esc(pp.order_id || "—")}</code></dd>
             <dt>Authorization</dt><dd><code>${esc(pp.authorization_id || "—")}</code>${pp.authorized ? ` · $${esc(pp.authorized)} held` : ""}</dd>
@@ -360,6 +434,53 @@ async function viewDetail(id) {
   clearTimeout(pollTimer);
   if (!TERMINAL.has(p.state)) pollTimer = setTimeout(() => location.hash === `#/p/${id}` && viewDetail(id), 1200);
 }
+
+// ---------------- status banner + step tracker (driven by real state) ----------------
+function banner(p, s) {
+  const a = p.agreement, v = p.verification, pp = p.paypal || {};
+  const b = {
+    SETTLED_FULL: ["ok", "check", "Payment successful", `${usd(s.paid)} captured and settled by PayPal. All ${a.quantity.toLocaleString()} records passed verification.`],
+    SETTLED_PARTIAL: ["part", "half", "Paid for verified records only", `${usd(s.paid)} captured for ${v?.accepted.toLocaleString()} verified records · ${usd(s.released)} released back to the buyer.`],
+    VOIDED: ["bad", "x", "Delivery rejected, buyer not charged", `${v ? `${v.accepted.toLocaleString()} of ${a.quantity.toLocaleString()} records passed.` : ""} PayPal voided the ${usd(s.released)} hold.`],
+    AWAITING_REVIEW: ["warn", "alert", "Waiting for your approval", "AgentKee has computed the payment. Approve or reject it below."],
+    FAILED: ["bad", "alert", "A step failed", "Details and a safe retry are below. No money moves until PayPal confirms."],
+    CANCELLED: ["mute", "x", "Cancelled", "The buyer cancelled on PayPal. Nothing was held."],
+    AWAITING_BUYER_APPROVAL: ["info", "clock", "Waiting for PayPal approval", "The order exists, but the payment isn't held until the buyer approves."],
+    // In-progress states: say exactly what is happening right now.
+    DRAFT: ["info", "spark", "Creating the PayPal order", "The buyer agent has drafted the agreement."],
+    AUTHORIZED: ["info", "spark", "Payment held, requesting delivery", `PayPal is holding ${usd(s.pending)}. The buyer agent is asking the seller to deliver.`],
+    DELIVERED: ["info", "spark", "Checking every record", "The delivery arrived. The verification engine is checking each record against the agreement."],
+    VERIFIED: ["info", "spark", "AI is reviewing the records", `${v ? `${v.accepted.toLocaleString()} of ${a.quantity.toLocaleString()} records passed the checks. ` : ""}The AI analyst is reviewing them.`],
+    ASSESSED: ["info", "spark", "Computing the payment", "Verification and AI review are done. The decision engine is calculating what's owed."],
+    DECIDED: ["info", "spark", "Sending settlement to PayPal", p.decision ? `${esc(p.decision.math)}.` : "The payment decision is made."],
+    SETTLING: ["info", "spark", "Settling with PayPal", p.decision ? `${p.decision.action === "VOID" ? `Voiding the ${usd(p.decision.authorized_cents)} hold` : `Capturing ${usd(p.decision.capture_cents)}`}. Waiting for PayPal to confirm before showing the result.` : "Waiting for PayPal to confirm."],
+  }[p.state] || ["info", "spark", "AgentKee is working", "Processing this purchase…"];
+  return `<div class="banner tone-${b[0]}${b[0] === "info" && p.state !== "AWAITING_BUYER_APPROVAL" ? " live" : ""}" role="status">
+    <span class="banner-ico">${icon(b[1])}</span>
+    <div><b>${b[2]}</b><span>${b[3]}</span></div>
+    ${pp.capture_id ? `<span class="banner-ref">Capture<br><code>${esc(pp.capture_id)}</code></span>` : pp.type === "void" ? `<span class="banner-ref">Authorization<br><code>${esc(pp.authorization_id)}</code></span>` : ""}
+  </div>`;
+}
+
+function stepper(p) {
+  const v = p.verification, ai = p.ai, pp = p.paypal || {}, d = p.decision;
+  const failedAt = p.state === "FAILED" ? p.failure?.step : null;
+  const settled = ["SETTLED_FULL", "SETTLED_PARTIAL", "VOIDED"].includes(p.state);
+  const aiNote = !ai ? "" : ai.status === "ok" ? `confidence ${ai.result.confidence.toFixed(2)}` : ai.status === "skipped" ? "nothing to pay for" : ai.status === "not_configured" ? "not configured" : "unavailable, human asked";
+  const steps = [
+    ["Payment held", !!pp.authorization_id, pp.authorized ? `$${pp.authorized} authorized` : "", failedAt === "authorize" || failedAt === "create_order"],
+    ["Delivery received", !!p.delivery, p.delivery ? `${(p.delivery.bytes / 1024).toFixed(0)} KB from seller` : "", failedAt === "delivery"],
+    ["Verified by code", !!v, v ? `${v.accepted.toLocaleString()} / ${v.promised.toLocaleString()} passed` : "", false],
+    ["Checked by AI", !!ai, aiNote, false],
+    [p.state === "VOIDED" ? "Voided by PayPal" : "Settled by PayPal", settled, settled ? (p.state === "VOIDED" ? "hold released" : `${usd(d.capture_cents)} captured`) : p.state === "AWAITING_REVIEW" ? "waiting for approval" : "", failedAt === "settlement"],
+  ];
+  const firstOpen = steps.findIndex((x) => !x[1]);
+  return `<ol class="stepper" aria-label="Purchase progress">${steps.map(([name, done, note, failed], i) => {
+    const cls = failed ? "failed" : done ? "done" : i === firstOpen && !["FAILED", "CANCELLED", "AWAITING_BUYER_APPROVAL"].includes(p.state) ? "current" : "";
+    return `<li class="${cls}"><span class="dot">${failed ? icon("x") : done ? icon("check") : i + 1}</span><b>${name}</b><span>${esc(note)}</span></li>`;
+  }).join("")}</ol>`;
+}
+
 // ---------------- AG Grid records explorer ----------------
 const RULE_LABELS = { schema: "Schema", required_fields: "Missing field", email_valid: "Bad email", phone_e164: "Bad phone", country_allowed: "Wrong market", website_valid: "Bad website", email_matches_website: "Email ≠ website", no_duplicates: "Duplicate" };
 async function mountRecords(id, stable) {
