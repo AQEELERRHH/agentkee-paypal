@@ -1,6 +1,14 @@
-# AgentKee
+# AgentKee 
 
-**AI agents should pay for what was delivered, not just what was promised.**
+<img width="1899" height="748" alt="image" src="https://github.com/user-attachments/assets/06cb6498-0c63-4ddc-b59a-1a4ee6f6dbc8" />
+
+
+**AI agents should pay for what was delivered, not just what was promised.** 
+
+<img width="1919" height="764" alt="image" src="https://github.com/user-attachments/assets/4954faa7-bb4d-499a-b437-4dd356191d06" />
+
+<img width="1399" height="813" alt="image" src="https://github.com/user-attachments/assets/c100843c-f554-4632-8b02-76815de7d7af" />
+
 
 AgentKee is a payment-control layer for autonomous AI purchases on PayPal. When an AI buyer agent buys a digital deliverable (in this demo, a list of B2B contact records), PayPal **holds** the payment. AgentKee checks the delivery against the agreement, then pays the seller for **exactly the records that passed** and releases the rest back to the buyer.
 
