@@ -18,7 +18,8 @@ The seller is paid for exactly what passed, and the rest goes back to the buyer.
 
 </div>
 
-<img width="1899" height="748" alt="AgentKee screenshot" src="https://github.com/user-attachments/assets/06cb6498-0c63-4ddc-b59a-1a4ee6f6dbc8" />
+<img width="1688" height="846" alt="image" src="https://github.com/user-attachments/assets/98587aa9-d791-42f6-ace2-5d632675f927" />
+
 
 ---
 
