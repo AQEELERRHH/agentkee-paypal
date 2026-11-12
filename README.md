@@ -14,7 +14,7 @@ The seller is paid for exactly what passed, and the rest goes back to the buyer.
 ![Node](https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js&logoColor=white)
 ![Tests](https://img.shields.io/badge/tests-10%20passing-46d39a)
 
-**[Demo video](#) · [Live demo](#) · [How it works](#how-it-works) · [Run it locally](#run-it-locally) · [Roadmap](#post-hackathon-milestones)**
+**[Demo video](#) · [Live demo](https://agentkee.onrender.com) · [How it works](#how-it-works) · [Run it locally](#run-it-locally) · [Roadmap](#post-hackathon-milestones)**
 
 </div>
 
@@ -209,6 +209,8 @@ With no AI key, AgentKee still verifies and computes payments, but asks a human 
 > Sandbox accounts inherit the rules of their country. A seller account in a send-only country (such as Nigeria) can't receive payments, so link your app to a US Business account.
 
 ### For judges: try it in 2 minutes
+
+**Live demo: [agentkee.onrender.com](https://agentkee.onrender.com)**. It runs on Render's free plan, so the first visit may take about 50 seconds to wake up. Approve payments with the PayPal sandbox buyer account listed in the Devpost submission's testing instructions.
 
 1. **New purchase → LeadSprint → Hold $10.00 with PayPal.** Approve with the sandbox buyer. AgentKee pays **$7.20** for the 720 verified records and releases **$2.80**.
 2. **Ledgerline Data** → paid in full. **BulkReach** → authorization voided.
