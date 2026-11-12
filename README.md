@@ -12,7 +12,7 @@ The seller is paid for exactly what passed, and the rest goes back to the buyer.
 ![PayPal](https://img.shields.io/badge/PayPal-Orders%20v2%20%C2%B7%20Payments%20v2-003087?logo=paypal&logoColor=white)
 ![AI](https://img.shields.io/badge/AI-Gemini%20%C2%B7%20OpenAI%20%C2%B7%20Groq%20%C2%B7%20Anthropic-7fb2ff)
 ![Node](https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js&logoColor=white)
-![Tests](https://img.shields.io/badge/tests-8%20passing-46d39a)
+![Tests](https://img.shields.io/badge/tests-10%20passing-46d39a)
 
 **[Demo video](#) · [Live demo](#) · [How it works](#how-it-works) · [Run it locally](#run-it-locally) · [Roadmap](#post-hackathon-milestones)**
 
@@ -131,6 +131,8 @@ stateDiagram-v2
 
 **2. AI analyst (Gemini, OpenAI, Groq or Anthropic).** Reads a sample of the *accepted* records and judges whether they genuinely fit the agreed purpose (here, senior decision-makers at fintech and payments companies). It returns a structured verdict (`semantic_match`, `confidence`, `concerns`, `summary`) and writes the plain-English explanation. If a model is overloaded or silent, AgentKee automatically falls back to the next one.
 
+**Records explorer (AG Grid).** Every delivered record is browsable in an AG Grid table on the purchase page: sort, filter and search all 1,000 rows, see each record's verdict, and read exactly which rule a rejected record broke. Click any rule in the verification report and the grid filters to the records that failed it, so a buyer or judge can audit the payment decision row by row.
+
 **3. Decision engine (deterministic code).** Turns verified counts into a PayPal action and an exact amount. The AI's only power is to **escalate** to a human, never to change the numbers.
 
 ---
@@ -168,6 +170,7 @@ stateDiagram-v2
 | AI | Provider-agnostic client for Gemini, OpenAI, Groq and Anthropic, with automatic model fallback |
 | Storage | Durable JSON store with atomic writes and a full event log |
 | Frontend | Vanilla JS dashboard, no build step, responsive and keyboard-accessible |
+| Records explorer | [AG Grid Community](https://www.ag-grid.com/) (MIT), served locally |
 | Tests | Node's built-in test runner |
 | Hosting | Render (Blueprint included) |
 
@@ -211,7 +214,8 @@ With no AI key, AgentKee still verifies and computes payments, but asks a human 
 2. **Ledgerline Data** → paid in full. **BulkReach** → authorization voided.
 3. **Upload your own delivery.** Act as the seller with any CSV and watch AgentKee judge it. This proves the outcomes aren't hard-coded.
 4. Tick **"Ask me before paying"** to approve or reject each settlement yourself.
-5. On any purchase, click **Re-check with PayPal** to see PayPal's live status, or **Download evidence** for the full audit file.
+5. Under **Every delivered record**, filter to *Rejected*, or click a rule in the verification report, to audit individual records in the AG Grid table.
+6. On any purchase, click **Re-check with PayPal** to see PayPal's live status, or **Download evidence** for the full audit file.
 
 ### Tests
 
@@ -229,6 +233,7 @@ npm test
 | AI outage | Paying actions need a human; voids don't |
 | Schema breach | Wrong columns → every record rejected |
 | Over-delivery | Records beyond the agreed quantity aren't payable |
+| Records grid | Per-record verdicts match the totals (720 passed, 280 rejected, every rejection explained) |
 
 Diagnostic scripts:
 
@@ -250,6 +255,7 @@ node scripts/ai-test.mjs                # checks your AI key and model
 | `POST` | `/api/purchases/:id/reassess` | Re-run the AI check |
 | `POST` | `/api/purchases/:id/retry` | Retry a failed delivery or settlement (idempotent) |
 | `POST` | `/api/purchases/:id/refresh` | Re-read the authorization from PayPal |
+| `GET` | `/api/purchases/:id/records` | Every delivered record with its verdict and reasons (feeds the AG Grid table) |
 | `GET` | `/api/purchases/:id/delivery.csv` | The delivered file |
 | `GET` | `/api/purchases/:id/evidence.json` | The complete audit record |
 | `POST` | `/seller/:id/fulfill` | Seller agent: receive the agreement, return the delivery |

@@ -265,10 +265,23 @@ async function viewDetail(id) {
           <p class="notice">${v.delivered.toLocaleString()} delivered · checked by code in ${v.duration_ms} ms · ${esc(v.engine)}</p>
           ${v.findings.map((f) => `<div class="${f.level === "critical" ? "error" : "notice"}">${esc(f.message)}</div>`).join("")}
           <table class="rules"><tbody>
-            ${Object.entries(v.rules).map(([k, label]) => `<tr class="${v.rule_failures[k] ? "bad" : "zero"}"><td>${esc(label)}</td><td>${v.rule_failures[k] ? `${v.rule_failures[k]} failed` : "all passed"}</td></tr>`).join("")}
+            ${Object.entries(v.rules).map(([k, label]) => `<tr class="${v.rule_failures[k] ? "bad" : "zero"}"${v.rule_failures[k] ? ` data-rule="${k}" tabindex="0" title="Show the records that failed this rule"` : ""}><td>${esc(label)}</td><td>${v.rule_failures[k] ? `${v.rule_failures[k]} failed` : "all passed"}</td></tr>`).join("")}
           </tbody></table>
-          ${v.rejected_sample.length ? `<details style="margin-top:14px"><summary>See rejected records (first ${v.rejected_sample.length})</summary>
-            <ul class="rejects">${v.rejected_sample.map((r) => `<li><b>Row ${r.row}</b> ${r.id ? `<code>${esc(r.id)}</code>` : ""}<br>${r.reasons.map((x) => `<span>${esc(x.detail)}</span>`).join("<br>")}</li>`).join("")}</ul></details>` : ""}
+          <div class="records" id="records">
+            <div class="records-bar">
+              <h3>Every delivered record</h3>
+              <div class="seg" role="group" aria-label="Filter records">
+                <button data-status="all" aria-pressed="true">All <span>${v.delivered}</span></button>
+                <button data-status="passed" aria-pressed="false">Passed <span>${v.accepted}</span></button>
+                <button data-status="rejected" aria-pressed="false">Rejected <span>${v.rejected}</span></button>
+                ${v.delivered - v.accepted - v.rejected > 0 ? `<button data-status="extra" aria-pressed="false" title="Valid, but beyond the agreed quantity, so not paid for">Extra <span>${v.delivered - v.accepted - v.rejected}</span></button>` : ""}
+              </div>
+              <input type="search" id="rsearch" placeholder="Search name, company, email…" aria-label="Search records">
+            </div>
+            <div id="rule-chip"></div>
+            <div id="grid" class="grid-box" aria-label="Delivered records table"><p class="notice" style="padding:16px">Loading records…</p></div>
+            <p class="notice">Table powered by AG Grid. Sort, filter or resize any column. Rejected rows show exactly which rule they broke.</p>
+          </div>
           <div class="actions-row"><a class="btn btn-ghost btn-small" href="/api/purchases/${p.id}/delivery.csv">Download delivered file</a></div>
         </section>` : ""}
 
@@ -323,6 +336,8 @@ async function viewDetail(id) {
     try { await api(`/api/purchases/${id}/review`, { method: "POST", body: JSON.stringify({ decision: b.dataset.review }) }); } catch (e) { alertBox(e); }
     viewDetail(id);
   }));
+  if (v && document.getElementById("grid")) mountRecords(id, TERMINAL.has(p.state));
+
   const reassess = document.getElementById("reassess");
   if (reassess) reassess.addEventListener("click", async () => {
     reassess.disabled = true; reassess.textContent = "Asking the AI…";
@@ -345,6 +360,68 @@ async function viewDetail(id) {
   clearTimeout(pollTimer);
   if (!TERMINAL.has(p.state)) pollTimer = setTimeout(() => location.hash === `#/p/${id}` && viewDetail(id), 1200);
 }
+// ---------------- AG Grid records explorer ----------------
+const RULE_LABELS = { schema: "Schema", required_fields: "Missing field", email_valid: "Bad email", phone_e164: "Bad phone", country_allowed: "Wrong market", website_valid: "Bad website", email_matches_website: "Email ≠ website", no_duplicates: "Duplicate" };
+async function mountRecords(id, stable) {
+  const box = document.getElementById("grid");
+  if (!window.agGrid) { box.innerHTML = `<p class="notice" style="padding:16px">Records table unavailable (AG Grid didn't load). Use “Download delivered file”.</p>`; return; }
+  let data;
+  try { data = await api(`/api/purchases/${id}/records`); }
+  catch (e) { box.innerHTML = `<div class="error" style="margin:12px">${esc(e.message)}</div>`; return; }
+  if (!document.body.contains(box)) return; // page changed meanwhile
+
+  const g = window.agGrid;
+  if (g.ModuleRegistry && g.AllCommunityModule && !mountRecords.registered) { g.ModuleRegistry.registerModules([g.AllCommunityModule]); mountRecords.registered = true; }
+  const theme = g.themeQuartz.withParams({
+    backgroundColor: "#142339", foregroundColor: "#e8eef6", headerBackgroundColor: "#1a2c46", oddRowBackgroundColor: "#16263d",
+    borderColor: "#263a57", accentColor: "#46d39a", chromeBackgroundColor: "#1a2c46", headerTextColor: "#93a7c1",
+    fontFamily: "Manrope, system-ui, sans-serif", fontSize: 13, headerFontWeight: 700, rowHoverColor: "#1d3150", spacing: 6, wrapperBorderRadius: 12,
+  });
+  const filter = { status: "all", rule: null };
+  const verdict = (p) => {
+    const map = { passed: ["Passed", "g-pass"], rejected: ["Rejected", "g-rej"], extra: ["Extra, not payable", "g-extra"] };
+    const [l, c] = map[p.value] || [p.value, ""];
+    return `<span class="gstat ${c}">${l}</span>`;
+  };
+  box.innerHTML = "";
+  const api_ = g.createGrid(box, {
+    theme,
+    rowData: data.records,
+    getRowId: (p) => String(p.data.row),
+    columnDefs: [
+      { field: "status", headerName: "Verdict", width: 130, pinned: "left", cellRenderer: verdict, filter: "agTextColumnFilter" },
+      { field: "row", headerName: "Row", width: 84, filter: "agNumberColumnFilter" },
+      { headerName: "Why it was rejected", colId: "reasons", minWidth: 300, flex: 2, valueGetter: (p) => p.data.reasons.join(" · "), tooltipValueGetter: (p) => p.value || null, cellClass: "reason-cell" },
+      { headerName: "Rules broken", colId: "rules", minWidth: 170, valueGetter: (p) => p.data.rules.map((r) => RULE_LABELS[r] || r).join(", ") },
+      ...data.schema.filter((c) => c !== "id").map((c) => ({ field: c, headerName: c.replace(/_/g, " ").replace(/^./, (m) => m.toUpperCase()), minWidth: c === "email" || c === "website" ? 220 : 130, flex: 1 })),
+      { field: "id", headerName: "Seller ID", width: 120 },
+    ],
+    defaultColDef: { sortable: true, resizable: true, filter: true, floatingFilter: true },
+    rowClassRules: { "row-rejected": (p) => p.data.status === "rejected" },
+    tooltipShowDelay: 300,
+    animateRows: stable,
+    isExternalFilterPresent: () => filter.status !== "all" || !!filter.rule,
+    doesExternalFilterPass: (n) => (filter.status === "all" || n.data.status === filter.status) && (!filter.rule || n.data.rules.includes(filter.rule)),
+  });
+
+  const segs = [...document.querySelectorAll(".seg button")];
+  const chip = document.getElementById("rule-chip");
+  const apply = () => {
+    segs.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.status === filter.status)));
+    chip.innerHTML = filter.rule ? `<button class="chip" id="clear-rule">Showing records that failed: <b>${esc(data.rules[filter.rule] || filter.rule)}</b> ✕</button>` : "";
+    const c = document.getElementById("clear-rule");
+    if (c) c.onclick = () => { filter.rule = null; apply(); };
+    api_.onFilterChanged();
+  };
+  segs.forEach((b) => (b.onclick = () => { filter.status = b.dataset.status; if (filter.status !== "rejected") filter.rule = null; apply(); }));
+  document.getElementById("rsearch").addEventListener("input", (e) => api_.setGridOption("quickFilterText", e.target.value));
+  document.querySelectorAll("tr[data-rule]").forEach((tr) => {
+    const go = () => { filter.status = "rejected"; filter.rule = tr.dataset.rule; apply(); document.getElementById("records").scrollIntoView({ behavior: "smooth", block: "start" }); };
+    tr.addEventListener("click", go);
+    tr.addEventListener("keydown", (e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), go()));
+  });
+}
+
 function alertBox(e) { $app.insertAdjacentHTML("afterbegin", `<div class="error">${esc(e.message)}</div>`); }
 
 // ---------------- router ----------------
