@@ -342,10 +342,6 @@ Agents buy far more than contact lists. Each pack defines measurable acceptance 
 
 ---
 
-## From x402 to PayPal
-
-AgentKee started as a chargeback layer for the x402 agent-payment protocol, where on-chain settlement is final and a failed delivery means lost money. Building on PayPal changes the model from *recovering money after the fact* to *never releasing it until delivery is verified*. Authorize-then-capture gives agents the protection that final settlement can't.
-
 ## Acknowledgements
 
 Built for the **PayPal AI Hackathon**. Thanks to PayPal Developer Relations for the sandbox, the Orders and Payments APIs, and the AI tooling.
