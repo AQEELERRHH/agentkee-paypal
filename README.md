@@ -12,7 +12,7 @@ The seller is paid for exactly what passed, and the rest goes back to the buyer.
 ![PayPal](https://img.shields.io/badge/PayPal-Orders%20v2%20%C2%B7%20Payments%20v2-003087?logo=paypal&logoColor=white)
 ![AI](https://img.shields.io/badge/AI-Gemini%20%C2%B7%20OpenAI%20%C2%B7%20Groq%20%C2%B7%20Anthropic-7fb2ff)
 ![Node](https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js&logoColor=white)
-![Tests](https://img.shields.io/badge/tests-9%20passing-46d39a)
+![Tests](https://img.shields.io/badge/tests-10%20passing-46d39a)
 
 **[Demo video](#) · [Live demo](#) · [How it works](#how-it-works) · [Run it locally](#run-it-locally) · [Roadmap](#post-hackathon-milestones)**
 

@@ -272,8 +272,9 @@ async function viewDetail(id) {
               <h3>Every delivered record</h3>
               <div class="seg" role="group" aria-label="Filter records">
                 <button data-status="all" aria-pressed="true">All <span>${v.delivered}</span></button>
-                <button data-status="passed" aria-pressed="false">Passed <span>${v.delivered - v.rejected}</span></button>
+                <button data-status="passed" aria-pressed="false">Passed <span>${v.accepted}</span></button>
                 <button data-status="rejected" aria-pressed="false">Rejected <span>${v.rejected}</span></button>
+                ${v.delivered - v.accepted - v.rejected > 0 ? `<button data-status="extra" aria-pressed="false" title="Valid, but beyond the agreed quantity, so not paid for">Extra <span>${v.delivered - v.accepted - v.rejected}</span></button>` : ""}
               </div>
               <input type="search" id="rsearch" placeholder="Search name, company, email…" aria-label="Search records">
             </div>
